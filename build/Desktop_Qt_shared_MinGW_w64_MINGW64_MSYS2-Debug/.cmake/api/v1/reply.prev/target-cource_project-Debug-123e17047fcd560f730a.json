@@ -75,13 +75,13 @@
 			{
 				"command" : 4,
 				"file" : 1,
-				"line" : 62,
+				"line" : 64,
 				"parent" : 0
 			},
 			{
 				"command" : 5,
 				"file" : 1,
-				"line" : 45,
+				"line" : 47,
 				"parent" : 0
 			},
 			{
@@ -372,7 +372,8 @@
 			[
 				0,
 				1,
-				2
+				2,
+				6
 			]
 		}
 	],
@@ -492,7 +493,8 @@
 			[
 				0,
 				1,
-				2
+				2,
+				6
 			]
 		},
 		{
@@ -500,7 +502,8 @@
 			"sourceIndexes" : 
 			[
 				3,
-				5
+				5,
+				8
 			]
 		},
 		{
@@ -508,14 +511,15 @@
 			"sourceIndexes" : 
 			[
 				4,
-				6
+				7,
+				9
 			]
 		},
 		{
 			"name" : "CMake Rules",
 			"sourceIndexes" : 
 			[
-				7
+				10
 			]
 		}
 	],
@@ -548,6 +552,22 @@
 		{
 			"backtrace" : 4,
 			"path" : "mainwindow.ui",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 4,
+			"path" : "buttongenerator.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 4,
+			"compileGroupIndex" : 0,
+			"path" : "buttongenerator.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 4,
+			"path" : "games.json",
 			"sourceGroupIndex" : 2
 		},
 		{

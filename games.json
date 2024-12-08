@@ -1,0 +1,353 @@
+[
+    {
+      "name": "The Legend of Zelda: Breath of the Wild",
+      "platform": ["Nintendo Switch", "Wii U"],
+      "genre": "Action-Adventure",
+      "rating": "10/10",
+      "description": "Открытый мир, в котором игроки исследуют королевство Хайрул, решают головоломки и сражаются с врагами, чтобы спасти принцессу Зельду."
+    },
+    {
+      "name": "The Witcher 3: Wild Hunt",
+      "platform": ["PC", "PS4", "Xbox One", "Nintendo Switch"],
+      "genre": "RPG",
+      "rating": "10/10",
+      "description": "Эпическая история о ведьмаке Геральте, который ищет свою приемную дочь в огромном открытом мире, полном монстров и политических интриг."
+    },
+    {
+      "name": "Dark Souls III",
+      "platform": ["PC", "PS4", "Xbox One"],
+      "genre": "Action RPG",
+      "rating": "9/10",
+      "description": "Жестокая игра с глубоким геймплеем, где игрокам предстоит сразиться с могущественными боссами и исследовать мрачные локации."
+    },
+    {
+      "name": "God of War",
+      "platform": ["PS4"],
+      "genre": "Action-Adventure",
+      "rating": "10/10",
+      "description": "История Кратоса и его сына Атрея, исследующих мифологический мир скандинавских богов, полная эмоций и эпичных сражений."
+    },
+    {
+      "name": "Red Dead Redemption 2",
+      "platform": ["PC", "PS4", "Xbox One"],
+      "genre": "Action-Adventure",
+      "rating": "10/10",
+      "description": "Жизнь бандита в открытом мире Дикого Запада, насыщенная историей, персонажами и атмосферными моментами."
+    },
+    {
+      "name": "Super Mario Odyssey",
+      "platform": ["Nintendo Switch"],
+      "genre": "Platformer",
+      "rating": "10/10",
+      "description": "Увлекательное приключение Марио по различным мирам, где он использует свою новую способность 'Каппирование' для преодоления препятствий."
+    },
+    {
+      "name": "Overwatch",
+      "platform": ["PC", "PS4", "Xbox One", "Nintendo Switch"],
+      "genre": "First-Person Shooter",
+      "rating": "9/10",
+      "description": "Командный шутер с уникальными персонажами, каждый из которых имеет свои способности, что создает разнообразные стратегии для победы."
+    },
+    {
+      "name": "Minecraft",
+      "platform": ["PC", "PS4", "Xbox One", "Nintendo Switch"],
+      "genre": "Sandbox",
+      "rating": "9/10",
+      "description": "Игра на выживание с открытым миром, в которой игроки могут строить, исследовать и создавать свои приключения в блоковом мире."
+    },
+    {
+      "name": "Hollow Knight",
+      "platform": ["PC", "PS4", "Xbox One", "Nintendo Switch"],
+      "genre": "Metroidvania",
+      "rating": "10/10",
+      "description": "Исследуйте мрачный мир в роли рыцаря, сражаясь с врагами и решая головоломки в этой красиво оформленной игре."
+    },
+    {
+      "name": "Among Us",
+      "platform": ["PC", "Mobile", "Nintendo Switch"],
+      "genre": "Party",
+      "rating": "8/10",
+      "description": "Многопользовательская игра, где игроки работают вместе, чтобы найти предателя среди них, используя логику и дедукцию."
+    },
+    {
+      "name": "Destiny 2",
+      "platform": ["PC", "PS4", "Xbox One"],
+      "genre": "FPS",
+      "rating": "8/10",
+      "description": "Научно-фантастический шутер с элементами RPG, в котором игроки сражаются с врагами и исследуют различные планеты."
+    },
+    {
+      "name": "Final Fantasy VII Remake",
+      "platform": ["PS4"],
+      "genre": "RPG",
+      "rating": "9/10",
+      "description": "Переосмысленная версия классической JRPG с улучшенной графикой и современным геймплеем, рассказывающая о борьбе против корпорации Шинра."
+    },
+    {
+      "name": "Sekiro: Shadows Die Twice",
+      "platform": ["PC", "PS4", "Xbox One"],
+      "genre": "Action-Adventure",
+      "rating": "9/10",
+      "description": "Сложная игра о самурае, который должен спасти своего господина, с уникальной механикой боя и акцентом на парирование."
+    },
+    {
+      "name": "Animal Crossing: New Horizons",
+      "platform": ["Nintendo Switch"],
+      "genre": "Simulation",
+      "rating": "10/10",
+      "description": "Симулятор жизни на острове, где игроки могут строить, исследовать и дружить с милыми животными."
+    },
+    {
+      "name": "Call of Duty: Warzone",
+      "platform": ["PC", "PS4", "Xbox One"],
+      "genre": "Battle Royale",
+      "rating": "9/10",
+      "description": "Бесплатная королевская битва с динамичным геймплеем и множеством уникальных механик."
+    },
+    {
+      "name": "Genshin Impact",
+      "platform": ["PC", "PS4", "Mobile", "Nintendo Switch"],
+      "genre": "Action RPG",
+      "rating": "9/10",
+      "description": "Открытый мир с элементами RPG, где игроки исследуют фантастический мир Тейват, собирая команду уникальных персонажей."
+    },
+    {
+      "name": "Cyberpunk 2077",
+      "platform": ["PC", "PS4", "Xbox One"],
+      "genre": "RPG",
+      "rating": "8/10",
+      "description": "Научно-фантастическая RPG, действие которой происходит в мегаполисе Найт-Сити с открытым миром и возможностью кастомизации персонажа."
+    },
+    {
+      "name": "DOOM Eternal",
+      "platform": ["PC", "PS4", "Xbox One", "Nintendo Switch"],
+      "genre": "FPS",
+      "rating": "9/10",
+      "description": "Динамичный шутер с акцентом на быстрое перемещение и интенсивные сражения с демонами в разных мирах."
+    },
+    {
+      "name": "Assassin's Creed Valhalla",
+      "platform": ["PC", "PS4", "PS5", "Xbox One", "Xbox Series X"],
+      "genre": "Action-Adventure",
+      "rating": "9/10",
+      "description": "Историческая игра, в которой игроки берут на себя роль викинга Эйвора, исследуя Англию и сражаясь с врагами в открытом мире."
+    },
+    {
+      "name": "Monster Hunter: World",
+      "platform": ["PC", "PS4", "Xbox One"],
+      "genre": "Action RPG",
+      "rating": "9/10",
+      "description": "Игра о охоте на монстров в красивом открытом мире, где игроки могут улучшать своё снаряжение и сражаться с огромными существами."
+    },
+    {
+      "name": "The Elder Scrolls V: Skyrim",
+      "platform": ["PC", "PS4", "Xbox One"],
+      "genre": "RPG",
+      "rating": "10/10",
+      "description": "Эпическая RPG с открытым миром, где игроки могут исследовать обширный континент, выполняя квесты и взаимодействуя с уникальными персонажами."
+    },
+    {
+      "name": "Borderlands 3",
+      "platform": ["PC", "PS4", "Xbox One"],
+      "genre": "Loot Shooter",
+      "rating": "8/10",
+      "description": "Экшен-игра с элементами RPG, в которой игроки сражаются с врагами и собирают лут в ярком и комичном мире."
+    },
+    {
+      "name": "FIFA 22",
+      "platform": ["PC", "PS4", "PS5", "Xbox One"],
+      "genre": "Sports",
+      "rating": "8/10",
+      "description": "Симулятор футбольного менеджмента и игр с улучшенной графикой и реалистичной механикой."
+    },
+    {
+      "name": "Gran Turismo 7",
+      "platform": ["PS4", "PS5"],
+      "genre": "Racing",
+      "rating": "9/10",
+      "description": "Автосимулятор с высокой детализацией автомобилей и реалистичным управлением, предлагающий игрокам множество трасс и машин."
+    },
+    {
+      "name": "League of Legends",
+      "platform": ["PC"],
+      "genre": "MOBA",
+      "rating": "9/10",
+      "description": "Популярная многопользовательская игра, где команды сражаются друг с другом, используя уникальных чемпионов с различными способностями."
+    },
+    {
+      "name": "Rocket League",
+      "platform": ["PC", "PS4", "Xbox One", "Nintendo Switch"],
+      "genre": "Sports",
+      "rating": "9/10",
+      "description": "Комбинация футбола и гонок, где игроки управляют машинками и забивают мячи в ворота противника."
+    },
+    {
+      "name": "Ghost of Tsushima",
+      "platform": ["PS4"],
+      "genre": "Action-Adventure",
+      "rating": "10/10",
+      "description": "Приключенческая игра о самурае, который сражается с монголами на острове Цусима в период вторжения."
+    },
+    {
+      "name": "Nioh 2",
+      "platform": ["PC", "PS4"],
+      "genre": "Action RPG",
+      "rating": "9/10",
+      "description": "Сложная RPG с механикой боя, основанной на японской мифологии и фольклоре, где игроки исследуют мир самураев и йокая."
+    },
+    {
+      "name": "Hitman 3",
+      "platform": ["PC", "PS4", "PS5", "Xbox One", "Xbox Series X"],
+      "genre": "Stealth",
+      "rating": "9/10",
+      "description": "Завершающая часть трилогии о суперагенте 47, который выполняет контракты по всему миру, используя скрытные методы."
+    },
+    {
+      "name": "Resident Evil Village",
+      "platform": ["PC", "PS4", "PS5", "Xbox One", "Xbox Series X"],
+      "genre": "Survival Horror",
+      "rating": "9/10",
+      "description": "Продолжение истории Итана Уинтерса, который попадает в мрачную деревню, полную монстров и опасностей."
+    },
+    {
+      "name": "Final Fantasy XIV",
+      "platform": ["PC", "PS4", "PS5"],
+      "genre": "MMORPG",
+      "rating": "10/10",
+      "description": "Популярная MMORPG с захватывающим сюжетом и огромным миром, где игроки могут взаимодействовать и сражаться с врагами."
+    },
+    {
+      "name": "The Last of Us Part II",
+      "platform": ["PS4"],
+      "genre": "Action-Adventure",
+      "rating": "10/10",
+      "description": "Эмоциональная история о выживании, мести и искуплении в постапокалиптическом мире."
+    },
+    {
+      "name": "CyberConnect2's FFXV",
+      "platform": ["PC", "PS4", "Xbox One"],
+      "genre": "Action RPG",
+      "rating": "8/10",
+      "description": "Игра, основанная на популярной вселенной Final Fantasy, с открытым миром и уникальным стилем боя."
+    },
+    {
+      "name": "Death Stranding",
+      "platform": ["PC", "PS4"],
+      "genre": "Action",
+      "rating": "9/10",
+      "description": "Игра с уникальным геймплеем, где игроки выступают в роли курьера в постапокалиптическом мире, соединяя разрозненные общества."
+    },
+    {
+      "name": "Hades",
+      "platform": ["PC", "Nintendo Switch", "PS4", "PS5", "Xbox One", "Xbox Series X"],
+      "genre": "Rogue-like",
+      "rating": "10/10",
+      "description": "Игра в жанре rogue-like, где игроки пытаются сбежать из Подземного мира, с уникальными механиками и захватывающей историей."
+    },
+    {
+      "name": "Dying Light 2",
+      "platform": ["PC", "PS4", "PS5", "Xbox One", "Xbox Series X"],
+      "genre": "Action RPG",
+      "rating": "8/10",
+      "description": "Игра с открытым миром, в которой игроки сражаются с зомби и принимают решения, влияющие на мир вокруг них."
+    },
+    {
+      "name": "Stardew Valley",
+      "platform": ["PC", "PS4", "Xbox One", "Nintendo Switch", "Mobile"],
+      "genre": "Simulation",
+      "rating": "9/10",
+      "description": "Симулятор фермерства, где игроки могут выращивать растения, заботиться о животных и строить свои отношения с местными жителями."
+    },
+    {
+      "name": "Persona 5 Royal",
+      "platform": ["PS4"],
+      "genre": "JRPG",
+      "rating": "10/10",
+      "description": "Расширенная версия популярной JRPG, где игроки управляют командой подростков, которые становятся ворами сердец."
+    },
+    {
+      "name": "Tales of Arise",
+      "platform": ["PC", "PS4", "PS5", "Xbox One", "Xbox Series X"],
+      "genre": "RPG",
+      "rating": "9/10",
+      "description": "Новая игра в серии Tales с захватывающим сюжетом и улучшенной боевой системой, предлагающая игрокам погрузиться в богатый мир."
+    },
+    {
+      "name": "Fall Guys: Ultimate Knockout",
+      "platform": ["PC", "PS4", "PS5", "Xbox One", "Nintendo Switch"],
+      "genre": "Party",
+      "rating": "8/10",
+      "description": "Многопользовательская игра, где игроки соревнуются в различных веселых испытаниях, чтобы стать последним выжившим."
+    },
+    {
+      "name": "Spiritfarer",
+      "platform": ["PC", "PS4", "Xbox One", "Nintendo Switch"],
+      "genre": "Management",
+      "rating": "9/10",
+      "description": "Игра о заботе о духах, где игроки управляют паром и взаимодействуют с уникальными персонажами, помогая им перейти в загробный мир."
+    },
+    {
+      "name": "The Outer Worlds",
+      "platform": ["PC", "PS4", "Xbox One", "Nintendo Switch"],
+      "genre": "RPG",
+      "rating": "9/10",
+      "description": "Научно-фантастическая RPG с открытым миром, где игроки исследуют колонии и принимают решения, влияющие на сюжет."
+    },
+    {
+      "name": "Forza Horizon 5",
+      "platform": ["PC", "Xbox One", "Xbox Series X"],
+      "genre": "Racing",
+      "rating": "10/10",
+      "description": "Открытый автосимулятор с красочными пейзажами Мексики и множеством автомобилей для гонок."
+    },
+    {
+      "name": "Metro Exodus",
+      "platform": ["PC", "PS4", "Xbox One"],
+      "genre": "FPS",
+      "rating": "9/10",
+      "description": "Шутер от первого лица с элементами выживания, действие которого происходит в постапокалиптической России."
+    },
+    {
+        "name": "Elden Ring",
+        "platform": ["PC", "PS4", "PS5", "Xbox One", "Xbox Series X"],
+        "genre": "Action RPG",
+        "rating": "10/10",
+        "description": "Открытый мир, созданный в сотрудничестве с Джорджем Мартином, где игроки исследуют земли между."
+      },
+      {
+        "name": "Demon's Souls (Remake)",
+        "platform": ["PS5"],
+        "genre": "Action RPG",
+        "rating": "9/10",
+        "description": "Переосмысленная версия классической игры с улучшенной графикой и механикой боя."
+      },
+      {
+        "name": "A Plague Tale: Requiem",
+        "platform": ["PC", "PS5", "Xbox Series X"],
+        "genre": "Action-Adventure",
+        "rating": "9/10",
+        "description": "Продолжение истории о двух братьях в мире, охваченном чумой, с акцентом на стелс и исследование."
+      },
+      {
+        "name": "Horizon Forbidden West",
+        "platform": ["PS4", "PS5"],
+        "genre": "Action RPG",
+        "rating": "9/10",
+        "description": "Приключение Элой в новом открытом мире, полном механических существ и древних тайн."
+      },
+      {
+        "name": "Stray",
+        "platform": ["PC", "PS4", "PS5"],
+        "genre": "Adventure",
+        "rating": "8/10",
+        "description": "Игра о коте, который исследует киберпанковый город, помогая другим существам."
+      },
+      {
+        "name": "Sifu",
+        "platform": ["PC", "PS4", "PS5", "Xbox One", "Nintendo Switch"],
+        "genre": "Action",
+        "rating": "9/10",
+        "description": "Боевая игра, в которой игроки сражаются с врагами, используя элементы кунг-фу и уникальную механику старения."
+      }
+  ]
+
