@@ -363,6 +363,7 @@ cource_project_autogen/timestamp: \
 	C:/msys64/mingw64/include/qt6/QtWidgets/QMessageBox \
 	C:/msys64/mingw64/include/qt6/QtWidgets/QPushButton \
 	C:/msys64/mingw64/include/qt6/QtWidgets/QScrollArea \
+	C:/msys64/mingw64/include/qt6/QtWidgets/QTextEdit \
 	C:/msys64/mingw64/include/qt6/QtWidgets/QVBoxLayout \
 	C:/msys64/mingw64/include/qt6/QtWidgets/qabstractbutton.h \
 	C:/msys64/mingw64/include/qt6/QtWidgets/qabstractitemdelegate.h \
@@ -390,6 +391,7 @@ cource_project_autogen/timestamp: \
 	C:/msys64/mingw64/include/qt6/QtWidgets/qstyleoption.h \
 	C:/msys64/mingw64/include/qt6/QtWidgets/qtabbar.h \
 	C:/msys64/mingw64/include/qt6/QtWidgets/qtabwidget.h \
+	C:/msys64/mingw64/include/qt6/QtWidgets/qtextedit.h \
 	C:/msys64/mingw64/include/qt6/QtWidgets/qtwidgets-config.h \
 	C:/msys64/mingw64/include/qt6/QtWidgets/qtwidgetsexports.h \
 	C:/msys64/mingw64/include/qt6/QtWidgets/qtwidgetsglobal.h \
@@ -592,6 +594,8 @@ cource_project_autogen/timestamp: \
 	D:/cource_project/cource_project/build/Desktop_Qt_shared_MinGW_w64_MINGW64_MSYS2-Debug/CMakeFiles/3.31.0/CMakeRCCompiler.cmake \
 	D:/cource_project/cource_project/build/Desktop_Qt_shared_MinGW_w64_MINGW64_MSYS2-Debug/CMakeFiles/3.31.0/CMakeSystem.cmake \
 	D:/cource_project/cource_project/build/Desktop_Qt_shared_MinGW_w64_MINGW64_MSYS2-Debug/cource_project_autogen/moc_predefs.h \
+	D:/cource_project/cource_project/editdatadialog.cpp \
+	D:/cource_project/cource_project/editdatadialog.h \
 	D:/cource_project/cource_project/gameinfowindow.cpp \
 	D:/cource_project/cource_project/gameinfowindow.h \
 	D:/cource_project/cource_project/main.cpp \

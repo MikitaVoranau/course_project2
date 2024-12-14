@@ -46,7 +46,7 @@ private:
     Ui::MainWindow *ui;
     QPushButton *formatButton;
     QVector<Game> games;
-     QVector<Game> originalGames;
+    QVector<Game> originalGames;
     QMap<QString, QString> imageMap;// Список игр
     QScrollArea *scrollArea;
     QWidget *scrollWidget;

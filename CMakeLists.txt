@@ -27,6 +27,8 @@ if(${QT_VERSION_MAJOR} GREATER_EQUAL 6)
         games.json
         gameinfowindow.cpp
         gameinfowindow.h
+        EditDataDialog.h
+        editdatadialog.h editdatadialog.cpp
 
 
     )

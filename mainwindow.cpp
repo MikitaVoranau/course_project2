@@ -319,4 +319,3 @@ void MainWindow::filterGames() {
 void MainWindow::on_sortButton_clicked() {
     sortGames();  // Correctly call the sortGames function
 }
-
