@@ -266,6 +266,12 @@
 	"HEADERS" : 
 	[
 		[
+			"D:/cource_project/cource_project/gameinfowindow.h",
+			"MU",
+			"EWIEGA46WW/moc_gameinfowindow.cpp",
+			null
+		],
+		[
 			"D:/cource_project/cource_project/mainwindow.h",
 			"MU",
 			"EWIEGA46WW/moc_mainwindow.cpp",
@@ -345,6 +351,7 @@
 	"SETTINGS_FILE" : "D:/cource_project/cource_project/build/Desktop_Qt_shared_MinGW_w64_MINGW64_MSYS2-Debug/CMakeFiles/cource_project_autogen.dir/AutogenUsed.txt",
 	"SOURCES" : 
 	[
+		[ "D:/cource_project/cource_project/gameinfowindow.cpp", "MU", null ],
 		[ "D:/cource_project/cource_project/main.cpp", "MU", null ],
 		[ "D:/cource_project/cource_project/mainwindow.cpp", "MU", null ]
 	],

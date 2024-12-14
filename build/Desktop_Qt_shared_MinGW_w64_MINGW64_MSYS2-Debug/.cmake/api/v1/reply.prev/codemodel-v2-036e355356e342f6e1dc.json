@@ -7,7 +7,7 @@
 				{
 					"build" : ".",
 					"hasInstallRule" : true,
-					"jsonFile" : "directory-.-Debug-015558e58b7045026d02.json",
+					"jsonFile" : "directory-.-Debug-a4188d769db31b2a34cb.json",
 					"minimumCMakeVersion" : 
 					{
 						"string" : "3.16"
@@ -42,7 +42,7 @@
 				{
 					"directoryIndex" : 0,
 					"id" : "cource_project::@6890427a1f51a3e7e1df",
-					"jsonFile" : "target-cource_project-Debug-123e17047fcd560f730a.json",
+					"jsonFile" : "target-cource_project-Debug-b55171c1d98c6821396a.json",
 					"name" : "cource_project",
 					"projectIndex" : 0
 				},
