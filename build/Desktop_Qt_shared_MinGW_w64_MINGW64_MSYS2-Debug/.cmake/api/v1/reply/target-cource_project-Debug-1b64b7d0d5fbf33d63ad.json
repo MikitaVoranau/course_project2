@@ -75,13 +75,13 @@
 			{
 				"command" : 4,
 				"file" : 1,
-				"line" : 69,
+				"line" : 71,
 				"parent" : 0
 			},
 			{
 				"command" : 5,
 				"file" : 1,
-				"line" : 52,
+				"line" : 54,
 				"parent" : 0
 			},
 			{
@@ -373,7 +373,8 @@
 				0,
 				1,
 				2,
-				6
+				6,
+				9
 			]
 		}
 	],
@@ -494,7 +495,8 @@
 				0,
 				1,
 				2,
-				6
+				6,
+				9
 			]
 		},
 		{
@@ -504,7 +506,7 @@
 				3,
 				7,
 				8,
-				9
+				10
 			]
 		},
 		{
@@ -513,14 +515,14 @@
 			[
 				4,
 				5,
-				10
+				11
 			]
 		},
 		{
 			"name" : "CMake Rules",
 			"sourceIndexes" : 
 			[
-				11
+				12
 			]
 		}
 	],
@@ -573,8 +575,14 @@
 		},
 		{
 			"backtrace" : 4,
-			"path" : "EditDataDialog.h",
+			"path" : "editdatadialog.h",
 			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 4,
+			"compileGroupIndex" : 0,
+			"path" : "editdatadialog.cpp",
+			"sourceGroupIndex" : 0
 		},
 		{
 			"backtrace" : 0,

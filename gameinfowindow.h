@@ -21,6 +21,7 @@ public:
                      const QJsonObject &minimumRequirements, const QJsonObject &recommendedRequirements,
                      const QString &imagePath, const QString &videoId);
 
+
 private slots:
     void onFormatButtonClicked(); // Слот для обработки нажатия кнопки форматирования
 

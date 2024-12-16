@@ -34,17 +34,17 @@ GameInfoWindow::GameInfoWindow(QWidget *parent) : QDialog(parent), changesMade(f
 
     // Применяем шрифт и цвет ко всем меткам
     nameLabel->setFont(font);
-    nameLabel->setStyleSheet("color: black;");
+    nameLabel->setStyleSheet("color: white;");
     descriptionLabel->setFont(font);
-    descriptionLabel->setStyleSheet("color: black;");
+    descriptionLabel->setStyleSheet("color: white;");
     platformLabel->setFont(font);
-    platformLabel->setStyleSheet("color: black;");
+    platformLabel->setStyleSheet("color: white;");
     genreLabel->setFont(font);
-    genreLabel->setStyleSheet("color: black;");
+    genreLabel->setStyleSheet("color: white;");
     ratingLabel->setFont(font);
-    ratingLabel->setStyleSheet("color: black;");
+    ratingLabel->setStyleSheet("color: white;");
     releaseDateLabel->setFont(font);
-    releaseDateLabel->setStyleSheet("color: black;");
+    releaseDateLabel->setStyleSheet("color: white;");
 
     // Добавление меток в горизонтальный макет
     infoLayout->addSpacing(20); // Отступ слева
@@ -68,10 +68,10 @@ GameInfoWindow::GameInfoWindow(QWidget *parent) : QDialog(parent), changesMade(f
 QHBoxLayout *nameLayout = new QHBoxLayout();
 
 void GameInfoWindow::setGameInfo(const QString &name, const QString &description, const QString &platforms,
-                                  const QString &genre, const QString &rating, const QString &releaseDate,
-                                  const QString &developer, const QString &country,
-                                  const QJsonObject &minimumRequirements, const QJsonObject &recommendedRequirements,
-                                  const QString &imagePath, const QString &videoId) {
+                                 const QString &genre, const QString &rating, const QString &releaseDate,
+                                 const QString &developer, const QString &country,
+                                 const QJsonObject &minimumRequirements, const QJsonObject &recommendedRequirements,
+                                 const QString &imagePath, const QString &videoId) {
     // Установка шрифта
     QFont font;
     font.setBold(true);
@@ -120,12 +120,12 @@ void GameInfoWindow::setGameInfo(const QString &name, const QString &description
 
     QLabel *developerLabel = new QLabel("Разработчик: " + developer, this);
     developerLabel->setFont(font);
-    developerLabel->setStyleSheet("color: black;");
+    developerLabel->setStyleSheet("color: white;");
     developerLabel->setWordWrap(true);
 
     QLabel *countryLabel = new QLabel("Страна: " + country, this);
     countryLabel->setFont(font);
-    countryLabel->setStyleSheet("color: black;");
+    countryLabel->setStyleSheet("color: white;");
     countryLabel->setWordWrap(true);
 
     // Кнопка "Смотреть обзор"
@@ -222,12 +222,12 @@ void GameInfoWindow::setGameInfo(const QString &name, const QString &description
 
     QLabel *minLabel = new QLabel(minReq, this);
     minLabel->setFont(font);
-    minLabel->setStyleSheet("color: black;");
+    minLabel->setStyleSheet("color: white;");
     minLabel->setWordWrap(true);
 
     QLabel *recLabel = new QLabel(recReq, this);
     recLabel->setFont(font);
-    recLabel->setStyleSheet("color: black;");
+    recLabel->setStyleSheet("color: white;");
     recLabel->setWordWrap(true);
 
     requirementsLayout->addWidget(minLabel);

@@ -42,6 +42,8 @@ private slots:
     void sortGames();
     void on_sortComboBox_currentIndexChanged(int index);
 
+    void on_sortComboBox_activated(int index);
+
 private:
     Ui::MainWindow *ui;
     QPushButton *formatButton;

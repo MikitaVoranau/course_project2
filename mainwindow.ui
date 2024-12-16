@@ -26,7 +26,7 @@
    <string>Gamer’s Guide</string>
   </property>
   <property name="styleSheet">
-   <string notr="true">background-color: #f0f0f2;
+   <string notr="true">background-color: #36454F;
 </string>
   </property>
   <property name="iconSize">
@@ -94,8 +94,8 @@
           </size>
          </property>
          <property name="styleSheet">
-          <string notr="true">background-color: rgb(255, 255, 255);
-color: black
+          <string notr="true">background-color: #36394f;
+color: white
 </string>
          </property>
         </widget>
@@ -107,7 +107,7 @@ color: black
          </property>
          <property name="styleSheet">
           <string notr="true">font: 800 15pt &quot;JetBrains Mono NL&quot;;
-color: rgb(0, 0, 0);
+color: white;
 font-size: 20px;
 </string>
          </property>
@@ -141,8 +141,8 @@ font-size: 20px;
           </size>
          </property>
          <property name="styleSheet">
-          <string notr="true">background-color: rgb(255, 255, 255);
-color: black
+          <string notr="true">background-color: #36394f;
+color: white
 </string>
          </property>
         </widget>
@@ -154,7 +154,7 @@ color: black
          </property>
          <property name="styleSheet">
           <string notr="true">font: 800 15pt &quot;JetBrains Mono NL&quot;;
-color: rgb(0, 0, 0);
+color: white;
 font-size: 20px;
 </string>
          </property>
@@ -170,7 +170,7 @@ font-size: 20px;
          </property>
          <property name="styleSheet">
           <string notr="true">font: 800 15pt &quot;JetBrains Mono NL&quot;;
-color: rgb(0, 0, 0);
+color: white;
 font-size: 20px;
 </string>
          </property>
@@ -188,7 +188,7 @@ font-size: 20px;
           </size>
          </property>
          <property name="styleSheet">
-          <string notr="true">background-color:white;
+          <string notr="true">background-color:#36394f;
 color: red;</string>
          </property>
          <property name="text">
@@ -205,8 +205,8 @@ color: red;</string>
           </size>
          </property>
          <property name="styleSheet">
-          <string notr="true">background-color: rgb(255, 255, 255);
-color:black
+          <string notr="true">background-color: #36394f;
+color:white
 </string>
          </property>
         </widget>
@@ -220,8 +220,8 @@ color:black
           </size>
          </property>
          <property name="styleSheet">
-          <string notr="true">background-color:white;
-color: black;</string>
+          <string notr="true">background-color:#36394f;
+color: white;</string>
          </property>
          <item>
           <property name="text">
@@ -249,7 +249,8 @@ color: black;</string>
         <widget class="QLabel" name="label_4">
          <property name="styleSheet">
           <string notr="true">font: 800 15pt &quot;JetBrains Mono NL&quot;;
-color: rgb(0, 0, 0);
+color: white
+
 </string>
          </property>
          <property name="text">

@@ -58,7 +58,7 @@ public:
         sizePolicy.setHeightForWidth(MainWindow->sizePolicy().hasHeightForWidth());
         MainWindow->setSizePolicy(sizePolicy);
         MainWindow->setBaseSize(QSize(3840, 2400));
-        MainWindow->setStyleSheet(QString::fromUtf8("background-color: #f0f0f2;\n"
+        MainWindow->setStyleSheet(QString::fromUtf8("background-color: #36454F;\n"
 ""));
         MainWindow->setIconSize(QSize(30, 30));
         centralwidget = new QWidget(MainWindow);
@@ -95,8 +95,8 @@ public:
         markBox = new QComboBox(widget);
         markBox->setObjectName("markBox");
         markBox->setMinimumSize(QSize(0, 35));
-        markBox->setStyleSheet(QString::fromUtf8("background-color: rgb(255, 255, 255);\n"
-"color: black\n"
+        markBox->setStyleSheet(QString::fromUtf8("background-color: #36394f;\n"
+"color: white\n"
 ""));
 
         gridLayout_2->addWidget(markBox, 1, 2, 1, 1);
@@ -105,7 +105,7 @@ public:
         label->setObjectName("label");
         label->setLayoutDirection(Qt::LayoutDirection::LeftToRight);
         label->setStyleSheet(QString::fromUtf8("font: 800 15pt \"JetBrains Mono NL\";\n"
-"color: rgb(0, 0, 0);\n"
+"color: white;\n"
 "font-size: 20px;\n"
 ""));
 
@@ -118,8 +118,8 @@ public:
         genresBox = new QComboBox(widget);
         genresBox->setObjectName("genresBox");
         genresBox->setMinimumSize(QSize(0, 35));
-        genresBox->setStyleSheet(QString::fromUtf8("background-color: rgb(255, 255, 255);\n"
-"color: black\n"
+        genresBox->setStyleSheet(QString::fromUtf8("background-color: #36394f;\n"
+"color: white\n"
 ""));
 
         gridLayout_2->addWidget(genresBox, 1, 1, 1, 1);
@@ -128,7 +128,7 @@ public:
         label_3->setObjectName("label_3");
         label_3->setLayoutDirection(Qt::LayoutDirection::LeftToRight);
         label_3->setStyleSheet(QString::fromUtf8("font: 800 15pt \"JetBrains Mono NL\";\n"
-"color: rgb(0, 0, 0);\n"
+"color: white;\n"
 "font-size: 20px;\n"
 ""));
 
@@ -138,7 +138,7 @@ public:
         label_2->setObjectName("label_2");
         label_2->setLayoutDirection(Qt::LayoutDirection::LeftToRight);
         label_2->setStyleSheet(QString::fromUtf8("font: 800 15pt \"JetBrains Mono NL\";\n"
-"color: rgb(0, 0, 0);\n"
+"color: white;\n"
 "font-size: 20px;\n"
 ""));
 
@@ -147,7 +147,7 @@ public:
         resetButton = new QPushButton(widget);
         resetButton->setObjectName("resetButton");
         resetButton->setMinimumSize(QSize(0, 35));
-        resetButton->setStyleSheet(QString::fromUtf8("background-color:white;\n"
+        resetButton->setStyleSheet(QString::fromUtf8("background-color:#36394f;\n"
 "color: red;"));
 
         gridLayout_2->addWidget(resetButton, 1, 5, 1, 1);
@@ -155,8 +155,8 @@ public:
         platformBox = new QComboBox(widget);
         platformBox->setObjectName("platformBox");
         platformBox->setMinimumSize(QSize(75, 35));
-        platformBox->setStyleSheet(QString::fromUtf8("background-color: rgb(255, 255, 255);\n"
-"color:black\n"
+        platformBox->setStyleSheet(QString::fromUtf8("background-color: #36394f;\n"
+"color:white\n"
 ""));
 
         gridLayout_2->addWidget(platformBox, 1, 0, 1, 1);
@@ -168,15 +168,16 @@ public:
         sortComboBox->addItem(QString());
         sortComboBox->setObjectName("sortComboBox");
         sortComboBox->setMinimumSize(QSize(0, 35));
-        sortComboBox->setStyleSheet(QString::fromUtf8("background-color:white;\n"
-"color: black;"));
+        sortComboBox->setStyleSheet(QString::fromUtf8("background-color:#36394f;\n"
+"color: white;"));
 
         gridLayout_2->addWidget(sortComboBox, 1, 3, 1, 1);
 
         label_4 = new QLabel(widget);
         label_4->setObjectName("label_4");
         label_4->setStyleSheet(QString::fromUtf8("font: 800 15pt \"JetBrains Mono NL\";\n"
-"color: rgb(0, 0, 0);\n"
+"color: white\n"
+"\n"
 ""));
 
         gridLayout_2->addWidget(label_4, 0, 3, 1, 1);

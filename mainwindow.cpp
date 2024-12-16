@@ -319,3 +319,9 @@ void MainWindow::filterGames() {
 void MainWindow::on_sortButton_clicked() {
     sortGames();  // Correctly call the sortGames function
 }
+
+void MainWindow::on_sortComboBox_activated(int index)
+{
+
+}
+

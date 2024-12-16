@@ -1,242 +1,36 @@
-[
-    {
-        "country": "Польша",
-        "description": "Эпическая история о ведьмаке Геральте, который ищет свою приемную дочь в огромном открытом мире, полном монстров и политических интриг.",
-        "developer": "CD Projekt Red",
-        "genre": "RPG",
-        "minimum_requirements": {
-            "Additional": "N/A",
-            "DirectX": "Версии 11",
-            "Disk_Space": "35 GB свободного места",
-            "Graphics": "NVIDIA GeForce GTX 660",
-            "Network": "Широкополосное подключение к интернету",
-            "OS": "64-bit Windows 7",
-            "Processor": "Intel Core i5-2500K",
-            "RAM": "6 GB"
-        },
-        "name": "asdawd",
-        "platform": "PC, PS4, Xbox One, Nintendo Switch",
-        "rating": "10/10",
-        "recommended_requirements": {
-            "Additional": "N/A",
-            "DirectX": "Версии 11",
-            "Disk_Space": "35 GB свободного места",
-            "Graphics": "NVIDIA GeForce GTX 770",
-            "Network": "Широкополосное подключение к интернету",
-            "OS": "64-bit Windows 10",
-            "Processor": "Intel Core i7-3770",
-            "RAM": "8 GB"
-        },
-        "release_date": "19 мая 2015"
+{
+    "country": "Япония",
+    "description": "acscascasя с могущественными боссами и исследовать мрачные локации.",
+    "developer": "FromSoftware",
+    "genre": "Action RPG",
+    "minimum_requirements": {
+        "Additional": "N/A",
+        "DirectX": "Версии 11",
+        "Disk_Space": "25 GB свободного места",
+        "Graphics": "NVIDIA GeForce GTX 750",
+        "Network": "Широкополосное подключение к интернету",
+        "OS": "64-bit Windows 7",
+        "Processor": "Intel Core i5-2500",
+        "RAM": "4 GB"
     },
-    {
-        "country": "Польша",
-        "description": "Эпическая история о ведьмаке Геральте, который ищет свою приемную дочь в огромном открытом мире, полном монстров и политических интриг.",
-        "developer": "CD Projekt Red",
-        "genre": "RPG",
-        "minimum_requirements": {
-            "Additional": "N/A",
-            "DirectX": "Версии 11",
-            "Disk_Space": "35 GB свободного места",
-            "Graphics": "NVIDIA GeForce GTX 660",
-            "Network": "Широкополосное подключение к интернету",
-            "OS": "64-bit Windows 7",
-            "Processor": "Intel Core i5-2500K",
-            "RAM": "6 GB"
-        },
-        "name": "ads",
-        "platform": "PC, PS4, Xbox One, Nintendo Switch",
-        "rating": "10/10",
-        "recommended_requirements": {
-            "Additional": "N/A",
-            "DirectX": "Версии 11",
-            "Disk_Space": "35 GB свободного места",
-            "Graphics": "NVIDIA GeForce GTX 770",
-            "Network": "Широкополосное подключение к интернету",
-            "OS": "64-bit Windows 10",
-            "Processor": "Intel Core i7-3770",
-            "RAM": "8 GB"
-        },
-        "release_date": "19 мая 2015"
+    "name": "Dark Souls III",
+    "path-image": "D:/cource_project/cource_project/images/covers/TheLegendOfZelda.jpg",
+    "platform": [
+        "PC",
+        "PS4",
+        "Xbox One"
+    ],
+    "rating": "9/10",
+    "recommended_requirements": {
+        "Additional": "N/A",
+        "DirectX": "Версии 11",
+        "Disk_Space": "25 GB свободного места",
+        "Graphics": "NVIDIA GeForce GTX 960",
+        "Network": "Широкополосное подключение к интернету",
+        "OS": "64-bit Windows 10",
+        "Processor": "Intel Core i7-3770",
+        "RAM": "8 GB"
     },
-    {
-        "country": "Польша",
-        "description": "Эпическая история о ведьмаке Геральте, который ищет свою приемную дочь в огромном открытом мире, полном монстров и политических интриг.",
-        "developer": "CD Projekt Red",
-        "genre": "RPG",
-        "minimum_requirements": {
-            "Additional": "N/A",
-            "DirectX": "Версии 11",
-            "Disk_Space": "35 GB свободного места",
-            "Graphics": "NVIDIA GeForce GTX 660",
-            "Network": "Широкополосное подключение к интернету",
-            "OS": "64-bit Windows 7",
-            "Processor": "Intel Core i5-2500K",
-            "RAM": "6 GB"
-        },
-        "name": "qwe",
-        "platform": "PC, PS4, Xbox One, Nintendo Switch",
-        "rating": "10/10",
-        "recommended_requirements": {
-            "Additional": "N/A",
-            "DirectX": "Версии 11",
-            "Disk_Space": "35 GB свободного места",
-            "Graphics": "NVIDIA GeForce GTX 770",
-            "Network": "Широкополосное подключение к интернету",
-            "OS": "64-bit Windows 10",
-            "Processor": "Intel Core i7-3770",
-            "RAM": "8 GB"
-        },
-        "release_date": "19 мая 2015"
-    },
-    {
-        "country": "Польша",
-        "description": "Эпическая история о ведьмаке Геральте, который ищет свою приемную дочь в огромном открытом мире, полном монстров и политических интриг.",
-        "developer": "CD Projekt Red",
-        "genre": "RPG",
-        "minimum_requirements": {
-            "Additional": "N/A",
-            "DirectX": "Версии 11",
-            "Disk_Space": "35 GB свободного места",
-            "Graphics": "NVIDIA GeForce GTX 660",
-            "Network": "Широкополосное подключение к интернету",
-            "OS": "64-bit Windows 7",
-            "Processor": "Intel Core i5-2500K",
-            "RAM": "6 GB"
-        },
-        "name": "qadqwd",
-        "platform": "PC, PS4, Xbox One, Nintendo Switch",
-        "rating": "10/10",
-        "recommended_requirements": {
-            "Additional": "N/A",
-            "DirectX": "Версии 11",
-            "Disk_Space": "35 GB свободного места",
-            "Graphics": "NVIDIA GeForce GTX 770",
-            "Network": "Широкополосное подключение к интернету",
-            "OS": "64-bit Windows 10",
-            "Processor": "Intel Core i7-3770",
-            "RAM": "8 GB"
-        },
-        "release_date": "19 мая 2015"
-    },
-    {
-        "country": "Польша",
-        "description": "Эпическая история о ведьмаке Геральте, который ищет свою приемную дочь в огромном открытом мире, полном монстров и политических интриг.",
-        "developer": "CD Projekt Red",
-        "genre": "RPG",
-        "minimum_requirements": {
-            "Additional": "N/A",
-            "DirectX": "Версии 11",
-            "Disk_Space": "35 GB свободного места",
-            "Graphics": "NVIDIA GeForce GTX 660",
-            "Network": "Широкополосное подключение к интернету",
-            "OS": "64-bit Windows 7",
-            "Processor": "Intel Core i5-2500K",
-            "RAM": "6 GB"
-        },
-        "name": "The Witcher 3: Wild Huntвцйв",
-        "platform": "PC, PS4, Xbox One, Nintendo Switch",
-        "rating": "10/10",
-        "recommended_requirements": {
-            "Additional": "N/A",
-            "DirectX": "Версии 11",
-            "Disk_Space": "35 GB свободного места",
-            "Graphics": "NVIDIA GeForce GTX 770",
-            "Network": "Широкополосное подключение к интернету",
-            "OS": "64-bit Windows 10",
-            "Processor": "Intel Core i7-3770",
-            "RAM": "8 GB"
-        },
-        "release_date": "19 мая 2015"
-    },
-    {
-        "country": "Польша",
-        "description": "Эпическая история о ведьмаке Геральте, который ищет свою приемную дочь в огромном открытом мире, полном монстров и политических интриг.",
-        "developer": "CD Projekt Red",
-        "genre": "RPG",
-        "minimum_requirements": {
-            "Additional": "N/A",
-            "DirectX": "Версии 11",
-            "Disk_Space": "35 GB свободного места",
-            "Graphics": "NVIDIA GeForce GTX 660",
-            "Network": "Широкополосное подключение к интернету",
-            "OS": "64-bit Windows 7",
-            "Processor": "Intel Core i5-2500K",
-            "RAM": "6 GB"
-        },
-        "name": "The Witcher 3: Wild Hunt",
-        "platform": "PC, PS4, Xbox One, Nintendo Switchццацу",
-        "rating": "10/10",
-        "recommended_requirements": {
-            "Additional": "N/A",
-            "DirectX": "Версии 11",
-            "Disk_Space": "35 GB свободного места",
-            "Graphics": "NVIDIA GeForce GTX 770",
-            "Network": "Широкополосное подключение к интернету",
-            "OS": "64-bit Windows 10",
-            "Processor": "Intel Core i7-3770",
-            "RAM": "8 GB"
-        },
-        "release_date": "19 мая 2015"
-    },
-    {
-        "country": "Польша",
-        "description": "Эпическая история о ведьмаке Геральте, который ищет свою приемную дочь в огромном открытом мире, полном монстров и политических интриг.",
-        "developer": "CD Projekt Red",
-        "genre": "RPG",
-        "minimum_requirements": {
-            "Additional": "N/A",
-            "DirectX": "Версии 11",
-            "Disk_Space": "35 GB свободного места",
-            "Graphics": "NVIDIA GeForce GTX 660",
-            "Network": "Широкополосное подключение к интернету",
-            "OS": "64-bit Windows 7",
-            "Processor": "Intel Core i5-2500K",
-            "RAM": "6 GB"
-        },
-        "name": "dqdq",
-        "platform": "PC, PS4, Xbox One, Nintendo Switch",
-        "rating": "10/10",
-        "recommended_requirements": {
-            "Additional": "N/A",
-            "DirectX": "Версии 11",
-            "Disk_Space": "35 GB свободного места",
-            "Graphics": "NVIDIA GeForce GTX 770",
-            "Network": "Широкополосное подключение к интернету",
-            "OS": "64-bit Windows 10",
-            "Processor": "Intel Core i7-3770",
-            "RAM": "8 GB"
-        },
-        "release_date": "19 мая 2015"
-    },
-    {
-        "country": "Япония",
-        "description": "фгде игрокам предстоит сразиться с могущественными боссами и исследовать мрачные локации.",
-        "developer": "FromSoftware",
-        "genre": "Action RPG",
-        "minimum_requirements": {
-            "Additional": "N/A",
-            "DirectX": "Версии 11",
-            "Disk_Space": "25 GB свободного места",
-            "Graphics": "NVIDIA GeForce GTX 750",
-            "Network": "Широкополосное подключение к интернету",
-            "OS": "64-bit Windows 7",
-            "Processor": "Intel Core i5-2500",
-            "RAM": "4 GB"
-        },
-        "name": "Dark Souls III",
-        "platform": "PC, PS4, Xbox One",
-        "rating": "9/10",
-        "recommended_requirements": {
-            "Additional": "N/A",
-            "DirectX": "Версии 11",
-            "Disk_Space": "25 GB свободного места",
-            "Graphics": "NVIDIA GeForce GTX 960",
-            "Network": "Широкополосное подключение к интернету",
-            "OS": "64-bit Windows 10",
-            "Processor": "Intel Core i7-3770",
-            "RAM": "8 GB"
-        },
-        "release_date": "24 марта 2016"
-    }
-]
+    "release_date": "24 марта 2016",
+    "video-id": "AY8esMoD_QE"
+}

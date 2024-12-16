@@ -5,6 +5,7 @@
 #include <QLineEdit>
 #include <QTextEdit>
 #include <QJsonObject>
+#include "gameinfowindow.h"
 
 class EditDataDialog : public QDialog {
     Q_OBJECT
@@ -28,7 +29,7 @@ private:
     QLineEdit *countryEdit;
     QTextEdit *minReqEdit;
     QTextEdit *recReqEdit;
-
+    QString originalName;
     void saveData(); // Объявление метода saveData
 };
 
