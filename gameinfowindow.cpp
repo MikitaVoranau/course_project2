@@ -12,7 +12,7 @@
 #include <QScrollArea>
 GameInfoWindow::GameInfoWindow(QWidget *parent) : QDialog(parent), changesMade(false) {
     setWindowState(Qt::WindowMaximized); // Открытие окна на весь экран
-
+    setWindowFlag(Qt::WindowCloseButtonHint, false);
     mainLayout = new QVBoxLayout(this); // Хранение основного макета
 
     // Создание горизонтального макета для изображения и текста
@@ -104,7 +104,7 @@ void GameInfoWindow::setGameInfo(const QString &name, const QString &description
 
     // Установка текстовых меток с переносом слов
     nameLabel->setText("Название: " + name);
-    nameLabel->setWordWrap(true); // Включение переноса слов
+    //nameLabel->setWordWrap(true); // Включение переноса слов
 
     platformLabel->setText("Платформа: " + platforms);
     platformLabel->setWordWrap(true);
@@ -146,12 +146,25 @@ void GameInfoWindow::setGameInfo(const QString &name, const QString &description
     editButton->setFixedHeight(40);
     editButton->setFixedWidth(120);
 
-    // Создание горизонтального макета для названия и кнопки
+    // Кнопка "Вернуться"
+    QPushButton *backButton = new QPushButton("Вернуться", this);
+    backButton->setStyleSheet("background-color: gray; "
+                              "color: white; "
+                              "border: 2px solid black; "
+                              "border-radius: 10px;");
+    backButton->setFixedHeight(40);
+    backButton->setFixedWidth(120);
+
+    // Подключение сигнала кнопки "Вернуться"
+    connect(backButton, &QPushButton::clicked, this, &QDialog::reject);
+
+    // Создание горизонтального макета для названия и кнопок
     QHBoxLayout *nameLayout = new QHBoxLayout();
     nameLayout->addWidget(nameLabel);
-    nameLayout->addStretch(); // Отступ между текстом и кнопкой
+    nameLayout->addStretch(); // Отступ между текстом и кнопками
     nameLayout->addWidget(videoButton); // Добавляем кнопку просмотра
     nameLayout->addWidget(editButton); // Добавляем кнопку редактирования
+    nameLayout->addWidget(backButton); // Добавляем кнопку "Вернуться"
 
     // Добавление меток в вертикальный макет
     textLayout->addLayout(nameLayout);
