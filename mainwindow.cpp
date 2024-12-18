@@ -63,6 +63,25 @@ MainWindow::~MainWindow()
     delete ui;
 }
 
+void MainWindow::setButtonStyle(QPushButton *button, const Game &game) {
+    // Установка фона кнопки с изображением
+    if (!game.imagePath.isEmpty()) {
+        button->setStyleSheet(QString("background-image: url(%1); "
+                                      "color: white; "
+                                      "background-repeat: no-repeat; "
+                                      "background-position: center; "
+                                      "border: none; "
+                                      "padding: 10px 20px; "
+                                      "border-radius: 10px; "
+                                      "text-align: bottom; "
+                                      "font-size: 16px;")
+                                  .arg(game.imagePath));
+    } else {
+        // Установите стиль по умолчанию, если нет изображения
+        button->setStyleSheet("color: white; border: none; font-size: 16px;");
+    }
+}
+
 void MainWindow::displayGames(const QVector<Game> &games) {
     // Очистка текущего макета, если есть
     QLayout *layout = scrollWidget->layout();
@@ -78,15 +97,27 @@ void MainWindow::displayGames(const QVector<Game> &games) {
     int row = 0, col = 0;
     for (const Game &game : games) {
         QPushButton *button = new QPushButton(game.name, this);
+        setButtonStyle(button, game); // Устанавливаем стиль кнопки
+        button->setFixedSize(300, 455); // Фиксированный размер кнопки
 
         // Связываем кнопку с обработчиком
-        connect(button, &QPushButton::clicked, [game]() {
-            QMessageBox::information(nullptr, "Информация об игре",
-                                     "Название: " + game.name + "\n" +
-                                         "Платформа: " + game.platform.join(", ") + "\n" +
-                                         "Жанр: " + game.genre + "\n" +
-                                         "Оценка: " + game.rating + "\n" +
-                                         "Описание: " + game.description);
+        connect(button, &QPushButton::clicked, [this, game]() {
+            GameInfoWindow *infoWindow = new GameInfoWindow(this);
+            infoWindow->setGameInfo(
+                game.name,
+                game.description,
+                game.platform.join(", "),
+                game.genre,
+                game.rating,
+                game.release_date,
+                game.developer,
+                game.country,
+                game.minimum_requirements,
+                game.recommended_requirements,
+                game.imagePath,
+                game.videoId
+                );
+            infoWindow->exec(); // Открываем окно как модальное
         });
 
         // Добавляем кнопку в сетку
@@ -99,50 +130,6 @@ void MainWindow::displayGames(const QVector<Game> &games) {
             row++;
         }
     }
-}
-
-void MainWindow::loadGames() {
-    QFile file("D:/cource_project/cource_project/games.json");
-    if (!file.open(QIODevice::ReadOnly | QIODevice::Text)) {
-        qDebug() << "Не удалось открыть файл:" << file.errorString();
-        return;
-    }
-
-    QByteArray data = file.readAll();
-    QJsonDocument doc = QJsonDocument::fromJson(data);
-
-    if (doc.isNull()) {
-        qDebug() << "Ошибка разбора JSON.";
-        return;
-    }
-
-    QJsonArray array = doc.array();
-    originalGames.clear(); // Очистите предыдущий список
-    games.clear(); // Очистите текущий список
-
-    for (const QJsonValue &value : array) {
-        QJsonObject obj = value.toObject();
-        Game game;
-
-        // Заполнение всех полей
-        game.name = obj["name"].toString();
-        game.platform = obj["platform"].toVariant().toStringList(); // Если это массив
-        game.genre = obj["genre"].toString();
-        game.rating = obj["rating"].toString();
-        game.description = obj["description"].toString();
-        game.release_date = obj["release_date"].toString();
-        game.developer = obj["developer"].toString();
-        game.country = obj["country"].toString();
-        game.minimum_requirements = obj["minimum_requirements"].toObject();
-        game.recommended_requirements = obj["recommended_requirements"].toObject();
-        game.imagePath = obj["path-image"].toString(); // Получаем путь к изображению
-        game.videoId = obj["video-id"].toString(); // Исправлено на obj
-
-        games.append(game);
-        originalGames.append(game); // Сохраняем оригинал
-    }
-
-    displayGames(games);
 }
 
 void MainWindow::onFormatButtonClicked() {
@@ -324,4 +311,59 @@ void MainWindow::on_sortButton_clicked() {
 void MainWindow::on_sortComboBox_activated(int index)
 {
 
+}
+
+void MainWindow::loadGames() {
+    QFile file("D:/cource_project/cource_project/games.json");
+    if (!file.open(QIODevice::ReadOnly | QIODevice::Text)) {
+        QMessageBox::warning(this, "Ошибка", "Не удалось открыть файл.");
+        return;
+    }
+
+    QByteArray data = file.readAll();
+    QJsonDocument doc = QJsonDocument::fromJson(data);
+
+    if (doc.isNull() || !doc.isArray()) {
+        QMessageBox::warning(this, "Ошибка", "Некорректный формат JSON.");
+        return;
+    }
+
+    QJsonArray gamesArray = doc.array();
+    originalGames.clear(); // Очистите предыдущий список
+    games.clear(); // Очистите текущий список
+
+    // Очистка старых кнопок
+    QLayout *layout = scrollWidget->layout();
+    if (layout) {
+        QLayoutItem *item;
+        while ((item = layout->takeAt(0)) != nullptr) {
+            delete item->widget(); // Удаляем виджеты
+            delete item; // Удаляем элементы макета
+        }
+    }
+
+    for (const QJsonValue &value : gamesArray) {
+        QJsonObject obj = value.toObject();
+        Game game;
+
+        // Заполнение всех полей
+        game.name = obj["name"].toString();
+        game.platform = obj["platform"].toVariant().toStringList(); // Если это массив
+        game.genre = obj["genre"].toString();
+        game.rating = obj["rating"].toString();
+        game.description = obj["description"].toString();
+        game.release_date = obj["release_date"].toString();
+        game.developer = obj["developer"].toString();
+        game.country = obj["country"].toString();
+        game.minimum_requirements = obj["minimum_requirements"].toObject();
+        game.recommended_requirements = obj["recommended_requirements"].toObject();
+        game.imagePath = obj["path-image"].toString(); // Получаем путь к изображению
+        game.videoId = obj["video-id"].toString(); // Исправлено на obj
+
+        games.append(game);
+        originalGames.append(game); // Сохраняем оригинал
+    }
+
+    displayGames(games);
+    populateFilters(); // Не забудьте обновить фильтры после загрузки
 }

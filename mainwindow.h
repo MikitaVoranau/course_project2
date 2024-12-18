@@ -36,6 +36,9 @@ public:
     explicit MainWindow(QWidget *parent = nullptr);
     ~MainWindow();
 
+public slots:
+    void loadGames();
+
 private slots:
     void onFormatButtonClicked();
     void on_sortButton_clicked();
@@ -60,11 +63,11 @@ private:
     QPushButton *resetButton;
 
     void saveToJson(const QJsonObject &jsonData);
-    void loadGames();
     void populateFilters();
     void updateGameButtons();
     void displayGames(const QVector<Game> &games); // Добавьте эту строку
     void filterGames();
+    void setButtonStyle(QPushButton *button, const Game &game);
 };
 
 #endif // MAINWINDOW_H

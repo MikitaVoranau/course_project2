@@ -1,5 +1,6 @@
 #include "gameinfowindow.h"
 #include "editdatadialog.h"
+#include "mainwindow.h"
 #include <QVBoxLayout>
 #include <QHBoxLayout>
 #include <QLabel>
@@ -10,7 +11,7 @@
 #include <QDesktopServices>
 #include <QUrl>
 #include <QScrollArea>
-GameInfoWindow::GameInfoWindow(QWidget *parent) : QDialog(parent), changesMade(false) {
+GameInfoWindow::GameInfoWindow(MainWindow *parent) : QDialog(parent), mainWindow(parent) {
     setWindowState(Qt::WindowMaximized); // Открытие окна на весь экран
     setWindowFlag(Qt::WindowCloseButtonHint, false);
     mainLayout = new QVBoxLayout(this); // Хранение основного макета
@@ -194,7 +195,10 @@ void GameInfoWindow::setGameInfo(const QString &name, const QString &description
         EditDataDialog *editDialog = new EditDataDialog(this);
         editDialog->setData(name, description, platforms, genre, rating, releaseDate, developer, country, minimumRequirements, recommendedRequirements);
 
-        connect(editDialog, &EditDataDialog::dataSaved, this, &GameInfoWindow::reject);
+        connect(editDialog, &EditDataDialog::dataSaved, [this]() {
+            mainWindow->loadGames(); // Обновление данных в главном меню
+            this->reject(); // Закрывает GameInfoWindow
+        });
 
         if (editDialog->exec() == QDialog::Accepted) {
             // Получение обновлённых данных

@@ -9,11 +9,13 @@
 #include <QLineEdit>
 #include <QJsonObject>
 
+class MainWindow;
+
 class GameInfoWindow : public QDialog {
     Q_OBJECT
 
 public:
-    explicit GameInfoWindow(QWidget *parent = nullptr);
+    explicit GameInfoWindow(MainWindow *parent = nullptr);
 
     void setGameInfo(const QString &name, const QString &description, const QString &platforms,
                      const QString &genre, const QString &rating, const QString &releaseDate,
@@ -46,6 +48,8 @@ private:
     QLabel *ratingLabel;          // Метка для рейтинга
     QLabel *releaseDateLabel;     // Метка для даты выхода
     QLabel *imageLabel;           // Метка для изображения
+
+    MainWindow *mainWindow;
 };
 
 #endif // GAMEINFOWINDOW_H
