@@ -173,6 +173,11 @@ void MainWindow::saveToJson(const QJsonObject &jsonData) {
 }
 
 void MainWindow::populateFilters() {
+
+    platformBox->clear();
+    genreBox->clear();
+    ratingBox->clear();
+
     platformBox->addItem("Все платформы");
     genreBox->addItem("Все жанры");
     ratingBox->addItem("Все оценки");

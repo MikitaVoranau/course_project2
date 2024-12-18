@@ -3,7 +3,7 @@
         "country": "Япония",
         "description": "Открытый мир, в котором игроки исследуют королевство Хайрул, решают головоломки и сражаются с врагами, чтобы спасти принцессу Зельду.",
         "developer": "Nintendo",
-        "genre": "Action-Adventurefsafafa",
+        "genre": "Action-Adventure",
         "minimum_requirements": {
             "Additional": "N/A",
             "DirectX": "N/A",
@@ -14,7 +14,7 @@
             "Processor": "N/A",
             "RAM": "4 GB"
         },
-        "name": "The Legend of Zelda: Breath of the Wildasfaf",
+        "name": "The Legend of Zelda: Breath of the Wild",
         "path-image": "D:/cource_project/cource_project/images/covers/TheLegendOfZelda.jpg",
         "platform": [
             "Nintendo Switch",
@@ -38,7 +38,7 @@
         "country": "Польша",
         "description": "Эпическая история о ведьмаке Геральте, который ищет свою приемную дочь в огромном открытом мире, полном монстров и политических интриг.",
         "developer": "CD Projekt Red",
-        "genre": "RPGрк",
+        "genre": "RPG",
         "minimum_requirements": {
             "Additional": "N/A",
             "DirectX": "Версии 11",
@@ -49,7 +49,7 @@
             "Processor": "Intel Core i5-2500K",
             "RAM": "6 GB"
         },
-        "name": "яwfefw",
+        "name": "qdwйв",
         "path-image": "D:/cource_project/cource_project/images/covers/The_Witcher_3-_Wild_Hunt_Cover.jpg",
         "platform": [
             "PC",
@@ -61,7 +61,7 @@
         "recommended_requirements": {
             "Additional": "N/A",
             "DirectX": "Версии 11",
-            "Disk_Space": "36 GB свободной памяти",
+            "Disk_Space": "35 GB свободного места",
             "Graphics": "NVIDIA GeForce GTX 770",
             "Network": "Широкополосное подключение к интернету",
             "OS": "64-bit Windows 10",
@@ -86,7 +86,7 @@
             "Processor": "Intel Core i5-2500",
             "RAM": "4 GB"
         },
-        "name": "dqw",
+        "name": "Dark Souls III",
         "path-image": "D:/cource_project/cource_project/images/covers/Dark Souls.jpg",
         "platform": [
             "PC",
