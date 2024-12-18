@@ -18,6 +18,9 @@ public:
                  const QJsonObject &minimumRequirements, const QJsonObject &recommendedRequirements);
     QJsonObject getData() const;
 
+signals:
+    void dataSaved();
+
 private:
     QLineEdit *nameEdit;
     QLineEdit *descriptionEdit;

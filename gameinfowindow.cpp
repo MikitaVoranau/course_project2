@@ -191,9 +191,10 @@ void GameInfoWindow::setGameInfo(const QString &name, const QString &description
 
     // Подключение сигнала кнопки "Редактировать данные"
     connect(editButton, &QPushButton::clicked, [this, name, description, platforms, genre, rating, releaseDate, developer, country, minimumRequirements, recommendedRequirements]() {
-        // Открытие нового окна для редактирования
         EditDataDialog *editDialog = new EditDataDialog(this);
         editDialog->setData(name, description, platforms, genre, rating, releaseDate, developer, country, minimumRequirements, recommendedRequirements);
+
+        connect(editDialog, &EditDataDialog::dataSaved, this, &GameInfoWindow::reject);
 
         if (editDialog->exec() == QDialog::Accepted) {
             // Получение обновлённых данных

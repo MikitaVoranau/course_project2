@@ -1,1442 +1,1632 @@
 [
     {
-            "name": "The Legend of Zelda: Breath of the Wild",
-            "description": "Открытый мир, в котором игроки исследуют королевство Хайрул, решают головоломки и сражаются с врагами, чтобы спасти принцессу Зельду.",
-            "genre": "Action-Adventure",
-            "platform": ["Nintendo Switch", "Wii U"],
-            "rating": "10/10",
-            "release_date": "03 марта 2017",
-            "developer": "Nintendo",
-            "country": "Япония",
-            "minimum_requirements": {
-                "OS": "Nintendo Switch",
-                "Processor": "N/A",
-                "RAM": "4 GB",
-                "Graphics": "N/A",
-                "DirectX": "N/A",
-                "Network": "N/A",
-                "Disk_Space": "N/A",
-                "Additional": "N/A"
-            },
-            "recommended_requirements": {
-                "OS": "Nintendo Switch",
-                "Processor": "N/A",
-                "RAM": "4 GB",
-                "Graphics": "N/A",
-                "DirectX": "N/A",
-                "Network": "N/A",
-                "Disk_Space": "N/A",
-                "Additional": "N/A"
-            },
-            "video-id": "AY8esMoD_QE",
-            "path-image": "D:/cource_project/cource_project/images/covers/TheLegendOfZelda.jpg"
+        "country": "Япония",
+        "description": "Открытый мир, в котором игроки исследуют королевство Хайрул, решают головоломки и сражаются с врагами, чтобы спасти принцессу Зельду.",
+        "developer": "Nintendo",
+        "genre": "Action-Adventurefsafafa",
+        "minimum_requirements": {
+            "Additional": "N/A",
+            "DirectX": "N/A",
+            "Disk_Space": "N/A",
+            "Graphics": "N/A",
+            "Network": "N/A",
+            "OS": "Nintendo Switch",
+            "Processor": "N/A",
+            "RAM": "4 GB"
         },
-        {
-            "name": "The Witcher 3: Wild Hunt",
-            "description": "Эпическая история о ведьмаке Геральте, который ищет свою приемную дочь в огромном открытом мире, полном монстров и политических интриг.",
-            "genre": "RPG",
-            "platform": ["PC", "PS4", "Xbox One", "Nintendo Switch"],
-            "rating": "10/10",
-            "release_date": "19 мая 2015",
-            "developer": "CD Projekt Red",
-            "country": "Польша",
-            "minimum_requirements": {
-                "OS": "64-bit Windows 7",
-                "Processor": "Intel Core i5-2500K",
-                "RAM": "6 GB",
-                "Graphics": "NVIDIA GeForce GTX 660",
-                "DirectX": "Версии 11",
-                "Network": "Широкополосное подключение к интернету",
-                "Disk_Space": "35 GB свободного места",
-                "Additional": "N/A"
-            },
-            "recommended_requirements": {
-                "OS": "64-bit Windows 10",
-                "Processor": "Intel Core i7-3770",
-                "RAM": "8 GB",
-                "Graphics": "NVIDIA GeForce GTX 770",
-                "DirectX": "Версии 11",
-                "Network": "Широкополосное подключение к интернету",
-                "Disk_Space": "35 GB свободного места",
-                "Additional": "N/A"
-            },
-            "video-id": "JoXk1eojlAs",
-            "path-image": "D:/cource_project/cource_project/images/covers/The_Witcher_3-_Wild_Hunt_Cover.jpg"
+        "name": "The Legend of Zelda: Breath of the Wildasfaf",
+        "path-image": "D:/cource_project/cource_project/images/covers/TheLegendOfZelda.jpg",
+        "platform": [
+            "Nintendo Switch",
+            "Wii U"
+        ],
+        "rating": "10/10",
+        "recommended_requirements": {
+            "Additional": "N/A",
+            "DirectX": "N/A",
+            "Disk_Space": "N/A",
+            "Graphics": "N/A",
+            "Network": "N/A",
+            "OS": "Nintendo Switch",
+            "Processor": "N/A",
+            "RAM": "4 GB"
         },
-        {
-            "name": "Dark Souls III",
-            "description": "Жестокая игра с глубоким геймплеем, где игрокам предстоит сразиться с могущественными боссами и исследовать мрачные локации.",
-            "genre": "Action RPG",
-            "platform": ["PC", "PS4", "Xbox One"],
-            "rating": "9/10",
-            "release_date": "24 марта 2016",
-            "developer": "FromSoftware",
-            "country": "Япония",
-            "minimum_requirements": {
-                "OS": "64-bit Windows 7",
-                "Processor": "Intel Core i5-2500",
-                "RAM": "4 GB",
-                "Graphics": "NVIDIA GeForce GTX 750",
-                "DirectX": "Версии 11",
-                "Network": "Широкополосное подключение к интернету",
-                "Disk_Space": "25 GB свободного места",
-                "Additional": "N/A"
-            },
-            "recommended_requirements": {
-                "OS": "64-bit Windows 10",
-                "Processor": "Intel Core i7-3770",
-                "RAM": "8 GB",
-                "Graphics": "NVIDIA GeForce GTX 960",
-                "DirectX": "Версии 11",
-                "Network": "Широкополосное подключение к интернету",
-                "Disk_Space": "25 GB свободного места",
-                "Additional": "N/A"
-            },
-            "video-id": "C9y6-e7476w",
-            "path-image": "D:/cource_project/cource_project/images/covers/Dark Souls.jpg"
+        "release_date": "03 марта 2017",
+        "video-id": "AY8esMoD_QE"
+    },
+    {
+        "country": "Польша",
+        "description": "Эпическая история о ведьмаке Геральте, который ищет свою приемную дочь в огромном открытом мире, полном монстров и политических интриг.",
+        "developer": "CD Projekt Red",
+        "genre": "RPGрк",
+        "minimum_requirements": {
+            "Additional": "N/A",
+            "DirectX": "Версии 11",
+            "Disk_Space": "35 GB свободного места",
+            "Graphics": "NVIDIA GeForce GTX 660",
+            "Network": "Широкополосное подключение к интернету",
+            "OS": "64-bit Windows 7",
+            "Processor": "Intel Core i5-2500K",
+            "RAM": "6 GB"
         },
-        {
-            "name": "God of War",
-            "description": "История Кратоса и его сына Атрея, исследующих мифологический мир скандинавских богов, полная эмоций и эпичных сражений.",
-            "genre": "Action-Adventure",
-            "platform": ["PS4"],
-            "rating": "10/10",
-            "release_date": "20 апреля 2018",
-            "developer": "Santa Monica Studio",
-            "country": "США",
-            "minimum_requirements": {
-                "OS": "PS4",
-                "Processor": "N/A",
-                "RAM": "8 GB",
-                "Graphics": "N/A",
-                "DirectX": "N/A",
-                "Network": "N/A",
-                "Disk_Space": "N/A",
-                "Additional": "N/A"
-            },
-            "recommended_requirements": {
-                "OS": "PS4",
-                "Processor": "N/A",
-                "RAM": "8 GB",
-                "Graphics": "N/A",
-                "DirectX": "N/A",
-                "Network": "N/A",
-                "Disk_Space": "N/A",
-                "Additional": "N/A"
-            },
-            "video-id": "xHAhelG3gMs",
-            "path-image": "D:/cource_project/cource_project/images/covers/God of War.jpg"
+        "name": "swasd",
+        "path-image": "D:/cource_project/cource_project/images/covers/The_Witcher_3-_Wild_Hunt_Cover.jpg",
+        "platform": [
+            "PC",
+            "PS4",
+            "Xbox One",
+            "Nintendo Switch"
+        ],
+        "rating": "10/10",
+        "recommended_requirements": {
+            "Additional": "N/A",
+            "DirectX": "Версии 11",
+            "Disk_Space": "36 GB свободной памяти",
+            "Graphics": "NVIDIA GeForce GTX 770",
+            "Network": "Широкополосное подключение к интернету",
+            "OS": "64-bit Windows 10",
+            "Processor": "Intel Core i7-3770",
+            "RAM": "8 GB"
         },
-        {
-            "name": "Red Dead Redemption 2",
-            "description": "Жизнь бандита в открытом мире Дикого Запада, насыщенная историей, персонажами и атмосферными моментами.",
-            "genre": "Action-Adventure",
-            "platform": ["PC", "PS4", "Xbox One"],
-            "rating": "10/10",
-            "release_date": "26 октября 2018",
-            "developer": "Rockstar Games",
-            "country": "США",
-            "minimum_requirements": {
-                "OS": "64-bit Windows 7",
-                "Processor": "Intel Core i5-2500K",
-                "RAM": "8 GB",
-                "Graphics": "NVIDIA GeForce GTX 770",
-                "DirectX": "Версии 11",
-                "Network": "Широкополосное подключение к интернету",
-                "Disk_Space": "150 GB свободного места",
-                "Additional": "N/A"
-            },
-            "recommended_requirements": {
-                "OS": "64-bit Windows 10",
-                "Processor": "Intel Core i7-4770K",
-                "RAM": "12 GB",
-                "Graphics": "NVIDIA GeForce GTX 1060",
-                "DirectX": "Версии 11",
-                "Network": "Широкополосное подключение к интернету",
-                "Disk_Space": "150 GB свободного места",
-                "Additional": "N/A"
-            },
-            "video-id": "s7m_ruPYdIc",
-            "path-image": "D:/cource_project/cource_project/images/covers/red dead.jpg"
+        "release_date": "19 мая 2015",
+        "video-id": "JoXk1eojlAs"
+    },
+    {
+        "country": "Япония",
+        "description": "Жестокая игра с глубоким геймплеем, где игрокам предстоит сразиться с могущественными боссами и исследовать мрачные локации.",
+        "developer": "FromSoftware",
+        "genre": "Action RPG",
+        "minimum_requirements": {
+            "Additional": "N/A",
+            "DirectX": "Версии 11",
+            "Disk_Space": "25 GB свободного места",
+            "Graphics": "NVIDIA GeForce GTX 750",
+            "Network": "Широкополосное подключение к интернету",
+            "OS": "64-bit Windows 7",
+            "Processor": "Intel Core i5-2500",
+            "RAM": "4 GB"
         },
-        {
-            "name": "Super Mario Odyssey",
-            "description": "Увлекательное приключение Марио по различным мирам, где он использует свою новую способность 'Каппирование' для преодоления препятствий.",
-            "genre": "Platformer",
-            "platform": ["Nintendo Switch"],
-            "rating": "10/10",
-            "release_date": "27 октября 2017",
-            "developer": "Nintendo",
-            "country": "Япония",
-            "minimum_requirements": {
-                "OS": "Nintendo Switch",
-                "Processor": "N/A",
-                "RAM": "4 GB",
-                "Graphics": "N/A",
-                "DirectX": "N/A",
-                "Network": "N/A",
-                "Disk_Space": "N/A",
-                "Additional": "N/A"
-            },
-            "recommended_requirements": {
-                "OS": "Nintendo Switch",
-                "Processor": "N/A",
-                "RAM": "4 GB",
-                "Graphics": "N/A",
-                "DirectX": "N/A",
-                "Network": "N/A",
-                "Disk_Space": "N/A",
-                "Additional": "N/A"
-            },
-            "video-id": "b3wNrtKvnhc",
-            "path-image": "D:/cource_project/cource_project/images/covers/super mario.jpg"
+        "name": "Dark Souls IIIfasafaf",
+        "path-image": "D:/cource_project/cource_project/images/covers/Dark Souls.jpg",
+        "platform": [
+            "PC",
+            "PS4",
+            "Xbox One"
+        ],
+        "rating": "9/10",
+        "recommended_requirements": {
+            "Additional": "N/A",
+            "DirectX": "Версии 11",
+            "Disk_Space": "25 GB свободного места",
+            "Graphics": "NVIDIA GeForce GTX 960",
+            "Network": "Широкополосное подключение к интернету",
+            "OS": "64-bit Windows 10",
+            "Processor": "Intel Core i7-3770",
+            "RAM": "8 GB"
         },
-        {
-            "name": "Overwatch",
-            "description": "Командный шутер с уникальными персонажами, каждый из которых имеет свои способности, что создает разнообразные стратегии для победы.",
-            "genre": "First-Person Shooter",
-            "platform": ["PC", "PS4", "Xbox One", "Nintendo Switch"],
-            "rating": "9/10",
-            "release_date": "24 мая 2016",
-            "developer": "Blizzard Entertainment",
-            "country": "США",
-            "minimum_requirements": {
-                "OS": "64-bit Windows 7/8/10",
-                "Processor": "Intel Core i3",
-                "RAM": "6 GB",
-                "Graphics": "NVIDIA GeForce GTX 460",
-                "DirectX": "Версии 11",
-                "Network": "Широкополосное подключение к интернету",
-                "Disk_Space": "30 GB свободного места",
-                "Additional": "N/A"
-            },
-            "recommended_requirements": {
-                "OS": "64-bit Windows 10",
-                "Processor": "Intel Core i5",
-                "RAM": "8 GB",
-                "Graphics": "NVIDIA GeForce GTX 670",
-                "DirectX": "Версии 11",
-                "Network": "Широкополосное подключение к интернету",
-                "Disk_Space": "30 GB свободного места",
-                "Additional": "N/A"
-            },
-            "video-id": "yXL9cqlduWQ",
-            "path-image": "D:/cource_project/cource_project/images/covers/Overwatch.jpg"
+        "release_date": "24 марта 2016",
+        "video-id": "C9y6-e7476w"
+    },
+    {
+        "country": "США",
+        "description": "История Кратоса и его сына Атрея, исследующих мифологический мир скандинавских богов, полная эмоций и эпичных сражений.",
+        "developer": "Santa Monica Studio",
+        "genre": "Action-Adventure",
+        "minimum_requirements": {
+            "Additional": "N/A",
+            "DirectX": "N/A",
+            "Disk_Space": "N/A",
+            "Graphics": "N/A",
+            "Network": "N/A",
+            "OS": "PS4",
+            "Processor": "N/A",
+            "RAM": "8 GB"
         },
-        {
-                "name": "Minecraft",
-                "description": "Игра на выживание с открытым миром, в которой игроки могут строить, исследовать и создавать свои приключения в блоковом мире.",
-                "genre": "Sandbox",
-                "platform": ["PC", "PS4", "Xbox One", "Nintendo Switch"],
-                "rating": "9/10",
-                "release_date": "18 ноября 2011",
-                "developer": "Mojang Studios",
-                "country": "Швеция",
-                "minimum_requirements": {
-                    "OS": "64-bit Windows 10",
-                    "Processor": "Intel Core i3",
-                    "RAM": "4 GB",
-                    "Graphics": "NVIDIA GeForce 400 Series",
-                    "DirectX": "Версии 11",
-                    "Network": "Широкополосное подключение к интернету",
-                    "Disk_Space": "1 GB свободного места",
-                    "Additional": "Доступ в интернет для активации"
-                },
-                "recommended_requirements": {
-                    "OS": "64-bit Windows 10",
-                    "Processor": "Intel Core i5",
-                    "RAM": "8 GB",
-                    "Graphics": "NVIDIA GeForce 700 Series",
-                    "DirectX": "Версии 11",
-                    "Network": "Широкополосное подключение к интернету",
-                    "Disk_Space": "4 GB свободного места",
-                    "Additional": "N/A"
-                },
-                "video-id": "RITB0W-5yc4",
-                "path-image": "D:/cource_project/cource_project/images/covers/Minecraft.jpg"
-            },
-            {
-                    "name": "Hollow Knight",
-                    "description": "Исследуйте мрачный мир в роли рыцаря, сражаясь с врагами и решая головоломки в этой красиво оформленной игре.",
-                    "genre": "Metroidvania",
-                    "platform": ["PC", "PS4", "Xbox One", "Nintendo Switch"],
-                    "rating": "10/10",
-                    "release_date": "24 февраля 2017",
-                    "developer": "Team Cherry",
-                    "country": "Австралия",
-                    "minimum_requirements": {
-                        "OS": "64-bit Windows 7",
-                        "Processor": "Intel Core 2 Duo",
-                        "RAM": "4 GB",
-                        "Graphics": "NVIDIA GeForce 660",
-                        "DirectX": "Версии 11",
-                        "Network": "Широкополосное подключение к интернету",
-                        "Disk_Space": "9 GB свободного места",
-                        "Additional": "N/A"
-                    },
-                    "recommended_requirements": {
-                        "OS": "64-bit Windows 10",
-                        "Processor": "Intel Core i5",
-                        "RAM": "8 GB",
-                        "Graphics": "NVIDIA GeForce 750",
-                        "DirectX": "Версии 11",
-                        "Network": "Широкополосное подключение к интернету",
-                        "Disk_Space": "9 GB свободного места",
-                        "Additional": "N/A"
-                    },
-                    "video-id": "hg25ONutphA",
-                    "path-image": "D:/cource_project/cource_project/images/covers/hollow knight.jpg"
-                },
-                {
-                    "name": "Among Us",
-                    "description": "Многопользовательская игра, где игроки работают вместе, чтобы найти предателя среди них, используя логику и дедукцию.",
-                    "genre": "Party",
-                    "platform": ["PC", "Mobile", "Nintendo Switch"],
-                    "rating": "8/10",
-                    "release_date": "15 декабря 2018",
-                    "developer": "Innersloth",
-                    "country": "США",
-                    "minimum_requirements": {
-                        "OS": "64-bit Windows 10",
-                        "Processor": "Intel Core 2 Duo",
-                        "RAM": "4 GB",
-                        "Graphics": "NVIDIA GeForce 510",
-                        "DirectX": "Версии 10",
-                        "Network": "Широкополосное подключение к интернету",
-                        "Disk_Space": "250 MB свободного места",
-                        "Additional": "N/A"
-                    },
-                    "recommended_requirements": {
-                        "OS": "64-bit Windows 10",
-                        "Processor": "Intel i5 or equivalent",
-                        "RAM": "8 GB",
-                        "Graphics": "NVIDIA GeForce 700 Series",
-                        "DirectX": "Версии 10",
-                        "Network": "Широкополосное подключение к интернету",
-                        "Disk_Space": "250 MB свободного места",
-                        "Additional": "N/A"
-                    },
-                    "video-id": "iE0xHBitWMQ",
-                    "path-image": "D:/cource_project/cource_project/images/covers/Among Us.jpg"
-                },
-                {
-                    "name": "Destiny 2",
-                    "description": "Научно-фантастический шутер с элементами RPG, в котором игроки сражаются с врагами и исследуют различные планеты.",
-                    "genre": "FPS",
-                    "platform": ["PC", "PS4", "Xbox One"],
-                    "rating": "8/10",
-                    "release_date": "6 сентября 2017",
-                    "developer": "Bungie",
-                    "country": "США",
-                    "minimum_requirements": {
-                        "OS": "64-bit Windows 7",
-                        "Processor": "Intel Core i3-3250 or AMD FX-4350",
-                        "RAM": "6 GB",
-                        "Graphics": "NVIDIA GeForce GTX 660 or AMD Radeon HD 7950",
-                        "DirectX": "Версии 11",
-                        "Network": "Широкополосное подключение к интернету",
-                        "Disk_Space": "105 GB свободного места",
-                        "Additional": "N/A"
-                    },
-                    "recommended_requirements": {
-                        "OS": "64-bit Windows 10",
-                        "Processor": "Intel Core i5-2400 or AMD Ryzen R5 1600X",
-                        "RAM": "8 GB",
-                        "Graphics": "NVIDIA GeForce GTX 970 or AMD Radeon R9 390",
-                        "DirectX": "Версии 11",
-                        "Network": "Широкополосное подключение к интернету",
-                        "Disk_Space": "105 GB свободного места",
-                        "Additional": "N/A"
-                    },
-                    "video-id": "4Y8Kxtwu8AQ",
-                    "path-image": "D:/cource_project/cource_project/images/covers/destiny.jpg"
-                },
-                {
-                    "name": "Final Fantasy VII Remake",
-                    "description": "Переосмысленная версия классической JRPG с улучшенной графикой и современным геймплеем, рассказывающая о борьбе против корпорации Шинра.",
-                    "genre": "RPG",
-                    "platform": ["PS4"],
-                    "rating": "9/10",
-                    "release_date": "10 апреля 2020",
-                    "developer": "Square Enix",
-                    "country": "Япония",
-                    "minimum_requirements": {
-                        "OS": "PS4",
-                        "Processor": "N/A",
-                        "RAM": "8 GB",
-                        "Graphics": "N/A",
-                        "DirectX": "N/A",
-                        "Network": "N/A",
-                        "Disk_Space": "100 GB свободного места",
-                        "Additional": "N/A"
-                    },
-                    "recommended_requirements": {
-                        "OS": "PS4",
-                        "Processor": "N/A",
-                        "RAM": "8 GB",
-                        "Graphics": "N/A",
-                        "DirectX": "N/A",
-                        "Network": "N/A",
-                        "Disk_Space": "100 GB свободного места",
-                        "Additional": "N/A"
-                    },
-                    "video-id": "O2Q0TLyMkKw",
-                    "path-image": "D:/cource_project/cource_project/images/covers/Final Fantasy.jpg"
-                },
-                {
-                    "name": "Sekiro: Shadows Die Twice",
-                    "description": "Сложная игра о самурае, который должен спасти своего господина, с уникальной механикой боя и акцентом на парирование.",
-                    "genre": "Action-Adventure",
-                    "platform": ["PC", "PS4", "Xbox One"],
-                    "rating": "9/10",
-                    "release_date": "22 марта 2019",
-                    "developer": "FromSoftware",
-                    "country": "Япония",
-                    "minimum_requirements": {
-                        "OS": "64-bit Windows 7",
-                        "Processor": "Intel Core i5-2500K or AMD Ryzen 5 1400",
-                        "RAM": "4 GB",
-                        "Graphics": "NVIDIA GeForce GTX 760 or AMD Radeon HD 7950",
-                        "DirectX": "Версии 11",
-                        "Network": "Широкополосное подключение к интернету",
-                        "Disk_Space": "25 GB свободного места",
-                        "Additional": "N/A"
-                    },
-                    "recommended_requirements": {
-                        "OS": "64-bit Windows 10",
-                        "Processor": "Intel Core i7-3770 or AMD Ryzen 5 1600X",
-                        "RAM": "8 GB",
-                        "Graphics": "NVIDIA GeForce GTX 970 or AMD Radeon RX 570",
-                        "DirectX": "Версии 11",
-                        "Network": "Широкополосное подключение к интернету",
-                        "Disk_Space": "25 GB свободного места",
-                        "Additional": "N/A"
-                    },
-                    "video-id": "4iu3STaybQY",
-                    "path-image": "D:/cource_project/cource_project/images/covers/sekiro.jpg"
-                },
-                {
-                    "name": "Animal Crossing: New Horizons",
-                    "description": "Симулятор жизни на острове, где игроки могут строить, исследовать и дружить с милыми животными.",
-                    "genre": "Simulation",
-                    "platform": ["Nintendo Switch"],
-                    "rating": "10/10",
-                    "release_date": "20 марта 2020",
-                    "developer": "Nintendo",
-                    "country": "Япония",
-                    "minimum_requirements": {
-                        "OS": "Nintendo Switch",
-                        "Processor": "N/A",
-                        "RAM": "4 GB",
-                        "Graphics": "N/A",
-                        "DirectX": "N/A",
-                        "Network": "N/A",
-                        "Disk_Space": "N/A",
-                        "Additional": "N/A"
-                    },
-                    "recommended_requirements": {
-                        "OS": "Nintendo Switch",
-                        "Processor": "N/A",
-                        "RAM": "4 GB",
-                        "Graphics": "N/A",
-                        "DirectX": "N/A",
-                        "Network": "N/A",
-                        "Disk_Space": "N/A",
-                        "Additional": "N/A"
-                    },
-                    "video-id": "CT0WUoe8NOg",
-                    "path-image": "D:/cource_project/cource_project/images/covers/animal crossing.jpg"
-                },
-                {
-                        "name": "Call of Duty: Warzone",
-                        "description": "Бесплатная королевская битва с динамичным геймплеем и множеством уникальных механик.",
-                        "genre": "Battle Royale",
-                        "platform": ["PC", "PS4", "Xbox One"],
-                        "rating": "9/10",
-                        "release_date": "10 марта 2020",
-                        "developer": "Infinity Ward",
-                        "country": "США",
-                        "minimum_requirements": {
-                            "OS": "64-bit Windows 10",
-                            "Processor": "Intel Core i3-4340 or AMD FX-6300",
-                            "RAM": "8 GB",
-                            "Graphics": "NVIDIA GeForce GTX 960 or AMD Radeon RX 460",
-                            "DirectX": "Версии 11",
-                            "Network": "Широкополосное подключение к интернету",
-                            "Disk_Space": "175 GB свободного места",
-                            "Additional": "N/A"
-                        },
-                        "recommended_requirements": {
-                            "OS": "64-bit Windows 10",
-                            "Processor": "Intel Core i5-2500K or AMD Ryzen R5 1600X",
-                            "RAM": "12 GB",
-                            "Graphics": "NVIDIA GeForce GTX 1070 or AMD Radeon RX 580",
-                            "DirectX": "Версии 11",
-                            "Network": "Широкополосное подключение к интернету",
-                            "Disk_Space": "175 GB свободного места",
-                            "Additional": "N/A"
-                        },
-                        "video-id": "_iXDzmOv0Uw",
-                        "path-image": "D:/cource_project/cource_project/images/covers/cod.jpg"
-                    },
-                    {
-                        "name": "Genshin Impact",
-                        "description": "Открытый мир с элементами RPG, где игроки исследуют фантастический мир Тейват, собирая команду уникальных персонажей.",
-                        "genre": "Action RPG",
-                        "platform": ["PC", "PS4", "Mobile", "Nintendo Switch"],
-                        "rating": "9/10",
-                        "release_date": "28 сентября 2020",
-                        "developer": "miHoYo",
-                        "country": "Китай",
-                        "minimum_requirements": {
-                            "OS": "Windows 7 SP1",
-                            "Processor": "Intel Core i5",
-                            "RAM": "8 GB",
-                            "Graphics": "NVIDIA GeForce GT 1030",
-                            "DirectX": "Версии 11",
-                            "Network": "Широкополосное подключение к интернету",
-                            "Disk_Space": "30 GB свободного места",
-                            "Additional": "N/A"
-                        },
-                        "recommended_requirements": {
-                            "OS": "Windows 10",
-                            "Processor": "Intel Core i7",
-                            "RAM": "16 GB",
-                            "Graphics": "NVIDIA GeForce GTX 1060",
-                            "DirectX": "Версии 11",
-                            "Network": "Широкополосное подключение к интернету",
-                            "Disk_Space": "30 GB свободного места",
-                            "Additional": "N/A"
-                        },
-                        "video-id": "s-raLSzMQgA",
-                        "path-image": "D:/cource_project/cource_project/images/covers/genshin.jpg"
-                    },
-                    {
-                        "name": "Cyberpunk 2077",
-                        "description": "Научно-фантастическая RPG, действие которой происходит в мегаполисе Найт-Сити с открытым миром и возможностью кастомизации персонажа.",
-                        "genre": "RPG",
-                        "platform": ["PC", "PS4", "Xbox One"],
-                        "rating": "8/10",
-                        "release_date": "10 декабря 2020",
-                        "developer": "CD Projekt Red",
-                        "country": "Польша",
-                        "minimum_requirements": {
-                            "OS": "64-bit Windows 10",
-                            "Processor": "Intel Core i5-3570K or AMD FX-8310",
-                            "RAM": "8 GB",
-                            "Graphics": "NVIDIA GeForce GTX 780 or AMD Radeon RX 470",
-                            "DirectX": "Версии 12",
-                            "Network": "Широкополосное подключение к интернету",
-                            "Disk_Space": "70 GB свободного места",
-                            "Additional": "N/A"
-                        },
-                        "recommended_requirements": {
-                            "OS": "64-bit Windows 10",
-                            "Processor": "Intel Core i7-4790 or AMD Ryzen 3 3200G",
-                            "RAM": "12 GB",
-                            "Graphics": "NVIDIA GeForce GTX 1060 or AMD Radeon R9 590",
-                            "DirectX": "Версии 12",
-                            "Network": "Широкополосное подключение к интернету",
-                            "Disk_Space": "70 GB свободного места",
-                            "Additional": "N/A"
-                        },
-                        "video-id": "AT_i7riY688",
-                        "path-image": "D:/cource_project/cource_project/images/covers/cyberpunk.jpg"
-                    },
-                    {
-                        "name": "DOOM Eternal",
-                        "description": "Динамичный шутер с акцентом на быстрое перемещение и интенсивные сражения с демонами в разных мирах.",
-                        "genre": "FPS",
-                        "platform": ["PC", "PS4", "Xbox One", "Nintendo Switch"],
-                        "rating": "9/10",
-                        "release_date": "20 марта 2020",
-                        "developer": "id Software",
-                        "country": "США",
-                        "minimum_requirements": {
-                            "OS": "64-bit Windows 10",
-                            "Processor": "Intel Core i5-2400 or AMD Ryzen 3 1200",
-                            "RAM": "8 GB",
-                            "Graphics": "NVIDIA GeForce GTX 1050 or AMD Radeon R9 280",
-                            "DirectX": "Версии 11",
-                            "Network": "Широкополосное подключение к интернету",
-                            "Disk_Space": "50 GB свободного места",
-                            "Additional": "N/A"
-                        },
-                        "recommended_requirements": {
-                            "OS": "64-bit Windows 10",
-                            "Processor": "Intel Core i7-6700 or AMD Ryzen 5 2600X",
-                            "RAM": "8 GB",
-                            "Graphics": "NVIDIA GeForce GTX 1070 or AMD Radeon RX 680",
-                            "DirectX": "Версии 11",
-                            "Network": "Широкополосное подключение к интернету",
-                            "Disk_Space": "50 GB свободного места",
-                            "Additional": "N/A"
-                        },
-                        "video-id": "O_RpZl30Zp8",
-                        "path-image": "D:/cource_project/cource_project/images/covers/doom.jpg"
-                    },
-           {
-               "name": "Assassin's Creed Valhalla",
-               "description": "Историческая игра, в которой игроки берут на себя роль викинга Эйвора, исследуя Англию и сражаясь с врагами в открытом мире.",
-               "genre": "Action-Adventure",
-               "platform": ["PC", "PS4", "PS5", "Xbox One", "Xbox Series X"],
-               "rating": "9/10",
-               "release_date": "10 ноября 2020",
-               "developer": "Ubisoft",
-               "country": "Канада",
-               "minimum_requirements": {
-                   "OS": "64-bit Windows 10",
-                   "Processor": "Intel Core i5-2400 or AMD Ryzen 3 1200",
-                   "RAM": "8 GB",
-                   "Graphics": "NVIDIA GeForce GTX 960 or AMD Radeon R9 380",
-                   "DirectX": "Версии 12",
-                   "Network": "Широкополосное подключение к интернету",
-                   "Disk_Space": "40 GB свободного места",
-                   "Additional": "N/A"
-               },
-               "recommended_requirements": {
-                   "OS": "64-bit Windows 10",
-                   "Processor": "Intel Core i7-4790 or AMD Ryzen 5 1600",
-                   "RAM": "8 GB",
-                   "Graphics": "NVIDIA GeForce GTX 1070 or AMD Radeon RX 560",
-                   "DirectX": "Версии 12",
-                   "Network": "Широкополосное подключение к интернету",
-                   "Disk_Space": "40 GB свободного места",
-                   "Additional": "N/A"
-               },
-               "video-id": "oygZkAjHQcI",
-               "path-image": "D:/cource_project/cource_project/images/covers/assasin.jpg"
-           },
-           {
-               "name": "Monster Hunter: World",
-               "description": "Игра о охоте на монстров в красивом открытом мире, где игроки могут улучшать своё снаряжение и сражаться с огромными существами.",
-               "genre": "Action RPG",
-               "platform": ["PC", "PS4", "Xbox One"],
-               "rating": "9/10",
-               "release_date": "26 января 2018",
-               "developer": "Capcom",
-               "country": "Япония",
-               "minimum_requirements": {
-                   "OS": "64-bit Windows 7",
-                   "Processor": "Intel Core i5-4460 or AMD FX-6300",
-                   "RAM": "8 GB",
-                   "Graphics": "NVIDIA GeForce GTX 760 or AMD Radeon R7 260X",
-                   "DirectX": "Версии 11",
-                   "Network": "Широкополосное подключение к интернету",
-                   "Disk_Space": "20 GB свободного места",
-                   "Additional": "N/A"
-               },
-               "recommended_requirements": {
-                   "OS": "64-bit Windows 10",
-                   "Processor": "Intel Core i7-4000 or AMD Ryzen 5 1500X",
-                   "RAM": "8 GB",
-                   "Graphics": "NVIDIA GeForce GTX 1060 or AMD Radeon RX 6000",
-                   "DirectX": "Версии 11",
-                   "Network": "Широкополосное подключение к интернету",
-                   "Disk_Space": "20 GB свободного места",
-                   "Additional": "N/A"
-               },
-               "video-id": "c5FAZiLfw70",
-               "path-image": "D:/cource_project/cource_project/images/covers/Monster Hunter.jpg"
-           },
-           {
-               "name": "The Elder Scrolls V: Skyrim",
-               "description": "Эпическая RPG с открытым миром, где игроки могут исследовать обширный континент, выполняя квесты и взаимодействуя с уникальными персонажами.",
-               "genre": "RPG",
-               "platform": ["PC", "PS4", "Xbox One"],
-               "rating": "10/10",
-               "release_date": "11 ноября 2011",
-               "developer": "Bethesda Game Studios",
-               "country": "США",
-               "minimum_requirements": {
-                   "OS": "64-bit Windows 7",
-                   "Processor": "Dual-core 2.0 GHz",
-                   "RAM": "6 GB",
-                   "Graphics": "NVIDIA GeForce 8800 series or ATI 3800",
-                   "DirectX": "Версии 9",
-                   "Network": "Широкополосное подключение к интернету",
-                   "Disk_Space": "12 GB свободного места",
-                   "Additional": "N/A"
-               },
-               "recommended_requirements": {
-                   "OS": "64-bit Windows 10",
-                   "Processor": "Quad-core 2.5 GHz",
-                   "RAM": "8 GB",
-                   "Graphics": "NVIDIA GeForce 550 or ATI 7870",
-                   "DirectX": "Версии 11",
-                   "Network": "Широкополосное подключение к интернету",
-                   "Disk_Space": "12 GB свободного места",
-                   "Additional": "N/A"
-               },
-               "video-id": "6u5iVnkaPns",
-               "path-image": "D:/cource_project/cource_project/images/covers/skyrim.jpg"
-           },
-           {
-                  "name": "Borderlands 3",
-                  "description": "Экшен-игра с элементами RPG, в которой игроки сражаются с врагами и собирают лут в ярком и комичном мире.",
-                  "genre": "Loot Shooter",
-                  "platform": ["PC", "PS4", "Xbox One"],
-                  "rating": "8/10",
-                  "release_date": "13 сентября 2019",
-                  "developer": "Gearbox Software",
-                  "country": "США",
-                  "minimum_requirements": {
-                      "OS": "Windows 7/8/10 (64-bit)",
-                      "Processor": "AMD FX-8350 or Intel i5-3570",
-                      "RAM": "6 GB",
-                      "Graphics": "NVIDIA GeForce GTX 680 or AMD Radeon HD 7970",
-                      "DirectX": "Версии 11",
-                      "Network": "Широкополосное подключение к интернету",
-                      "Disk_Space": "75 GB свободного места",
-                      "Additional": "N/A"
-                  },
-                  "recommended_requirements": {
-                      "OS": "Windows 10 (64-bit)",
-                      "Processor": "AMD Ryzen 5 2600 or Intel i7-4770",
-                      "RAM": "16 GB",
-                      "Graphics": "NVIDIA GeForce GTX 970 or AMD Radeon RX 5000",
-                      "DirectX": "Версии 11",
-                      "Network": "Широкополосное подключение к интернету",
-                      "Disk_Space": "75 GB свободного места",
-                      "Additional": "N/A"
-                  },
-                  "video-id": "nB8GDGYFp9g",
-                  "path-image": "D:/cource_project/cource_project/images/covers/Borderlands 3.jpg"
-              },
-              {
-                  "name": "FIFA 22",
-                  "description": "Симулятор футбольного менеджмента и игр с улучшенной графикой и реалистичной механикой.",
-                  "genre": "Sports",
-                  "platform": ["PC", "PS4", "PS5", "Xbox One"],
-                  "rating": "8/10",
-                  "release_date": "1 октября 2021",
-                  "developer": "EA Sports",
-                  "country": "Канада",
-                  "minimum_requirements": {
-                      "OS": "Windows 10 (64-bit)",
-                      "Processor": "Intel Core i5-6600 or AMD Phenom II X4 965",
-                      "RAM": "8 GB",
-                      "Graphics": "NVIDIA GTX 660 or AMD Radeon HD 7850",
-                      "DirectX": "Версии 11",
-                      "Network": "Широкополосное подключение к интернету",
-                      "Disk_Space": "50 GB свободного места",
-                      "Additional": "N/A"
-                  },
-                  "recommended_requirements": {
-                      "OS": "Windows 10 (64-bit)",
-                      "Processor": "Intel Core i5-9600 or AMD Ryzen 5 2600",
-                      "RAM": "8 GB",
-                      "Graphics": "NVIDIA GTX 1050 or AMD Radeon RX 560",
-                      "DirectX": "Версии 11",
-                      "Network": "Широкополосное подключение к интернету",
-                      "Disk_Space": "50 GB свободного места",
-                      "Additional": "N/A"
-                  },
-                  "video-id": "WfFVX6NhYKQ",
-                  "path-image": "D:/cource_project/cource_project/images/covers/FIFA 22.jpg"
-              },
-              {
-                  "name": "League of Legends",
-                  "description": "Популярная многопользовательская игра, где команды сражаются друг с другом, используя уникальных чемпионов с различными способностями.",
-                  "genre": "MOBA",
-                  "platform": ["PC"],
-                  "rating": "9/10",
-                  "release_date": "27 октября 2009",
-                  "developer": "Riot Games",
-                  "country": "США",
-                  "minimum_requirements": {
-                      "OS": "Windows 7 and up",
-                      "Processor": "2 GHz Processor",
-                      "RAM": "4 GB",
-                      "Graphics": "DirectX 9 compatible video card",
-                      "DirectX": "Версии 9.0c",
-                      "Network": "Широкополосное подключение к интернету",
-                      "Disk_Space": "12 GB свободного места",
-                      "Additional": "N/A"
-                  },
-                  "recommended_requirements": {
-                      "OS": "Windows 10",
-                      "Processor": "2.5 GHz dual-core or better",
-                      "RAM": "8 GB",
-                      "Graphics": "NVIDIA GeForce 660 or AMD Radeon HD 7950",
-                      "DirectX": "Версии 11",
-                      "Network": "Широкополосное подключение к интернету",
-                      "Disk_Space": "12 GB свободного места",
-                      "Additional": "N/A"
-                  },
-                  "video-id": "eXY_Xx2Tdio",
-                  "path-image": "D:/cource_project/cource_project/images/covers/League of Legends.jpg"
-              },
-              {
-                  "name": "Rocket League",
-                  "description": "Комбинация футбола и гонок, где игроки управляют машинками и забивают мячи в ворота противника.",
-                  "genre": "Sports",
-                  "platform": ["PC", "PS4", "Xbox One", "Nintendo Switch"],
-                  "rating": "9/10",
-                  "release_date": "7 июля 2015",
-                  "developer": "Psyonix",
-                  "country": "США",
-                  "minimum_requirements": {
-                      "OS": "Windows 7 (64-bit)",
-                      "Processor": "2.5 GHz dual-core",
-                      "RAM": "4 GB",
-                      "Graphics": "DirectX 9 compliant video card",
-                      "DirectX": "Версии 9",
-                      "Network": "Широкополосное подключение к интернету",
-                      "Disk_Space": "20 GB свободного места",
-                      "Additional": "N/A"
-                  },
-                  "recommended_requirements": {
-                      "OS": "Windows 10 (64-bit)",
-                      "Processor": "2.5 GHz dual-core or higher",
-                      "RAM": "8 GB",
-                      "Graphics": "NVIDIA GeForce 660 or AMD Radeon R9 270",
-                      "DirectX": "Версии 11",
-                      "Network": "Широкополосное подключение к интернету",
-                      "Disk_Space": "20 GB свободного места",
-                      "Additional": "N/A"
-                  },
-                  "video-id": "87dOr-VCVBM",
-                  "path-image": "D:/cource_project/cource_project/images/covers/rocket league.jpg"
-              },
-              {
-                  "name": "Ghost of Tsushima",
-                  "description": "Приключенческая игра о самурае, который сражается с монголами на острове Цусима в период вторжения.",
-                  "genre": "Action-Adventure",
-                  "platform": ["PS4"],
-                  "rating": "10/10",
-                  "release_date": "17 июля 2020",
-                  "developer": "Sucker Punch Productions",
-                  "country": "США",
-                  "minimum_requirements": {
-                      "OS": "PS4",
-                      "Processor": "N/A",
-                      "RAM": "N/A",
-                      "Graphics": "N/A",
-                      "DirectX": "N/A",
-                      "Network": "N/A",
-                      "Disk_Space": "N/A",
-                      "Additional": "N/A"
-                  },
-                  "recommended_requirements": {
-                      "OS": "PS4",
-                      "Processor": "N/A",
-                      "RAM": "N/A",
-                      "Graphics": "N/A",
-                      "DirectX": "N/A",
-                      "Network": "N/A",
-                      "Disk_Space": "N/A",
-                      "Additional": "N/A"
-                  },
-                  "video-id": "7-dKH9JxMas",
-                  "path-image": "D:/cource_project/cource_project/images/covers/Ghost of Tsushima.jpg"
-              },
-              {
-                  "name": "Nioh 2",
-                  "description": "Сложная RPG с механикой боя, основанной на японской мифологии и фольклоре, где игроки исследуют мир самураев и йокая.",
-                  "genre": "Action RPG",
-                  "platform": ["PC", "PS4"],
-                  "rating": "9/10",
-                  "release_date": "13 марта 2020",
-                  "developer": "Team Ninja",
-                  "country": "Япония",
-                  "minimum_requirements": {
-                      "OS": "Windows 10 (64-bit)",
-                      "Processor": "Intel Core i5-4670 or AMD Ryzen 5 1400",
-                      "RAM": "8 GB",
-                      "Graphics": "NVIDIA GeForce GTX 780 or AMD Radeon R9 280",
-                      "DirectX": "Версии 11",
-                      "Network": "Широкополосное подключение к интернету",
-                      "Disk_Space": "80 GB свободного места",
-                      "Additional": "N/A"
-                  },
-                  "recommended_requirements": {
-                      "OS": "Windows 10 (64-bit)",
-                      "Processor": "Intel Core i7-4770 or AMD Ryzen 5 1600",
-                      "RAM": "8 GB",
-                      "Graphics": "NVIDIA GeForce GTX 1060 or AMD Radeon RX 580",
-                      "DirectX": "Версии 11",
-                      "Network": "Широкополосное подключение к интернету",
-                      "Disk_Space": "80 GB свободного места",
-                      "Additional": "N/A"
-                  },
-                  "video-id": "l6uv8lrsvno",
-                  "path-image": "D:/cource_project/cource_project/images/covers/Nioh 2.jpg"
-              },
-              {
-                     "name": "Hitman 3",
-                     "description": "Завершающая часть трилогии о суперагенте 47, который выполняет контракты по всему миру, используя скрытные методы.",
-                     "genre": "Stealth",
-                     "platform": ["PC", "PS4", "PS5", "Xbox One", "Xbox Series X"],
-                     "rating": "9/10",
-                     "release_date": "20 января 2021",
-                     "developer": "IO Interactive",
-                     "country": "Дания",
-                     "minimum_requirements": {
-                         "OS": "Windows 10 (64-bit)",
-                         "Processor": "Intel i5-2500K or AMD Phenom II X4 940",
-                         "RAM": "8 GB",
-                         "Graphics": "NVIDIA GeForce GTX 660 or AMD Radeon HD 7870",
-                         "DirectX": "Версии 11",
-                         "Network": "Широкополосное подключение к интернету",
-                         "Disk_Space": "80 GB свободного места",
-                         "Additional": "N/A"
-                     },
-                     "recommended_requirements": {
-                         "OS": "Windows 10 (64-bit)",
-                         "Processor": "Intel i7-4770 or AMD Ryzen 5 1600",
-                         "RAM": "16 GB",
-                         "Graphics": "NVIDIA GeForce GTX 1070 or AMD Radeon RX 580",
-                         "DirectX": "Версии 11",
-                         "Network": "Широкополосное подключение к интернету",
-                         "Disk_Space": "80 GB свободного места",
-                         "Additional": "N/A"
-                     },
-                     "video-id": "9NJekTy3dok",
-                     "path-image": "D:/cource_project/cource_project/images/covers/Hitman 3.jpg"
-                 },
-                 {
-                     "name": "Resident Evil Village",
-                     "description": "Продолжение истории Итана Уинтерса, который попадает в мрачную деревню, полную монстров и опасностей.",
-                     "genre": "Survival Horror",
-                     "platform": ["PC", "PS4", "PS5", "Xbox One", "Xbox Series X"],
-                     "rating": "9/10",
-                     "release_date": "7 мая 2021",
-                     "developer": "Capcom",
-                     "country": "Япония",
-                     "minimum_requirements": {
-                         "OS": "Windows 10 (64-bit)",
-                         "Processor": "Intel Core i5-7500 or AMD Ryzen 3 1200",
-                         "RAM": "8 GB",
-                         "Graphics": "NVIDIA GeForce GTX 1050 or AMD Radeon RX 560",
-                         "DirectX": "Версии 12",
-                         "Network": "Широкополосное подключение к интернету",
-                         "Disk_Space": "50 GB свободного места",
-                         "Additional": "N/A"
-                     },
-                     "recommended_requirements": {
-                         "OS": "Windows 10 (64-bit)",
-                         "Processor": "Intel Core i7-8700 or AMD Ryzen 5 3600",
-                         "RAM": "16 GB",
-                         "Graphics": "NVIDIA GeForce GTX 1070 or AMD Radeon RX 6800",
-                         "DirectX": "Версии 12",
-                         "Network": "Широкополосное подключение к интернету",
-                         "Disk_Space": "50 GB свободного места",
-                         "Additional": "N/A"
-                     },
-                     "video-id": "zQLgQyfK15g",
-                     "path-image": "D:/cource_project/cource_project/images/covers/Resident Evil Village.jpg"
-                 },
-                 {
-                     "name": "Final Fantasy XIV",
-                     "description": "Популярная MMORPG с захватывающим сюжетом и огромным миром, где игроки могут взаимодействовать и сражаться с врагами.",
-                     "genre": "MMORPG",
-                     "platform": ["PC", "PS4", "PS5"],
-                     "rating": "10/10",
-                     "release_date": "30 августа 2013",
-                     "developer": "Square Enix",
-                     "country": "Япония",
-                     "minimum_requirements": {
-                         "OS": "Windows 7 (64-bit)",
-                         "Processor": "Intel Core i5 или AMD A8",
-                         "RAM": "4 GB",
-                         "Graphics": "NVIDIA GeForce 8800 или ATI Radeon HD 4200",
-                         "DirectX": "Версии 11",
-                         "Network": "Широкополосное подключение к интернету",
-                         "Disk_Space": "60 GB свободного места",
-                         "Additional": "N/A"
-                     },
-                     "recommended_requirements": {
-                         "OS": "Windows 10 (64-bit)",
-                         "Processor": "Intel Core i7 или AMD Ryzen 5",
-                         "RAM": "8 GB",
-                         "Graphics": "NVIDIA GeForce GTX 660 или AMD Radeon HD 7950",
-                         "DirectX": "Версии 11",
-                         "Network": "Широкополосное подключение к интернету",
-                         "Disk_Space": "60 GB свободного места",
-                         "Additional": "N/A"
-                     },
-                     "video-id": "NvmSMMNlWk0",
-                     "path-image": "D:/cource_project/cource_project/images/covers/Final Fantasy XIV.jpg"
-                 },
-                 {
-                     "name": "The Last of Us Part II",
-                     "description": "Эмоциональная история о выживании, мести и искуплении в постапокалиптическом мире.",
-                     "genre": "Action-Adventure",
-                     "platform": ["PS4"],
-                     "rating": "10/10",
-                     "release_date": "19 июня 2020",
-                     "developer": "Naughty Dog",
-                     "country": "США",
-                     "minimum_requirements": {
-                         "OS": "PS4",
-                         "Processor": "N/A",
-                         "RAM": "N/A",
-                         "Graphics": "N/A",
-                         "DirectX": "N/A",
-                         "Network": "N/A",
-                         "Disk_Space": "N/A",
-                         "Additional": "N/A"
-                     },
-                     "recommended_requirements": {
-                         "OS": "PS4",
-                         "Processor": "N/A",
-                         "RAM": "N/A",
-                         "Graphics": "N/A",
-                         "DirectX": "N/A",
-                         "Network": "N/A",
-                         "Disk_Space": "N/A",
-                         "Additional": "N/A"
-                     },
-                     "video-id": "-Zu2RDdGjj4",
-                     "path-image": "D:/cource_project/cource_project/images/covers/The Last of Us Part II.jpg"
-                 },
-                 {
-                     "name": "Death Stranding",
-                     "description": "Игра с уникальным геймплеем, где игроки выступают в роли курьера в постапокалиптическом мире, соединяя разрозненные общества.",
-                     "genre": "Action",
-                     "platform": ["PC", "PS4"],
-                     "rating": "9/10",
-                     "release_date": "8 ноября 2019",
-                     "developer": "Kojima Productions",
-                     "country": "Япония",
-                     "minimum_requirements": {
-                         "OS": "Windows 10 (64-bit)",
-                         "Processor": "Intel Core i5-3470 or AMD Ryzen 3 1200",
-                         "RAM": "8 GB",
-                         "Graphics": "NVIDIA GeForce GTX 1050 or AMD Radeon RX 560",
-                         "DirectX": "Версии 12",
-                         "Network": "Широкополосное подключение к интернету",
-                         "Disk_Space": "80 GB свободного места",
-                         "Additional": "N/A"
-                     },
-                     "recommended_requirements": {
-                         "OS": "Windows 10 (64-bit)",
-                         "Processor": "Intel Core i7-3770 or AMD Ryzen 5 1600X",
-                         "RAM": "8 GB",
-                         "Graphics": "NVIDIA GeForce GTX 1060 or AMD Radeon RX 590",
-                         "DirectX": "Версии 12",
-                         "Network": "Широкополосное подключение к интернету",
-                         "Disk_Space": "80 GB свободного места",
-                         "Additional": "N/A"
-                     },
-                     "video-id": "yHFSdQu2Hps",
-                     "path-image": "D:/cource_project/cource_project/images/covers/Death Stranding.jpg"
-                 },
-                 {
-                     "name": "Hades",
-                     "description": "Игра в жанре rogue-like, где игроки пытаются сбежать из Подземного мира, с уникальными механиками и захватывающей историей.",
-                     "genre": "Rogue-like",
-                     "platform": ["PC", "Nintendo Switch", "PS4", "PS5", "Xbox One", "Xbox Series X"],
-                     "rating": "10/10",
-                     "release_date": "17 сентября 2020",
-                     "developer": "Supergiant Games",
-                     "country": "США",
-                     "minimum_requirements": {
-                         "OS": "Windows 7 (64-bit)",
-                         "Processor": "Intel Core i5 или AMD A8",
-                         "RAM": "4 GB",
-                         "Graphics": "NVIDIA GeForce 650 или AMD Radeon HD 7770",
-                         "DirectX": "Версии 11",
-                         "Network": "Широкополосное подключение к интернету",
-                         "Disk_Space": "15 GB свободного места",
-                         "Additional": "N/A"
-                     },
-                     "recommended_requirements": {
-                         "OS": "Windows 10 (64-bit)",
-                         "Processor": "Intel Core i7 или AMD Ryzen 5",
-                         "RAM": "8 GB",
-                         "Graphics": "NVIDIA GeForce GTX 970 или AMD Radeon RX 580",
-                         "DirectX": "Версии 11",
-                         "Network": "Широкополосное подключение к интернету",
-                         "Disk_Space": "15 GB свободного места",
-                         "Additional": "N/A"
-                     },
-                     "video-id": "q21orr-kVqU",
-                     "path-image": "D:/cource_project/cource_project/images/covers/Hades.jpg"
-                 },
-                 {
-                     "name": "Dying Light 2",
-                     "description": "Игра с открытым миром, в которой игроки сражаются с зомби и принимают решения, влияющие на мир вокруг них.",
-                     "genre": "Action RPG",
-                     "platform": ["PC", "PS4", "PS5", "Xbox One", "Xbox Series X"],
-                     "rating": "8/10",
-                     "release_date": "4 февраля 2022",
-                     "developer": "Techland",
-                     "country": "Польша",
-                     "minimum_requirements": {
-                         "OS": "Windows 10 (64-bit)",
-                         "Processor": "Intel Core i3-2330 or AMD FX-6300",
-                         "RAM": "8 GB",
-                         "Graphics": "NVIDIA GeForce GTX 1050 или AMD Radeon RX 560",
-                         "DirectX": "Версии 12",
-                         "Network": "Широкополосное подключение к интернету",
-                         "Disk_Space": "60 GB свободного места",
-                         "Additional": "N/A"
-                     },
-                     "recommended_requirements": {
-                         "OS": "Windows 10 (64-bit)",
-                         "Processor": "Intel Core i5-4670 or AMD Ryzen 5 1500X",
-                         "RAM": "16 GB",
-                         "Graphics": "NVIDIA GeForce GTX 1050 Ti or AMD Radeon RX 5600 XT",
-                         "DirectX": "Версии 12",
-                         "Network": "Широкополосное подключение к интернету",
-                         "Disk_Space": "60 GB свободного места",
-                         "Additional": "N/A"
-                     },
-                     "video-id": "Y6qUqabk-aE",
-                     "path-image": "D:/cource_project/cource_project/images/covers/Dying Light 2.jpg"
-                 },
-                 {
-                        "name": "Stardew Valley",
-                        "description": "Симулятор фермерства, где игроки могут выращивать растения, заботиться о животных и строить свои отношения с местными жителями.",
-                        "genre": "Simulation",
-                        "platform": ["PC", "PS4", "Xbox One", "Nintendo Switch", "Mobile"],
-                        "rating": "9/10",
-                        "release_date": "26 февраля 2016",
-                        "developer": "ConcernedApe",
-                        "country": "США",
-                        "minimum_requirements": {
-                            "OS": "Windows 7 or higher",
-                            "Processor": "2.0 GHz",
-                            "RAM": "2 GB",
-                            "Graphics": "128 MB video memory, OpenGL 2.0+",
-                            "DirectX": "Версии 10",
-                            "Network": "Широкополосное подключение к интернету",
-                            "Disk_Space": "1 GB свободного места",
-                            "Additional": "N/A"
-                        },
-                        "recommended_requirements": {
-                            "OS": "Windows 10",
-                            "Processor": "2.0 GHz",
-                            "RAM": "4 GB",
-                            "Graphics": "1 GB video memory",
-                            "DirectX": "Версии 10",
-                            "Network": "Широкополосное подключение к интернету",
-                            "Disk_Space": "1 GB свободного места",
-                            "Additional": "N/A"
-                        },
-                        "video-id": "6TbQygrHBvg",
-                        "path-image": "D:/cource_project/cource_project/images/covers/Stardew Valley.jpg"
-                    },
-                    {
-                        "name": "Tales of Arise",
-                        "description": "Новая игра в серии Tales с захватывающим сюжетом и улучшенной боевой системой, предлагающая игрокам погрузиться в богатый мир.",
-                        "genre": "RPG",
-                        "platform": ["PC", "PS4", "PS5", "Xbox One", "Xbox Series X"],
-                        "rating": "9/10",
-                        "release_date": "10 сентября 2021",
-                        "developer": "Bandai Namco Entertainment",
-                        "country": "Япония",
-                        "minimum_requirements": {
-                            "OS": "Windows 10 (64-bit)",
-                            "Processor": "Intel Core i5-2500 or AMD Ryzen 3 1200",
-                            "RAM": "8 GB",
-                            "Graphics": "NVIDIA GeForce GTX 950 or AMD Radeon RX 460",
-                            "DirectX": "Версии 11",
-                            "Network": "Широкополосное подключение к интернету",
-                            "Disk_Space": "60 GB свободного места",
-                            "Additional": "N/A"
-                        },
-                        "recommended_requirements": {
-                            "OS": "Windows 10 (64-bit)",
-                            "Processor": "Intel Core i7-3770 or AMD Ryzen 5 1600",
-                            "RAM": "16 GB",
-                            "Graphics": "NVIDIA GeForce GTX 1060 or AMD Radeon RX 580",
-                            "DirectX": "Версии 11",
-                            "Network": "Широкополосное подключение к интернету",
-                            "Disk_Space": "60 GB свободного места",
-                            "Additional": "N/A"
-                        },
-                        "video-id": "goTajncHOAk",
-                        "path-image": "D:/cource_project/cource_project/images/covers/Tales of Arise.jpg"
-                    },
-                    {
-                        "name": "Fall Guys: Ultimate Knockout",
-                        "description": "Многопользовательская игра, где игроки соревнуются в различных веселых испытаниях, чтобы стать последним выжившим.",
-                        "genre": "Party",
-                        "platform": ["PC", "PS4", "PS5", "Xbox One", "Nintendo Switch"],
-                        "rating": "8/10",
-                        "release_date": "4 августа 2020",
-                        "developer": "Mediatonic",
-                        "country": "Великобритания",
-                        "minimum_requirements": {
-                            "OS": "Windows 10 (64-bit)",
-                            "Processor": "Intel Core i5 или аналогичный",
-                            "RAM": "8 GB",
-                            "Graphics": "NVIDIA GTX 660 или AMD Radeon HD 7950",
-                            "DirectX": "Версии 11",
-                            "Network": "Широкополосное подключение к интернету",
-                            "Disk_Space": "2 GB свободного места",
-                            "Additional": "N/A"
-                        },
-                        "recommended_requirements": {
-                            "OS": "Windows 10 (64-bit)",
-                            "Processor": "Intel Core i7 или аналогичный",
-                            "RAM": "16 GB",
-                            "Graphics": "NVIDIA GTX 970 или AMD Radeon RX 480",
-                            "DirectX": "Версии 11",
-                            "Network": "Широкополосное подключение к интернету",
-                            "Disk_Space": "2 GB свободного места",
-                            "Additional": "N/A"
-                        },
-                        "video-id": "kM09mtvKLHU",
-                        "path-image": "D:/cource_project/cource_project/images/covers/Fall guys.jpg"
-                    },
-                    {
-                        "name": "The Outer Worlds",
-                        "description": "Научно-фантастическая RPG с открытым миром, где игроки исследуют колонии и принимают решения, влияющие на сюжет.",
-                        "genre": "RPG",
-                        "platform": ["PC", "PS4", "Xbox One", "Nintendo Switch"],
-                        "rating": "9/10",
-                        "release_date": "25 октября 2019",
-                        "developer": "Obsidian Entertainment",
-                        "country": "США",
-                        "minimum_requirements": {
-                            "OS": "Windows 7 (64-bit)",
-                            "Processor": "Intel Core i3-3250 или AMD FX-4300",
-                            "RAM": "4 GB",
-                            "Graphics": "NVIDIA GTX 650 или AMD Radeon HD 7850",
-                            "DirectX": "Версии 11",
-                            "Network": "Широкополосное подключение к интернету",
-                            "Disk_Space": "40 GB свободного места",
-                            "Additional": "N/A"
-                        },
-                        "recommended_requirements": {
-                            "OS": "Windows 10 (64-bit)",
-                            "Processor": "Intel Core i5-6600 или AMD Ryzen 5 1400",
-                            "RAM": "8 GB",
-                            "Graphics": "NVIDIA GTX 1060 или AMD Radeon RX 570",
-                            "DirectX": "Версии 11",
-                            "Network": "Широкополосное подключение к интернету",
-                            "Disk_Space": "40 GB свободного места",
-                            "Additional": "N/A"
-                        },
-                        "video-id": "pxQJFChe_V8",
-                        "path-image": "D:/cource_project/cource_project/images/covers/The Outer Worlds.jpg"
-                    },
-                    {
-                        "name": "Forza Horizon 5",
-                        "description": "Открытый автосимулятор с красочными пейзажами Мексики и множеством автомобилей для гонок.",
-                        "genre": "Racing",
-                        "platform": ["PC", "Xbox One", "Xbox Series X"],
-                        "rating": "10/10",
-                        "release_date": "9 ноября 2021",
-                        "developer": "Playground Games",
-                        "country": "Великобритания",
-                        "minimum_requirements": {
-                            "OS": "Windows 10 (64-bit)",
-                            "Processor": "Intel Core i5-4460 или AMD Ryzen 3 1200",
-                            "RAM": "8 GB",
-                            "Graphics": "NVIDIA GTX 970 или AMD Radeon RX 460",
-                            "DirectX": "Версии 12",
-                            "Network": "Широкополосное подключение к интернету",
-                            "Disk_Space": "110 GB свободного места",
-                            "Additional": "N/A"
-                        },
-                        "recommended_requirements": {
-                            "OS": "Windows 10 (64-bit)",
-                            "Processor": "Intel Core i7-7500 или AMD Ryzen 5 1400",
-                            "RAM": "16 GB",
-                            "Graphics": "NVIDIA GTX 1070 или AMD Radeon RX 590",
-                            "DirectX": "Версии 12",
-                            "Network": "Широкополосное подключение к интернету",
-                            "Disk_Space": "110 GB свободного места",
-                            "Additional": "N/A"
-                        },
-                        "video-id": "VMQQdeMXjQE",
-                        "path-image": "D:/cource_project/cource_project/images/covers/forza.jpg"
-                    },
-                    {
-                           "name": "Elden Ring",
-                           "description": "Открытый мир, созданный в сотрудничестве с Джорджем Мартином, где игроки исследуют земли между.",
-                           "genre": "Action RPG",
-                           "platform": ["PC", "PS4", "PS5", "Xbox One", "Xbox Series X"],
-                           "rating": "10/10",
-                           "release_date": "25 февраля 2022",
-                           "developer": "FromSoftware",
-                           "country": "Япония",
-                           "minimum_requirements": {
-                               "OS": "Windows 10 (64-bit)",
-                               "Processor": "Intel Core i5-8400 or AMD Ryzen 3 3300X",
-                               "RAM": "12 GB",
-                               "Graphics": "NVIDIA GeForce GTX 1060 or AMD Radeon RX 580",
-                               "DirectX": "Версии 11",
-                               "Network": "Широкополосное подключение к интернету",
-                               "Disk_Space": "60 GB свободного места",
-                               "Additional": "N/A"
-                           },
-                           "recommended_requirements": {
-                               "OS": "Windows 10 (64-bit)",
-                               "Processor": "Intel Core i7-8700 or AMD Ryzen 5 3600",
-                               "RAM": "16 GB",
-                               "Graphics": "NVIDIA GeForce 1070 or AMD Radeon RX 6800",
-                               "DirectX": "Версии 11",
-                               "Network": "Широкополосное подключение к интернету",
-                               "Disk_Space": "60 GB свободного места",
-                               "Additional": "N/A"
-                           },
-                           "video-id": "E_z15O6JmjI",
-                           "path-image": "D:/cource_project/cource_project/images/covers/eldenring.png"
-                       },
-                       {
-                           "name": "Demon's Souls (Remake)",
-                           "description": "Переосмысленная версия классической игры с улучшенной графикой и механикой боя.",
-                           "genre": "Action RPG",
-                           "platform": ["PS5"],
-                           "rating": "9/10",
-                           "release_date": "12 ноября 2020",
-                           "developer": "Bluepoint Games",
-                           "country": "США",
-                           "minimum_requirements": {
-                               "OS": "PS5",
-                               "Processor": "N/A",
-                               "RAM": "N/A",
-                               "Graphics": "N/A",
-                               "DirectX": "N/A",
-                               "Network": "N/A",
-                               "Disk_Space": "N/A",
-                               "Additional": "N/A"
-                           },
-                           "recommended_requirements": {
-                               "OS": "PS5",
-                               "Processor": "N/A",
-                               "RAM": "N/A",
-                               "Graphics": "N/A",
-                               "DirectX": "N/A",
-                               "Network": "N/A",
-                               "Disk_Space": "N/A",
-                               "Additional": "N/A"
-                           },
-                           "video-id": "1a_SWtsv9gs",
-                           "path-image": "D:/cource_project/cource_project/images/covers/Demons Souls (Remake).jpg"
-                       },
-                       {
-                           "name": "A Plague Tale: Requiem",
-                           "description": "Продолжение истории о двух братьях в мире, охваченном чумой, с акцентом на стелс и исследование.",
-                           "genre": "Action-Adventure",
-                           "platform": ["PC", "PS5", "Xbox Series X"],
-                           "rating": "9/10",
-                           "release_date": "18 октября 2022",
-                           "developer": "Asobo Studio",
-                           "country": "Франция",
-                           "minimum_requirements": {
-                               "OS": "Windows 10 (64-bit)",
-                               "Processor": "Intel Core i5-2500 или AMD Ryzen 5 1400",
-                               "RAM": "8 GB",
-                               "Graphics": "NVIDIA GeForce GTX 770 или AMD Radeon R9 280",
-                               "DirectX": "Версии 11",
-                               "Network": "Широкополосное подключение к интернету",
-                               "Disk_Space": "55 GB свободного места",
-                               "Additional": "N/A"
-                           },
-                           "recommended_requirements": {
-                               "OS": "Windows 10 (64-bit)",
-                               "Processor": "Intel Core i7-3770 или AMD Ryzen 5 1600",
-                               "RAM": "16 GB",
-                               "Graphics": "NVIDIA GeForce GTX 1060 или AMD Radeon RX 580",
-                               "DirectX": "Версии 11",
-                               "Network": "Широкополосное подключение к интернету",
-                               "Disk_Space": "55 GB свободного места",
-                               "Additional": "N/A"
-                           },
-                           "video-id": "2g1qoeVYzDQ",
-                           "path-image": "D:/cource_project/cource_project/images/covers/A Plague Tale.jpg"
-                       },
-                       {
-                           "name": "Horizon Forbidden West",
-                           "description": "Приключение Элой в новом открытом мире, полном механических существ и древних тайн.",
-                           "genre": "Action RPG",
-                           "platform": ["PS4", "PS5"],
-                           "rating": "9/10",
-                           "release_date": "18 февраля 2022",
-                           "developer": "Guerrilla Games",
-                           "country": "Нидерланды",
-                           "minimum_requirements": {
-                               "OS": "PS4 или PS5",
-                               "Processor": "N/A",
-                               "RAM": "N/A",
-                               "Graphics": "N/A",
-                               "DirectX": "N/A",
-                               "Network": "N/A",
-                               "Disk_Space": "N/A",
-                               "Additional": "N/A"
-                           },
-                           "recommended_requirements": {
-                               "OS": "PS4 или PS5",
-                               "Processor": "N/A",
-                               "RAM": "N/A",
-                               "Graphics": "N/A",
-                               "DirectX": "N/A",
-                               "Network": "N/A",
-                               "Disk_Space": "N/A",
-                               "Additional": "N/A"
-                           },
-                           "video-id": "49uwf-o7Hhc",
-                           "path-image": "D:/cource_project/cource_project/images/covers/Horizon (1).jpg"
-                       },
-                       {
-                           "name": "Stray",
-                           "description": "Игра о коте, который исследует киберпанковый город, помогая другим существам.",
-                           "genre": "Adventure",
-                           "platform": ["PC", "PS4", "PS5"],
-                           "rating": "8/10",
-                           "release_date": "19 июля 2022",
-                           "developer": "BlueTwelve Studio",
-                           "country": "Франция",
-                           "minimum_requirements": {
-                               "OS": "Windows 10 (64-bit)",
-                               "Processor": "Intel Core i5-2500 или AMD Ryzen 3 3200G",
-                               "RAM": "8 GB",
-                               "Graphics": "NVIDIA GeForce GTX 650 или AMD Radeon HD 7770",
-                               "DirectX": "Версии 11",
-                               "Network": "Широкополосное подключение к интернету",
-                               "Disk_Space": "10 GB свободного места",
-                               "Additional": "N/A"
-                           },
-                           "recommended_requirements": {
-                               "OS": "Windows 10 (64-bit)",
-                               "Processor": "Intel Core i7-4700 или AMD Ryzen 5 1400",
-                               "RAM": "8 GB",
-                               "Graphics": "NVIDIA GeForce GTX 780 или AMD Radeon RX 560",
-                               "DirectX": "Версии 11",
-                               "Network": "Широкополосное подключение к интернету",
-                               "Disk_Space": "10 GB свободного места",
-                               "Additional": "N/A"
-                           },
-                           "video-id": "xQ0HtCJQ5Aw",
-                           "path-image": "D:/cource_project/cource_project/images/covers/Stray.jpg"
-                       },
-                       {
-                           "name": "Sifu",
-                           "description": "Боевая игра, в которой игроки сражаются с врагами, используя элементы кунг-фу и уникальную механику старения.",
-                           "genre": "Action",
-                           "platform": ["PC", "PS4", "PS5", "Xbox One", "Nintendo Switch"],
-                           "rating": "9/10",
-                           "release_date": "8 февраля 2022",
-                           "developer": "Sloclap",
-                           "country": "Франция",
-                           "minimum_requirements": {
-                               "OS": "Windows 10 (64-bit)",
-                               "Processor": "Intel Core i3-3220 или AMD FX-6100",
-                               "RAM": "4 GB",
-                               "Graphics": "NVIDIA GeForce GTX 780 или AMD Radeon R9 280",
-                               "DirectX": "Версии 11",
-                               "Network": "Широкополосное подключение к интернету",
-                               "Disk_Space": "10 GB свободного места",
-                               "Additional": "N/A"
-                           },
-                           "recommended_requirements": {
-                               "OS": "Windows 10 (64-bit)",
-                               "Processor": "Intel Core i5-4570 или AMD Ryzen 5 1400",
-                               "RAM": "8 GB",
-                               "Graphics": "NVIDIA GeForce GTX 970 или AMD Radeon RX 580",
-                               "DirectX": "Версии 11",
-                               "Network": "Широкополосное подключение к интернету",
-                               "Disk_Space": "10 GB свободного места",
-                               "Additional": "N/A"
-                           },
-                           "video-id": "mjSksG8nY-I",
-                           "path-image": "D:/cource_project/cource_project/images/covers/Sifu.jpg"
-                       }
+        "name": "God of War",
+        "path-image": "D:/cource_project/cource_project/images/covers/God of War.jpg",
+        "platform": [
+            "PS4"
+        ],
+        "rating": "10/10",
+        "recommended_requirements": {
+            "Additional": "N/A",
+            "DirectX": "N/A",
+            "Disk_Space": "N/A",
+            "Graphics": "N/A",
+            "Network": "N/A",
+            "OS": "PS4",
+            "Processor": "N/A",
+            "RAM": "8 GB"
+        },
+        "release_date": "20 апреля 2018",
+        "video-id": "xHAhelG3gMs"
+    },
+    {
+        "country": "США",
+        "description": "Жизнь бандита в открытом мире Дикого Запада, насыщенная историей, персонажами и атмосферными моментами.",
+        "developer": "Rockstar Games",
+        "genre": "Action-Adventure",
+        "minimum_requirements": {
+            "Additional": "N/A",
+            "DirectX": "Версии 11",
+            "Disk_Space": "150 GB свободного места",
+            "Graphics": "NVIDIA GeForce GTX 770",
+            "Network": "Широкополосное подключение к интернету",
+            "OS": "64-bit Windows 7",
+            "Processor": "Intel Core i5-2500K",
+            "RAM": "8 GB"
+        },
+        "name": "Red Dead Redemption 2",
+        "path-image": "D:/cource_project/cource_project/images/covers/red dead.jpg",
+        "platform": [
+            "PC",
+            "PS4",
+            "Xbox One"
+        ],
+        "rating": "10/10",
+        "recommended_requirements": {
+            "Additional": "N/A",
+            "DirectX": "Версии 11",
+            "Disk_Space": "150 GB свободного места",
+            "Graphics": "NVIDIA GeForce GTX 1060",
+            "Network": "Широкополосное подключение к интернету",
+            "OS": "64-bit Windows 10",
+            "Processor": "Intel Core i7-4770K",
+            "RAM": "12 GB"
+        },
+        "release_date": "26 октября 2018",
+        "video-id": "s7m_ruPYdIc"
+    },
+    {
+        "country": "Япония",
+        "description": "Увлекательное приключение Марио по различным мирам, где он использует свою новую способность 'Каппирование' для преодоления препятствий.",
+        "developer": "Nintendo",
+        "genre": "Platformer",
+        "minimum_requirements": {
+            "Additional": "N/A",
+            "DirectX": "N/A",
+            "Disk_Space": "N/A",
+            "Graphics": "N/A",
+            "Network": "N/A",
+            "OS": "Nintendo Switch",
+            "Processor": "N/A",
+            "RAM": "4 GB"
+        },
+        "name": "Super Mario Odyssey",
+        "path-image": "D:/cource_project/cource_project/images/covers/super mario.jpg",
+        "platform": [
+            "Nintendo Switch"
+        ],
+        "rating": "10/10",
+        "recommended_requirements": {
+            "Additional": "N/A",
+            "DirectX": "N/A",
+            "Disk_Space": "N/A",
+            "Graphics": "N/A",
+            "Network": "N/A",
+            "OS": "Nintendo Switch",
+            "Processor": "N/A",
+            "RAM": "4 GB"
+        },
+        "release_date": "27 октября 2017",
+        "video-id": "b3wNrtKvnhc"
+    },
+    {
+        "country": "США",
+        "description": "Командный шутер с уникальными персонажами, каждый из которых имеет свои способности, что создает разнообразные стратегии для победы.",
+        "developer": "Blizzard Entertainment",
+        "genre": "First-Person Shooter",
+        "minimum_requirements": {
+            "Additional": "N/A",
+            "DirectX": "Версии 11",
+            "Disk_Space": "30 GB свободного места",
+            "Graphics": "NVIDIA GeForce GTX 460",
+            "Network": "Широкополосное подключение к интернету",
+            "OS": "64-bit Windows 7/8/10",
+            "Processor": "Intel Core i3",
+            "RAM": "6 GB"
+        },
+        "name": "Overwatch",
+        "path-image": "D:/cource_project/cource_project/images/covers/Overwatch.jpg",
+        "platform": [
+            "PC",
+            "PS4",
+            "Xbox One",
+            "Nintendo Switch"
+        ],
+        "rating": "9/10",
+        "recommended_requirements": {
+            "Additional": "N/A",
+            "DirectX": "Версии 11",
+            "Disk_Space": "30 GB свободного места",
+            "Graphics": "NVIDIA GeForce GTX 670",
+            "Network": "Широкополосное подключение к интернету",
+            "OS": "64-bit Windows 10",
+            "Processor": "Intel Core i5",
+            "RAM": "8 GB"
+        },
+        "release_date": "24 мая 2016",
+        "video-id": "yXL9cqlduWQ"
+    },
+    {
+        "country": "Швеция",
+        "description": "Игра на выживание с открытым миром, в которой игроки могут строить, исследовать и создавать свои приключения в блоковом мире.",
+        "developer": "Mojang Studios",
+        "genre": "Sandbox",
+        "minimum_requirements": {
+            "Additional": "Доступ в интернет для активации",
+            "DirectX": "Версии 11",
+            "Disk_Space": "1 GB свободного места",
+            "Graphics": "NVIDIA GeForce 400 Series",
+            "Network": "Широкополосное подключение к интернету",
+            "OS": "64-bit Windows 10",
+            "Processor": "Intel Core i3",
+            "RAM": "4 GB"
+        },
+        "name": "Minecraft",
+        "path-image": "D:/cource_project/cource_project/images/covers/Minecraft.jpg",
+        "platform": [
+            "PC",
+            "PS4",
+            "Xbox One",
+            "Nintendo Switch"
+        ],
+        "rating": "9/10",
+        "recommended_requirements": {
+            "Additional": "N/A",
+            "DirectX": "Версии 11",
+            "Disk_Space": "4 GB свободного места",
+            "Graphics": "NVIDIA GeForce 700 Series",
+            "Network": "Широкополосное подключение к интернету",
+            "OS": "64-bit Windows 10",
+            "Processor": "Intel Core i5",
+            "RAM": "8 GB"
+        },
+        "release_date": "18 ноября 2011",
+        "video-id": "RITB0W-5yc4"
+    },
+    {
+        "country": "Австралия",
+        "description": "Исследуйте мрачный мир в роли рыцаря, сражаясь с врагами и решая головоломки в этой красиво оформленной игре.",
+        "developer": "Team Cherry",
+        "genre": "Metroidvania",
+        "minimum_requirements": {
+            "Additional": "N/A",
+            "DirectX": "Версии 11",
+            "Disk_Space": "9 GB свободного места",
+            "Graphics": "NVIDIA GeForce 660",
+            "Network": "Широкополосное подключение к интернету",
+            "OS": "64-bit Windows 7",
+            "Processor": "Intel Core 2 Duo",
+            "RAM": "4 GB"
+        },
+        "name": "Hollow Knight",
+        "path-image": "D:/cource_project/cource_project/images/covers/hollow knight.jpg",
+        "platform": [
+            "PC",
+            "PS4",
+            "Xbox One",
+            "Nintendo Switch"
+        ],
+        "rating": "10/10",
+        "recommended_requirements": {
+            "Additional": "N/A",
+            "DirectX": "Версии 11",
+            "Disk_Space": "9 GB свободного места",
+            "Graphics": "NVIDIA GeForce 750",
+            "Network": "Широкополосное подключение к интернету",
+            "OS": "64-bit Windows 10",
+            "Processor": "Intel Core i5",
+            "RAM": "8 GB"
+        },
+        "release_date": "24 февраля 2017",
+        "video-id": "hg25ONutphA"
+    },
+    {
+        "country": "США",
+        "description": "Многопользовательская игра, где игроки работают вместе, чтобы найти предателя среди них, используя логику и дедукцию.",
+        "developer": "Innersloth",
+        "genre": "Party",
+        "minimum_requirements": {
+            "Additional": "N/A",
+            "DirectX": "Версии 10",
+            "Disk_Space": "250 MB свободного места",
+            "Graphics": "NVIDIA GeForce 510",
+            "Network": "Широкополосное подключение к интернету",
+            "OS": "64-bit Windows 10",
+            "Processor": "Intel Core 2 Duo",
+            "RAM": "4 GB"
+        },
+        "name": "Among Us",
+        "path-image": "D:/cource_project/cource_project/images/covers/Among Us.jpg",
+        "platform": [
+            "PC",
+            "Mobile",
+            "Nintendo Switch"
+        ],
+        "rating": "8/10",
+        "recommended_requirements": {
+            "Additional": "N/A",
+            "DirectX": "Версии 10",
+            "Disk_Space": "250 MB свободного места",
+            "Graphics": "NVIDIA GeForce 700 Series",
+            "Network": "Широкополосное подключение к интернету",
+            "OS": "64-bit Windows 10",
+            "Processor": "Intel i5 or equivalent",
+            "RAM": "8 GB"
+        },
+        "release_date": "15 декабря 2018",
+        "video-id": "iE0xHBitWMQ"
+    },
+    {
+        "country": "США",
+        "description": "Научно-фантастический шутер с элементами RPG, в котором игроки сражаются с врагами и исследуют различные планеты.",
+        "developer": "Bungie",
+        "genre": "FPS",
+        "minimum_requirements": {
+            "Additional": "N/A",
+            "DirectX": "Версии 11",
+            "Disk_Space": "105 GB свободного места",
+            "Graphics": "NVIDIA GeForce GTX 660 or AMD Radeon HD 7950",
+            "Network": "Широкополосное подключение к интернету",
+            "OS": "64-bit Windows 7",
+            "Processor": "Intel Core i3-3250 or AMD FX-4350",
+            "RAM": "6 GB"
+        },
+        "name": "Destiny 2",
+        "path-image": "D:/cource_project/cource_project/images/covers/destiny.jpg",
+        "platform": [
+            "PC",
+            "PS4",
+            "Xbox One"
+        ],
+        "rating": "8/10",
+        "recommended_requirements": {
+            "Additional": "N/A",
+            "DirectX": "Версии 11",
+            "Disk_Space": "105 GB свободного места",
+            "Graphics": "NVIDIA GeForce GTX 970 or AMD Radeon R9 390",
+            "Network": "Широкополосное подключение к интернету",
+            "OS": "64-bit Windows 10",
+            "Processor": "Intel Core i5-2400 or AMD Ryzen R5 1600X",
+            "RAM": "8 GB"
+        },
+        "release_date": "6 сентября 2017",
+        "video-id": "4Y8Kxtwu8AQ"
+    },
+    {
+        "country": "Япония",
+        "description": "Переосмысленная версия классической JRPG с улучшенной графикой и современным геймплеем, рассказывающая о борьбе против корпорации Шинра.",
+        "developer": "Square Enix",
+        "genre": "RPG",
+        "minimum_requirements": {
+            "Additional": "N/A",
+            "DirectX": "N/A",
+            "Disk_Space": "100 GB свободного места",
+            "Graphics": "N/A",
+            "Network": "N/A",
+            "OS": "PS4",
+            "Processor": "N/A",
+            "RAM": "8 GB"
+        },
+        "name": "Final Fantasy VII Remake",
+        "path-image": "D:/cource_project/cource_project/images/covers/Final Fantasy.jpg",
+        "platform": [
+            "PS4"
+        ],
+        "rating": "9/10",
+        "recommended_requirements": {
+            "Additional": "N/A",
+            "DirectX": "N/A",
+            "Disk_Space": "100 GB свободного места",
+            "Graphics": "N/A",
+            "Network": "N/A",
+            "OS": "PS4",
+            "Processor": "N/A",
+            "RAM": "8 GB"
+        },
+        "release_date": "10 апреля 2020",
+        "video-id": "O2Q0TLyMkKw"
+    },
+    {
+        "country": "Япония",
+        "description": "Сложная игра о самурае, который должен спасти своего господина, с уникальной механикой боя и акцентом на парирование.",
+        "developer": "FromSoftware",
+        "genre": "Action-Adventure",
+        "minimum_requirements": {
+            "Additional": "N/A",
+            "DirectX": "Версии 11",
+            "Disk_Space": "25 GB свободного места",
+            "Graphics": "NVIDIA GeForce GTX 760 or AMD Radeon HD 7950",
+            "Network": "Широкополосное подключение к интернету",
+            "OS": "64-bit Windows 7",
+            "Processor": "Intel Core i5-2500K or AMD Ryzen 5 1400",
+            "RAM": "4 GB"
+        },
+        "name": "Sekiro: Shadows Die Twice",
+        "path-image": "D:/cource_project/cource_project/images/covers/sekiro.jpg",
+        "platform": [
+            "PC",
+            "PS4",
+            "Xbox One"
+        ],
+        "rating": "9/10",
+        "recommended_requirements": {
+            "Additional": "N/A",
+            "DirectX": "Версии 11",
+            "Disk_Space": "25 GB свободного места",
+            "Graphics": "NVIDIA GeForce GTX 970 or AMD Radeon RX 570",
+            "Network": "Широкополосное подключение к интернету",
+            "OS": "64-bit Windows 10",
+            "Processor": "Intel Core i7-3770 or AMD Ryzen 5 1600X",
+            "RAM": "8 GB"
+        },
+        "release_date": "22 марта 2019",
+        "video-id": "4iu3STaybQY"
+    },
+    {
+        "country": "Япония",
+        "description": "Симулятор жизни на острове, где игроки могут строить, исследовать и дружить с милыми животными.",
+        "developer": "Nintendo",
+        "genre": "Simulation",
+        "minimum_requirements": {
+            "Additional": "N/A",
+            "DirectX": "N/A",
+            "Disk_Space": "N/A",
+            "Graphics": "N/A",
+            "Network": "N/A",
+            "OS": "Nintendo Switch",
+            "Processor": "N/A",
+            "RAM": "4 GB"
+        },
+        "name": "Animal Crossing: New Horizons",
+        "path-image": "D:/cource_project/cource_project/images/covers/animal crossing.jpg",
+        "platform": [
+            "Nintendo Switch"
+        ],
+        "rating": "10/10",
+        "recommended_requirements": {
+            "Additional": "N/A",
+            "DirectX": "N/A",
+            "Disk_Space": "N/A",
+            "Graphics": "N/A",
+            "Network": "N/A",
+            "OS": "Nintendo Switch",
+            "Processor": "N/A",
+            "RAM": "4 GB"
+        },
+        "release_date": "20 марта 2020",
+        "video-id": "CT0WUoe8NOg"
+    },
+    {
+        "country": "США",
+        "description": "Бесплатная королевская битва с динамичным геймплеем и множеством уникальных механик.",
+        "developer": "Infinity Ward",
+        "genre": "Battle Royale",
+        "minimum_requirements": {
+            "Additional": "N/A",
+            "DirectX": "Версии 11",
+            "Disk_Space": "175 GB свободного места",
+            "Graphics": "NVIDIA GeForce GTX 960 or AMD Radeon RX 460",
+            "Network": "Широкополосное подключение к интернету",
+            "OS": "64-bit Windows 10",
+            "Processor": "Intel Core i3-4340 or AMD FX-6300",
+            "RAM": "8 GB"
+        },
+        "name": "Call of Duty: Warzone",
+        "path-image": "D:/cource_project/cource_project/images/covers/cod.jpg",
+        "platform": [
+            "PC",
+            "PS4",
+            "Xbox One"
+        ],
+        "rating": "9/10",
+        "recommended_requirements": {
+            "Additional": "N/A",
+            "DirectX": "Версии 11",
+            "Disk_Space": "175 GB свободного места",
+            "Graphics": "NVIDIA GeForce GTX 1070 or AMD Radeon RX 580",
+            "Network": "Широкополосное подключение к интернету",
+            "OS": "64-bit Windows 10",
+            "Processor": "Intel Core i5-2500K or AMD Ryzen R5 1600X",
+            "RAM": "12 GB"
+        },
+        "release_date": "10 марта 2020",
+        "video-id": "_iXDzmOv0Uw"
+    },
+    {
+        "country": "Китай",
+        "description": "Открытый мир с элементами RPG, где игроки исследуют фантастический мир Тейват, собирая команду уникальных персонажей.",
+        "developer": "miHoYo",
+        "genre": "Action RPG",
+        "minimum_requirements": {
+            "Additional": "N/A",
+            "DirectX": "Версии 11",
+            "Disk_Space": "30 GB свободного места",
+            "Graphics": "NVIDIA GeForce GT 1030",
+            "Network": "Широкополосное подключение к интернету",
+            "OS": "Windows 7 SP1",
+            "Processor": "Intel Core i5",
+            "RAM": "8 GB"
+        },
+        "name": "Genshin Impact",
+        "path-image": "D:/cource_project/cource_project/images/covers/genshin.jpg",
+        "platform": [
+            "PC",
+            "PS4",
+            "Mobile",
+            "Nintendo Switch"
+        ],
+        "rating": "9/10",
+        "recommended_requirements": {
+            "Additional": "N/A",
+            "DirectX": "Версии 11",
+            "Disk_Space": "30 GB свободного места",
+            "Graphics": "NVIDIA GeForce GTX 1060",
+            "Network": "Широкополосное подключение к интернету",
+            "OS": "Windows 10",
+            "Processor": "Intel Core i7",
+            "RAM": "16 GB"
+        },
+        "release_date": "28 сентября 2020",
+        "video-id": "s-raLSzMQgA"
+    },
+    {
+        "country": "Польша",
+        "description": "Научно-фантастическая RPG, действие которой происходит в мегаполисе Найт-Сити с открытым миром и возможностью кастомизации персонажа.",
+        "developer": "CD Projekt Red",
+        "genre": "RPG",
+        "minimum_requirements": {
+            "Additional": "N/A",
+            "DirectX": "Версии 12",
+            "Disk_Space": "70 GB свободного места",
+            "Graphics": "NVIDIA GeForce GTX 780 or AMD Radeon RX 470",
+            "Network": "Широкополосное подключение к интернету",
+            "OS": "64-bit Windows 10",
+            "Processor": "Intel Core i5-3570K or AMD FX-8310",
+            "RAM": "8 GB"
+        },
+        "name": "Cyberpunk 2077",
+        "path-image": "D:/cource_project/cource_project/images/covers/cyberpunk.jpg",
+        "platform": [
+            "PC",
+            "PS4",
+            "Xbox One"
+        ],
+        "rating": "8/10",
+        "recommended_requirements": {
+            "Additional": "N/A",
+            "DirectX": "Версии 12",
+            "Disk_Space": "70 GB свободного места",
+            "Graphics": "NVIDIA GeForce GTX 1060 or AMD Radeon R9 590",
+            "Network": "Широкополосное подключение к интернету",
+            "OS": "64-bit Windows 10",
+            "Processor": "Intel Core i7-4790 or AMD Ryzen 3 3200G",
+            "RAM": "12 GB"
+        },
+        "release_date": "10 декабря 2020",
+        "video-id": "AT_i7riY688"
+    },
+    {
+        "country": "США",
+        "description": "Динамичный шутер с акцентом на быстрое перемещение и интенсивные сражения с демонами в разных мирах.",
+        "developer": "id Software",
+        "genre": "FPS",
+        "minimum_requirements": {
+            "Additional": "N/A",
+            "DirectX": "Версии 11",
+            "Disk_Space": "50 GB свободного места",
+            "Graphics": "NVIDIA GeForce GTX 1050 or AMD Radeon R9 280",
+            "Network": "Широкополосное подключение к интернету",
+            "OS": "64-bit Windows 10",
+            "Processor": "Intel Core i5-2400 or AMD Ryzen 3 1200",
+            "RAM": "8 GB"
+        },
+        "name": "DOOM Eternal",
+        "path-image": "D:/cource_project/cource_project/images/covers/doom.jpg",
+        "platform": [
+            "PC",
+            "PS4",
+            "Xbox One",
+            "Nintendo Switch"
+        ],
+        "rating": "9/10",
+        "recommended_requirements": {
+            "Additional": "N/A",
+            "DirectX": "Версии 11",
+            "Disk_Space": "50 GB свободного места",
+            "Graphics": "NVIDIA GeForce GTX 1070 or AMD Radeon RX 680",
+            "Network": "Широкополосное подключение к интернету",
+            "OS": "64-bit Windows 10",
+            "Processor": "Intel Core i7-6700 or AMD Ryzen 5 2600X",
+            "RAM": "8 GB"
+        },
+        "release_date": "20 марта 2020",
+        "video-id": "O_RpZl30Zp8"
+    },
+    {
+        "country": "Канада",
+        "description": "Историческая игра, в которой игроки берут на себя роль викинга Эйвора, исследуя Англию и сражаясь с врагами в открытом мире.",
+        "developer": "Ubisoft",
+        "genre": "Action-Adventure",
+        "minimum_requirements": {
+            "Additional": "N/A",
+            "DirectX": "Версии 12",
+            "Disk_Space": "40 GB свободного места",
+            "Graphics": "NVIDIA GeForce GTX 960 or AMD Radeon R9 380",
+            "Network": "Широкополосное подключение к интернету",
+            "OS": "64-bit Windows 10",
+            "Processor": "Intel Core i5-2400 or AMD Ryzen 3 1200",
+            "RAM": "8 GB"
+        },
+        "name": "Assassin's Creed Valhalla",
+        "path-image": "D:/cource_project/cource_project/images/covers/assasin.jpg",
+        "platform": [
+            "PC",
+            "PS4",
+            "PS5",
+            "Xbox One",
+            "Xbox Series X"
+        ],
+        "rating": "9/10",
+        "recommended_requirements": {
+            "Additional": "N/A",
+            "DirectX": "Версии 12",
+            "Disk_Space": "40 GB свободного места",
+            "Graphics": "NVIDIA GeForce GTX 1070 or AMD Radeon RX 560",
+            "Network": "Широкополосное подключение к интернету",
+            "OS": "64-bit Windows 10",
+            "Processor": "Intel Core i7-4790 or AMD Ryzen 5 1600",
+            "RAM": "8 GB"
+        },
+        "release_date": "10 ноября 2020",
+        "video-id": "oygZkAjHQcI"
+    },
+    {
+        "country": "Япония",
+        "description": "Игра о охоте на монстров в красивом открытом мире, где игроки могут улучшать своё снаряжение и сражаться с огромными существами.",
+        "developer": "Capcom",
+        "genre": "Action RPG",
+        "minimum_requirements": {
+            "Additional": "N/A",
+            "DirectX": "Версии 11",
+            "Disk_Space": "20 GB свободного места",
+            "Graphics": "NVIDIA GeForce GTX 760 or AMD Radeon R7 260X",
+            "Network": "Широкополосное подключение к интернету",
+            "OS": "64-bit Windows 7",
+            "Processor": "Intel Core i5-4460 or AMD FX-6300",
+            "RAM": "8 GB"
+        },
+        "name": "Monster Hunter: World",
+        "path-image": "D:/cource_project/cource_project/images/covers/Monster Hunter.jpg",
+        "platform": [
+            "PC",
+            "PS4",
+            "Xbox One"
+        ],
+        "rating": "9/10",
+        "recommended_requirements": {
+            "Additional": "N/A",
+            "DirectX": "Версии 11",
+            "Disk_Space": "20 GB свободного места",
+            "Graphics": "NVIDIA GeForce GTX 1060 or AMD Radeon RX 6000",
+            "Network": "Широкополосное подключение к интернету",
+            "OS": "64-bit Windows 10",
+            "Processor": "Intel Core i7-4000 or AMD Ryzen 5 1500X",
+            "RAM": "8 GB"
+        },
+        "release_date": "26 января 2018",
+        "video-id": "c5FAZiLfw70"
+    },
+    {
+        "country": "США",
+        "description": "Эпическая RPG с открытым миром, где игроки могут исследовать обширный континент, выполняя квесты и взаимодействуя с уникальными персонажами.",
+        "developer": "Bethesda Game Studios",
+        "genre": "RPG",
+        "minimum_requirements": {
+            "Additional": "N/A",
+            "DirectX": "Версии 9",
+            "Disk_Space": "12 GB свободного места",
+            "Graphics": "NVIDIA GeForce 8800 series or ATI 3800",
+            "Network": "Широкополосное подключение к интернету",
+            "OS": "64-bit Windows 7",
+            "Processor": "Dual-core 2.0 GHz",
+            "RAM": "6 GB"
+        },
+        "name": "The Elder Scrolls V: Skyrim",
+        "path-image": "D:/cource_project/cource_project/images/covers/skyrim.jpg",
+        "platform": [
+            "PC",
+            "PS4",
+            "Xbox One"
+        ],
+        "rating": "10/10",
+        "recommended_requirements": {
+            "Additional": "N/A",
+            "DirectX": "Версии 11",
+            "Disk_Space": "12 GB свободного места",
+            "Graphics": "NVIDIA GeForce 550 or ATI 7870",
+            "Network": "Широкополосное подключение к интернету",
+            "OS": "64-bit Windows 10",
+            "Processor": "Quad-core 2.5 GHz",
+            "RAM": "8 GB"
+        },
+        "release_date": "11 ноября 2011",
+        "video-id": "6u5iVnkaPns"
+    },
+    {
+        "country": "США",
+        "description": "Экшен-игра с элементами RPG, в которой игроки сражаются с врагами и собирают лут в ярком и комичном мире.",
+        "developer": "Gearbox Software",
+        "genre": "Loot Shooter",
+        "minimum_requirements": {
+            "Additional": "N/A",
+            "DirectX": "Версии 11",
+            "Disk_Space": "75 GB свободного места",
+            "Graphics": "NVIDIA GeForce GTX 680 or AMD Radeon HD 7970",
+            "Network": "Широкополосное подключение к интернету",
+            "OS": "Windows 7/8/10 (64-bit)",
+            "Processor": "AMD FX-8350 or Intel i5-3570",
+            "RAM": "6 GB"
+        },
+        "name": "Borderlands 3",
+        "path-image": "D:/cource_project/cource_project/images/covers/Borderlands 3.jpg",
+        "platform": [
+            "PC",
+            "PS4",
+            "Xbox One"
+        ],
+        "rating": "8/10",
+        "recommended_requirements": {
+            "Additional": "N/A",
+            "DirectX": "Версии 11",
+            "Disk_Space": "75 GB свободного места",
+            "Graphics": "NVIDIA GeForce GTX 970 or AMD Radeon RX 5000",
+            "Network": "Широкополосное подключение к интернету",
+            "OS": "Windows 10 (64-bit)",
+            "Processor": "AMD Ryzen 5 2600 or Intel i7-4770",
+            "RAM": "16 GB"
+        },
+        "release_date": "13 сентября 2019",
+        "video-id": "nB8GDGYFp9g"
+    },
+    {
+        "country": "Канада",
+        "description": "Симулятор футбольного менеджмента и игр с улучшенной графикой и реалистичной механикой.",
+        "developer": "EA Sports",
+        "genre": "Sports",
+        "minimum_requirements": {
+            "Additional": "N/A",
+            "DirectX": "Версии 11",
+            "Disk_Space": "50 GB свободного места",
+            "Graphics": "NVIDIA GTX 660 or AMD Radeon HD 7850",
+            "Network": "Широкополосное подключение к интернету",
+            "OS": "Windows 10 (64-bit)",
+            "Processor": "Intel Core i5-6600 or AMD Phenom II X4 965",
+            "RAM": "8 GB"
+        },
+        "name": "FIFA 22",
+        "path-image": "D:/cource_project/cource_project/images/covers/FIFA 22.jpg",
+        "platform": [
+            "PC",
+            "PS4",
+            "PS5",
+            "Xbox One"
+        ],
+        "rating": "8/10",
+        "recommended_requirements": {
+            "Additional": "N/A",
+            "DirectX": "Версии 11",
+            "Disk_Space": "50 GB свободного места",
+            "Graphics": "NVIDIA GTX 1050 or AMD Radeon RX 560",
+            "Network": "Широкополосное подключение к интернету",
+            "OS": "Windows 10 (64-bit)",
+            "Processor": "Intel Core i5-9600 or AMD Ryzen 5 2600",
+            "RAM": "8 GB"
+        },
+        "release_date": "1 октября 2021",
+        "video-id": "WfFVX6NhYKQ"
+    },
+    {
+        "country": "США",
+        "description": "Популярная многопользовательская игра, где команды сражаются друг с другом, используя уникальных чемпионов с различными способностями.",
+        "developer": "Riot Games",
+        "genre": "MOBA",
+        "minimum_requirements": {
+            "Additional": "N/A",
+            "DirectX": "Версии 9.0c",
+            "Disk_Space": "12 GB свободного места",
+            "Graphics": "DirectX 9 compatible video card",
+            "Network": "Широкополосное подключение к интернету",
+            "OS": "Windows 7 and up",
+            "Processor": "2 GHz Processor",
+            "RAM": "4 GB"
+        },
+        "name": "League of Legends",
+        "path-image": "D:/cource_project/cource_project/images/covers/League of Legends.jpg",
+        "platform": [
+            "PC"
+        ],
+        "rating": "9/10",
+        "recommended_requirements": {
+            "Additional": "N/A",
+            "DirectX": "Версии 11",
+            "Disk_Space": "12 GB свободного места",
+            "Graphics": "NVIDIA GeForce 660 or AMD Radeon HD 7950",
+            "Network": "Широкополосное подключение к интернету",
+            "OS": "Windows 10",
+            "Processor": "2.5 GHz dual-core or better",
+            "RAM": "8 GB"
+        },
+        "release_date": "27 октября 2009",
+        "video-id": "eXY_Xx2Tdio"
+    },
+    {
+        "country": "США",
+        "description": "Комбинация футбола и гонок, где игроки управляют машинками и забивают мячи в ворота противника.",
+        "developer": "Psyonix",
+        "genre": "Sports",
+        "minimum_requirements": {
+            "Additional": "N/A",
+            "DirectX": "Версии 9",
+            "Disk_Space": "20 GB свободного места",
+            "Graphics": "DirectX 9 compliant video card",
+            "Network": "Широкополосное подключение к интернету",
+            "OS": "Windows 7 (64-bit)",
+            "Processor": "2.5 GHz dual-core",
+            "RAM": "4 GB"
+        },
+        "name": "Rocket League",
+        "path-image": "D:/cource_project/cource_project/images/covers/rocket league.jpg",
+        "platform": [
+            "PC",
+            "PS4",
+            "Xbox One",
+            "Nintendo Switch"
+        ],
+        "rating": "9/10",
+        "recommended_requirements": {
+            "Additional": "N/A",
+            "DirectX": "Версии 11",
+            "Disk_Space": "20 GB свободного места",
+            "Graphics": "NVIDIA GeForce 660 or AMD Radeon R9 270",
+            "Network": "Широкополосное подключение к интернету",
+            "OS": "Windows 10 (64-bit)",
+            "Processor": "2.5 GHz dual-core or higher",
+            "RAM": "8 GB"
+        },
+        "release_date": "7 июля 2015",
+        "video-id": "87dOr-VCVBM"
+    },
+    {
+        "country": "США",
+        "description": "Приключенческая игра о самурае, который сражается с монголами на острове Цусима в период вторжения.",
+        "developer": "Sucker Punch Productions",
+        "genre": "Action-Adventure",
+        "minimum_requirements": {
+            "Additional": "N/A",
+            "DirectX": "N/A",
+            "Disk_Space": "N/A",
+            "Graphics": "N/A",
+            "Network": "N/A",
+            "OS": "PS4",
+            "Processor": "N/A",
+            "RAM": "N/A"
+        },
+        "name": "Ghost of Tsushima",
+        "path-image": "D:/cource_project/cource_project/images/covers/Ghost of Tsushima.jpg",
+        "platform": [
+            "PS4"
+        ],
+        "rating": "10/10",
+        "recommended_requirements": {
+            "Additional": "N/A",
+            "DirectX": "N/A",
+            "Disk_Space": "N/A",
+            "Graphics": "N/A",
+            "Network": "N/A",
+            "OS": "PS4",
+            "Processor": "N/A",
+            "RAM": "N/A"
+        },
+        "release_date": "17 июля 2020",
+        "video-id": "7-dKH9JxMas"
+    },
+    {
+        "country": "Япония",
+        "description": "Сложная RPG с механикой боя, основанной на японской мифологии и фольклоре, где игроки исследуют мир самураев и йокая.",
+        "developer": "Team Ninja",
+        "genre": "Action RPG",
+        "minimum_requirements": {
+            "Additional": "N/A",
+            "DirectX": "Версии 11",
+            "Disk_Space": "80 GB свободного места",
+            "Graphics": "NVIDIA GeForce GTX 780 or AMD Radeon R9 280",
+            "Network": "Широкополосное подключение к интернету",
+            "OS": "Windows 10 (64-bit)",
+            "Processor": "Intel Core i5-4670 or AMD Ryzen 5 1400",
+            "RAM": "8 GB"
+        },
+        "name": "Nioh 2",
+        "path-image": "D:/cource_project/cource_project/images/covers/Nioh 2.jpg",
+        "platform": [
+            "PC",
+            "PS4"
+        ],
+        "rating": "9/10",
+        "recommended_requirements": {
+            "Additional": "N/A",
+            "DirectX": "Версии 11",
+            "Disk_Space": "80 GB свободного места",
+            "Graphics": "NVIDIA GeForce GTX 1060 or AMD Radeon RX 580",
+            "Network": "Широкополосное подключение к интернету",
+            "OS": "Windows 10 (64-bit)",
+            "Processor": "Intel Core i7-4770 or AMD Ryzen 5 1600",
+            "RAM": "8 GB"
+        },
+        "release_date": "13 марта 2020",
+        "video-id": "l6uv8lrsvno"
+    },
+    {
+        "country": "Дания",
+        "description": "Завершающая часть трилогии о суперагенте 47, который выполняет контракты по всему миру, используя скрытные методы.",
+        "developer": "IO Interactive",
+        "genre": "Stealth",
+        "minimum_requirements": {
+            "Additional": "N/A",
+            "DirectX": "Версии 11",
+            "Disk_Space": "80 GB свободного места",
+            "Graphics": "NVIDIA GeForce GTX 660 or AMD Radeon HD 7870",
+            "Network": "Широкополосное подключение к интернету",
+            "OS": "Windows 10 (64-bit)",
+            "Processor": "Intel i5-2500K or AMD Phenom II X4 940",
+            "RAM": "8 GB"
+        },
+        "name": "Hitman 3",
+        "path-image": "D:/cource_project/cource_project/images/covers/Hitman 3.jpg",
+        "platform": [
+            "PC",
+            "PS4",
+            "PS5",
+            "Xbox One",
+            "Xbox Series X"
+        ],
+        "rating": "9/10",
+        "recommended_requirements": {
+            "Additional": "N/A",
+            "DirectX": "Версии 11",
+            "Disk_Space": "80 GB свободного места",
+            "Graphics": "NVIDIA GeForce GTX 1070 or AMD Radeon RX 580",
+            "Network": "Широкополосное подключение к интернету",
+            "OS": "Windows 10 (64-bit)",
+            "Processor": "Intel i7-4770 or AMD Ryzen 5 1600",
+            "RAM": "16 GB"
+        },
+        "release_date": "20 января 2021",
+        "video-id": "9NJekTy3dok"
+    },
+    {
+        "country": "Япония",
+        "description": "Продолжение истории Итана Уинтерса, который попадает в мрачную деревню, полную монстров и опасностей.",
+        "developer": "Capcom",
+        "genre": "Survival Horror",
+        "minimum_requirements": {
+            "Additional": "N/A",
+            "DirectX": "Версии 12",
+            "Disk_Space": "50 GB свободного места",
+            "Graphics": "NVIDIA GeForce GTX 1050 or AMD Radeon RX 560",
+            "Network": "Широкополосное подключение к интернету",
+            "OS": "Windows 10 (64-bit)",
+            "Processor": "Intel Core i5-7500 or AMD Ryzen 3 1200",
+            "RAM": "8 GB"
+        },
+        "name": "Resident Evil Village",
+        "path-image": "D:/cource_project/cource_project/images/covers/Resident Evil Village.jpg",
+        "platform": [
+            "PC",
+            "PS4",
+            "PS5",
+            "Xbox One",
+            "Xbox Series X"
+        ],
+        "rating": "9/10",
+        "recommended_requirements": {
+            "Additional": "N/A",
+            "DirectX": "Версии 12",
+            "Disk_Space": "50 GB свободного места",
+            "Graphics": "NVIDIA GeForce GTX 1070 or AMD Radeon RX 6800",
+            "Network": "Широкополосное подключение к интернету",
+            "OS": "Windows 10 (64-bit)",
+            "Processor": "Intel Core i7-8700 or AMD Ryzen 5 3600",
+            "RAM": "16 GB"
+        },
+        "release_date": "7 мая 2021",
+        "video-id": "zQLgQyfK15g"
+    },
+    {
+        "country": "Япония",
+        "description": "Популярная MMORPG с захватывающим сюжетом и огромным миром, где игроки могут взаимодействовать и сражаться с врагами.",
+        "developer": "Square Enix",
+        "genre": "MMORPG",
+        "minimum_requirements": {
+            "Additional": "N/A",
+            "DirectX": "Версии 11",
+            "Disk_Space": "60 GB свободного места",
+            "Graphics": "NVIDIA GeForce 8800 или ATI Radeon HD 4200",
+            "Network": "Широкополосное подключение к интернету",
+            "OS": "Windows 7 (64-bit)",
+            "Processor": "Intel Core i5 или AMD A8",
+            "RAM": "4 GB"
+        },
+        "name": "Final Fantasy XIV",
+        "path-image": "D:/cource_project/cource_project/images/covers/Final Fantasy XIV.jpg",
+        "platform": [
+            "PC",
+            "PS4",
+            "PS5"
+        ],
+        "rating": "10/10",
+        "recommended_requirements": {
+            "Additional": "N/A",
+            "DirectX": "Версии 11",
+            "Disk_Space": "60 GB свободного места",
+            "Graphics": "NVIDIA GeForce GTX 660 или AMD Radeon HD 7950",
+            "Network": "Широкополосное подключение к интернету",
+            "OS": "Windows 10 (64-bit)",
+            "Processor": "Intel Core i7 или AMD Ryzen 5",
+            "RAM": "8 GB"
+        },
+        "release_date": "30 августа 2013",
+        "video-id": "NvmSMMNlWk0"
+    },
+    {
+        "country": "США",
+        "description": "Эмоциональная история о выживании, мести и искуплении в постапокалиптическом мире.",
+        "developer": "Naughty Dog",
+        "genre": "Action-Adventure",
+        "minimum_requirements": {
+            "Additional": "N/A",
+            "DirectX": "N/A",
+            "Disk_Space": "N/A",
+            "Graphics": "N/A",
+            "Network": "N/A",
+            "OS": "PS4",
+            "Processor": "N/A",
+            "RAM": "N/A"
+        },
+        "name": "The Last of Us Part II",
+        "path-image": "D:/cource_project/cource_project/images/covers/The Last of Us Part II.jpg",
+        "platform": [
+            "PS4"
+        ],
+        "rating": "10/10",
+        "recommended_requirements": {
+            "Additional": "N/A",
+            "DirectX": "N/A",
+            "Disk_Space": "N/A",
+            "Graphics": "N/A",
+            "Network": "N/A",
+            "OS": "PS4",
+            "Processor": "N/A",
+            "RAM": "N/A"
+        },
+        "release_date": "19 июня 2020",
+        "video-id": "-Zu2RDdGjj4"
+    },
+    {
+        "country": "Япония",
+        "description": "Игра с уникальным геймплеем, где игроки выступают в роли курьера в постапокалиптическом мире, соединяя разрозненные общества.",
+        "developer": "Kojima Productions",
+        "genre": "Action",
+        "minimum_requirements": {
+            "Additional": "N/A",
+            "DirectX": "Версии 12",
+            "Disk_Space": "80 GB свободного места",
+            "Graphics": "NVIDIA GeForce GTX 1050 or AMD Radeon RX 560",
+            "Network": "Широкополосное подключение к интернету",
+            "OS": "Windows 10 (64-bit)",
+            "Processor": "Intel Core i5-3470 or AMD Ryzen 3 1200",
+            "RAM": "8 GB"
+        },
+        "name": "Death Stranding",
+        "path-image": "D:/cource_project/cource_project/images/covers/Death Stranding.jpg",
+        "platform": [
+            "PC",
+            "PS4"
+        ],
+        "rating": "9/10",
+        "recommended_requirements": {
+            "Additional": "N/A",
+            "DirectX": "Версии 12",
+            "Disk_Space": "80 GB свободного места",
+            "Graphics": "NVIDIA GeForce GTX 1060 or AMD Radeon RX 590",
+            "Network": "Широкополосное подключение к интернету",
+            "OS": "Windows 10 (64-bit)",
+            "Processor": "Intel Core i7-3770 or AMD Ryzen 5 1600X",
+            "RAM": "8 GB"
+        },
+        "release_date": "8 ноября 2019",
+        "video-id": "yHFSdQu2Hps"
+    },
+    {
+        "country": "США",
+        "description": "Игра в жанре rogue-like, где игроки пытаются сбежать из Подземного мира, с уникальными механиками и захватывающей историей.",
+        "developer": "Supergiant Games",
+        "genre": "Rogue-like",
+        "minimum_requirements": {
+            "Additional": "N/A",
+            "DirectX": "Версии 11",
+            "Disk_Space": "15 GB свободного места",
+            "Graphics": "NVIDIA GeForce 650 или AMD Radeon HD 7770",
+            "Network": "Широкополосное подключение к интернету",
+            "OS": "Windows 7 (64-bit)",
+            "Processor": "Intel Core i5 или AMD A8",
+            "RAM": "4 GB"
+        },
+        "name": "Hades",
+        "path-image": "D:/cource_project/cource_project/images/covers/Hades.jpg",
+        "platform": [
+            "PC",
+            "Nintendo Switch",
+            "PS4",
+            "PS5",
+            "Xbox One",
+            "Xbox Series X"
+        ],
+        "rating": "10/10",
+        "recommended_requirements": {
+            "Additional": "N/A",
+            "DirectX": "Версии 11",
+            "Disk_Space": "15 GB свободного места",
+            "Graphics": "NVIDIA GeForce GTX 970 или AMD Radeon RX 580",
+            "Network": "Широкополосное подключение к интернету",
+            "OS": "Windows 10 (64-bit)",
+            "Processor": "Intel Core i7 или AMD Ryzen 5",
+            "RAM": "8 GB"
+        },
+        "release_date": "17 сентября 2020",
+        "video-id": "q21orr-kVqU"
+    },
+    {
+        "country": "Польша",
+        "description": "Игра с открытым миром, в которой игроки сражаются с зомби и принимают решения, влияющие на мир вокруг них.",
+        "developer": "Techland",
+        "genre": "Action RPG",
+        "minimum_requirements": {
+            "Additional": "N/A",
+            "DirectX": "Версии 12",
+            "Disk_Space": "60 GB свободного места",
+            "Graphics": "NVIDIA GeForce GTX 1050 или AMD Radeon RX 560",
+            "Network": "Широкополосное подключение к интернету",
+            "OS": "Windows 10 (64-bit)",
+            "Processor": "Intel Core i3-2330 or AMD FX-6300",
+            "RAM": "8 GB"
+        },
+        "name": "Dying Light 2",
+        "path-image": "D:/cource_project/cource_project/images/covers/Dying Light 2.jpg",
+        "platform": [
+            "PC",
+            "PS4",
+            "PS5",
+            "Xbox One",
+            "Xbox Series X"
+        ],
+        "rating": "8/10",
+        "recommended_requirements": {
+            "Additional": "N/A",
+            "DirectX": "Версии 12",
+            "Disk_Space": "60 GB свободного места",
+            "Graphics": "NVIDIA GeForce GTX 1050 Ti or AMD Radeon RX 5600 XT",
+            "Network": "Широкополосное подключение к интернету",
+            "OS": "Windows 10 (64-bit)",
+            "Processor": "Intel Core i5-4670 or AMD Ryzen 5 1500X",
+            "RAM": "16 GB"
+        },
+        "release_date": "4 февраля 2022",
+        "video-id": "Y6qUqabk-aE"
+    },
+    {
+        "country": "США",
+        "description": "Симулятор фермерства, где игроки могут выращивать растения, заботиться о животных и строить свои отношения с местными жителями.",
+        "developer": "ConcernedApe",
+        "genre": "Simulation",
+        "minimum_requirements": {
+            "Additional": "N/A",
+            "DirectX": "Версии 10",
+            "Disk_Space": "1 GB свободного места",
+            "Graphics": "128 MB video memory, OpenGL 2.0+",
+            "Network": "Широкополосное подключение к интернету",
+            "OS": "Windows 7 or higher",
+            "Processor": "2.0 GHz",
+            "RAM": "2 GB"
+        },
+        "name": "Stardew Valley",
+        "path-image": "D:/cource_project/cource_project/images/covers/Stardew Valley.jpg",
+        "platform": [
+            "PC",
+            "PS4",
+            "Xbox One",
+            "Nintendo Switch",
+            "Mobile"
+        ],
+        "rating": "9/10",
+        "recommended_requirements": {
+            "Additional": "N/A",
+            "DirectX": "Версии 10",
+            "Disk_Space": "1 GB свободного места",
+            "Graphics": "1 GB video memory",
+            "Network": "Широкополосное подключение к интернету",
+            "OS": "Windows 10",
+            "Processor": "2.0 GHz",
+            "RAM": "4 GB"
+        },
+        "release_date": "26 февраля 2016",
+        "video-id": "6TbQygrHBvg"
+    },
+    {
+        "country": "Япония",
+        "description": "Новая игра в серии Tales с захватывающим сюжетом и улучшенной боевой системой, предлагающая игрокам погрузиться в богатый мир.",
+        "developer": "Bandai Namco Entertainment",
+        "genre": "RPG",
+        "minimum_requirements": {
+            "Additional": "N/A",
+            "DirectX": "Версии 11",
+            "Disk_Space": "60 GB свободного места",
+            "Graphics": "NVIDIA GeForce GTX 950 or AMD Radeon RX 460",
+            "Network": "Широкополосное подключение к интернету",
+            "OS": "Windows 10 (64-bit)",
+            "Processor": "Intel Core i5-2500 or AMD Ryzen 3 1200",
+            "RAM": "8 GB"
+        },
+        "name": "Tales of Arise",
+        "path-image": "D:/cource_project/cource_project/images/covers/Tales of Arise.jpg",
+        "platform": [
+            "PC",
+            "PS4",
+            "PS5",
+            "Xbox One",
+            "Xbox Series X"
+        ],
+        "rating": "9/10",
+        "recommended_requirements": {
+            "Additional": "N/A",
+            "DirectX": "Версии 11",
+            "Disk_Space": "60 GB свободного места",
+            "Graphics": "NVIDIA GeForce GTX 1060 or AMD Radeon RX 580",
+            "Network": "Широкополосное подключение к интернету",
+            "OS": "Windows 10 (64-bit)",
+            "Processor": "Intel Core i7-3770 or AMD Ryzen 5 1600",
+            "RAM": "16 GB"
+        },
+        "release_date": "10 сентября 2021",
+        "video-id": "goTajncHOAk"
+    },
+    {
+        "country": "Великобритания",
+        "description": "Многопользовательская игра, где игроки соревнуются в различных веселых испытаниях, чтобы стать последним выжившим.",
+        "developer": "Mediatonic",
+        "genre": "Party",
+        "minimum_requirements": {
+            "Additional": "N/A",
+            "DirectX": "Версии 11",
+            "Disk_Space": "2 GB свободного места",
+            "Graphics": "NVIDIA GTX 660 или AMD Radeon HD 7950",
+            "Network": "Широкополосное подключение к интернету",
+            "OS": "Windows 10 (64-bit)",
+            "Processor": "Intel Core i5 или аналогичный",
+            "RAM": "8 GB"
+        },
+        "name": "Fall Guys: Ultimate Knockout",
+        "path-image": "D:/cource_project/cource_project/images/covers/Fall guys.jpg",
+        "platform": [
+            "PC",
+            "PS4",
+            "PS5",
+            "Xbox One",
+            "Nintendo Switch"
+        ],
+        "rating": "8/10",
+        "recommended_requirements": {
+            "Additional": "N/A",
+            "DirectX": "Версии 11",
+            "Disk_Space": "2 GB свободного места",
+            "Graphics": "NVIDIA GTX 970 или AMD Radeon RX 480",
+            "Network": "Широкополосное подключение к интернету",
+            "OS": "Windows 10 (64-bit)",
+            "Processor": "Intel Core i7 или аналогичный",
+            "RAM": "16 GB"
+        },
+        "release_date": "4 августа 2020",
+        "video-id": "kM09mtvKLHU"
+    },
+    {
+        "country": "США",
+        "description": "Научно-фантастическая RPG с открытым миром, где игроки исследуют колонии и принимают решения, влияющие на сюжет.",
+        "developer": "Obsidian Entertainment",
+        "genre": "RPG",
+        "minimum_requirements": {
+            "Additional": "N/A",
+            "DirectX": "Версии 11",
+            "Disk_Space": "40 GB свободного места",
+            "Graphics": "NVIDIA GTX 650 или AMD Radeon HD 7850",
+            "Network": "Широкополосное подключение к интернету",
+            "OS": "Windows 7 (64-bit)",
+            "Processor": "Intel Core i3-3250 или AMD FX-4300",
+            "RAM": "4 GB"
+        },
+        "name": "The Outer Worlds",
+        "path-image": "D:/cource_project/cource_project/images/covers/The Outer Worlds.jpg",
+        "platform": [
+            "PC",
+            "PS4",
+            "Xbox One",
+            "Nintendo Switch"
+        ],
+        "rating": "9/10",
+        "recommended_requirements": {
+            "Additional": "N/A",
+            "DirectX": "Версии 11",
+            "Disk_Space": "40 GB свободного места",
+            "Graphics": "NVIDIA GTX 1060 или AMD Radeon RX 570",
+            "Network": "Широкополосное подключение к интернету",
+            "OS": "Windows 10 (64-bit)",
+            "Processor": "Intel Core i5-6600 или AMD Ryzen 5 1400",
+            "RAM": "8 GB"
+        },
+        "release_date": "25 октября 2019",
+        "video-id": "pxQJFChe_V8"
+    },
+    {
+        "country": "Великобритания",
+        "description": "Открытый автосимулятор с красочными пейзажами Мексики и множеством автомобилей для гонок.",
+        "developer": "Playground Games",
+        "genre": "Racing",
+        "minimum_requirements": {
+            "Additional": "N/A",
+            "DirectX": "Версии 12",
+            "Disk_Space": "110 GB свободного места",
+            "Graphics": "NVIDIA GTX 970 или AMD Radeon RX 460",
+            "Network": "Широкополосное подключение к интернету",
+            "OS": "Windows 10 (64-bit)",
+            "Processor": "Intel Core i5-4460 или AMD Ryzen 3 1200",
+            "RAM": "8 GB"
+        },
+        "name": "Forza Horizon 5",
+        "path-image": "D:/cource_project/cource_project/images/covers/forza.jpg",
+        "platform": [
+            "PC",
+            "Xbox One",
+            "Xbox Series X"
+        ],
+        "rating": "10/10",
+        "recommended_requirements": {
+            "Additional": "N/A",
+            "DirectX": "Версии 12",
+            "Disk_Space": "110 GB свободного места",
+            "Graphics": "NVIDIA GTX 1070 или AMD Radeon RX 590",
+            "Network": "Широкополосное подключение к интернету",
+            "OS": "Windows 10 (64-bit)",
+            "Processor": "Intel Core i7-7500 или AMD Ryzen 5 1400",
+            "RAM": "16 GB"
+        },
+        "release_date": "9 ноября 2021",
+        "video-id": "VMQQdeMXjQE"
+    },
+    {
+        "country": "Япония",
+        "description": "Открытый мир, созданный в сотрудничестве с Джорджем Мартином, где игроки исследуют земли между.",
+        "developer": "FromSoftware",
+        "genre": "Action RPG",
+        "minimum_requirements": {
+            "Additional": "N/A",
+            "DirectX": "Версии 11",
+            "Disk_Space": "60 GB свободного места",
+            "Graphics": "NVIDIA GeForce GTX 1060 or AMD Radeon RX 580",
+            "Network": "Широкополосное подключение к интернету",
+            "OS": "Windows 10 (64-bit)",
+            "Processor": "Intel Core i5-8400 or AMD Ryzen 3 3300X",
+            "RAM": "12 GB"
+        },
+        "name": "Elden Ring",
+        "path-image": "D:/cource_project/cource_project/images/covers/eldenring.png",
+        "platform": [
+            "PC",
+            "PS4",
+            "PS5",
+            "Xbox One",
+            "Xbox Series X"
+        ],
+        "rating": "10/10",
+        "recommended_requirements": {
+            "Additional": "N/A",
+            "DirectX": "Версии 11",
+            "Disk_Space": "60 GB свободного места",
+            "Graphics": "NVIDIA GeForce 1070 or AMD Radeon RX 6800",
+            "Network": "Широкополосное подключение к интернету",
+            "OS": "Windows 10 (64-bit)",
+            "Processor": "Intel Core i7-8700 or AMD Ryzen 5 3600",
+            "RAM": "16 GB"
+        },
+        "release_date": "25 февраля 2022",
+        "video-id": "E_z15O6JmjI"
+    },
+    {
+        "country": "США",
+        "description": "Переосмысленная версия классической игры с улучшенной графикой и механикой боя.",
+        "developer": "Bluepoint Games",
+        "genre": "Action RPG",
+        "minimum_requirements": {
+            "Additional": "N/A",
+            "DirectX": "N/A",
+            "Disk_Space": "N/A",
+            "Graphics": "N/A",
+            "Network": "N/A",
+            "OS": "PS5",
+            "Processor": "N/A",
+            "RAM": "N/A"
+        },
+        "name": "Demon's Souls (Remake)",
+        "path-image": "D:/cource_project/cource_project/images/covers/Demons Souls (Remake).jpg",
+        "platform": [
+            "PS5"
+        ],
+        "rating": "9/10",
+        "recommended_requirements": {
+            "Additional": "N/A",
+            "DirectX": "N/A",
+            "Disk_Space": "N/A",
+            "Graphics": "N/A",
+            "Network": "N/A",
+            "OS": "PS5",
+            "Processor": "N/A",
+            "RAM": "N/A"
+        },
+        "release_date": "12 ноября 2020",
+        "video-id": "1a_SWtsv9gs"
+    },
+    {
+        "country": "Франция",
+        "description": "Продолжение истории о двух братьях в мире, охваченном чумой, с акцентом на стелс и исследование.",
+        "developer": "Asobo Studio",
+        "genre": "Action-Adventure",
+        "minimum_requirements": {
+            "Additional": "N/A",
+            "DirectX": "Версии 11",
+            "Disk_Space": "55 GB свободного места",
+            "Graphics": "NVIDIA GeForce GTX 770 или AMD Radeon R9 280",
+            "Network": "Широкополосное подключение к интернету",
+            "OS": "Windows 10 (64-bit)",
+            "Processor": "Intel Core i5-2500 или AMD Ryzen 5 1400",
+            "RAM": "8 GB"
+        },
+        "name": "A Plague Tale: Requiem",
+        "path-image": "D:/cource_project/cource_project/images/covers/A Plague Tale.jpg",
+        "platform": [
+            "PC",
+            "PS5",
+            "Xbox Series X"
+        ],
+        "rating": "9/10",
+        "recommended_requirements": {
+            "Additional": "N/A",
+            "DirectX": "Версии 11",
+            "Disk_Space": "55 GB свободного места",
+            "Graphics": "NVIDIA GeForce GTX 1060 или AMD Radeon RX 580",
+            "Network": "Широкополосное подключение к интернету",
+            "OS": "Windows 10 (64-bit)",
+            "Processor": "Intel Core i7-3770 или AMD Ryzen 5 1600",
+            "RAM": "16 GB"
+        },
+        "release_date": "18 октября 2022",
+        "video-id": "2g1qoeVYzDQ"
+    },
+    {
+        "country": "Нидерланды",
+        "description": "Приключение Элой в новом открытом мире, полном механических существ и древних тайн.",
+        "developer": "Guerrilla Games",
+        "genre": "Action RPG",
+        "minimum_requirements": {
+            "Additional": "N/A",
+            "DirectX": "N/A",
+            "Disk_Space": "N/A",
+            "Graphics": "N/A",
+            "Network": "N/A",
+            "OS": "PS4 или PS5",
+            "Processor": "N/A",
+            "RAM": "N/A"
+        },
+        "name": "Horizon Forbidden West",
+        "path-image": "D:/cource_project/cource_project/images/covers/Horizon (1).jpg",
+        "platform": [
+            "PS4",
+            "PS5"
+        ],
+        "rating": "9/10",
+        "recommended_requirements": {
+            "Additional": "N/A",
+            "DirectX": "N/A",
+            "Disk_Space": "N/A",
+            "Graphics": "N/A",
+            "Network": "N/A",
+            "OS": "PS4 или PS5",
+            "Processor": "N/A",
+            "RAM": "N/A"
+        },
+        "release_date": "18 февраля 2022",
+        "video-id": "49uwf-o7Hhc"
+    },
+    {
+        "country": "Франция",
+        "description": "Игра о коте, который исследует киберпанковый город, помогая другим существам.",
+        "developer": "BlueTwelve Studio",
+        "genre": "Adventure",
+        "minimum_requirements": {
+            "Additional": "N/A",
+            "DirectX": "Версии 11",
+            "Disk_Space": "10 GB свободного места",
+            "Graphics": "NVIDIA GeForce GTX 650 или AMD Radeon HD 7770",
+            "Network": "Широкополосное подключение к интернету",
+            "OS": "Windows 10 (64-bit)",
+            "Processor": "Intel Core i5-2500 или AMD Ryzen 3 3200G",
+            "RAM": "8 GB"
+        },
+        "name": "Stray",
+        "path-image": "D:/cource_project/cource_project/images/covers/Stray.jpg",
+        "platform": [
+            "PC",
+            "PS4",
+            "PS5"
+        ],
+        "rating": "8/10",
+        "recommended_requirements": {
+            "Additional": "N/A",
+            "DirectX": "Версии 11",
+            "Disk_Space": "10 GB свободного места",
+            "Graphics": "NVIDIA GeForce GTX 780 или AMD Radeon RX 560",
+            "Network": "Широкополосное подключение к интернету",
+            "OS": "Windows 10 (64-bit)",
+            "Processor": "Intel Core i7-4700 или AMD Ryzen 5 1400",
+            "RAM": "8 GB"
+        },
+        "release_date": "19 июля 2022",
+        "video-id": "xQ0HtCJQ5Aw"
+    },
+    {
+        "country": "Франция",
+        "description": "Боевая игра, в которой игроки сражаются с врагами, используя элементы кунг-фу и уникальную механику старения.",
+        "developer": "Sloclap",
+        "genre": "Action",
+        "minimum_requirements": {
+            "Additional": "N/A",
+            "DirectX": "Версии 11",
+            "Disk_Space": "10 GB свободного места",
+            "Graphics": "NVIDIA GeForce GTX 780 или AMD Radeon R9 280",
+            "Network": "Широкополосное подключение к интернету",
+            "OS": "Windows 10 (64-bit)",
+            "Processor": "Intel Core i3-3220 или AMD FX-6100",
+            "RAM": "4 GB"
+        },
+        "name": "Sifu",
+        "path-image": "D:/cource_project/cource_project/images/covers/Sifu.jpg",
+        "platform": [
+            "PC",
+            "PS4",
+            "PS5",
+            "Xbox One",
+            "Nintendo Switch"
+        ],
+        "rating": "9/10",
+        "recommended_requirements": {
+            "Additional": "N/A",
+            "DirectX": "Версии 11",
+            "Disk_Space": "10 GB свободного места",
+            "Graphics": "NVIDIA GeForce GTX 970 или AMD Radeon RX 580",
+            "Network": "Широкополосное подключение к интернету",
+            "OS": "Windows 10 (64-bit)",
+            "Processor": "Intel Core i5-4570 или AMD Ryzen 5 1400",
+            "RAM": "8 GB"
+        },
+        "release_date": "8 февраля 2022",
+        "video-id": "mjSksG8nY-I"
+    }
 ]

@@ -75,13 +75,13 @@
 			{
 				"command" : 4,
 				"file" : 1,
-				"line" : 71,
+				"line" : 72,
 				"parent" : 0
 			},
 			{
 				"command" : 5,
 				"file" : 1,
-				"line" : 54,
+				"line" : 55,
 				"parent" : 0
 			},
 			{
@@ -374,7 +374,8 @@
 				1,
 				2,
 				6,
-				9
+				9,
+				11
 			]
 		}
 	],
@@ -496,7 +497,8 @@
 				1,
 				2,
 				6,
-				9
+				9,
+				11
 			]
 		},
 		{
@@ -507,7 +509,7 @@
 				7,
 				8,
 				10,
-				11
+				12
 			]
 		},
 		{
@@ -516,14 +518,14 @@
 			[
 				4,
 				5,
-				12
+				13
 			]
 		},
 		{
 			"name" : "CMake Rules",
 			"sourceIndexes" : 
 			[
-				13
+				14
 			]
 		}
 	],
@@ -587,8 +589,14 @@
 		},
 		{
 			"backtrace" : 4,
-			"path" : "game.h",
+			"path" : "gamedatamanager.h",
 			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 4,
+			"compileGroupIndex" : 0,
+			"path" : "gamedatamanager.cpp",
+			"sourceGroupIndex" : 0
 		},
 		{
 			"backtrace" : 0,

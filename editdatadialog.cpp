@@ -224,6 +224,7 @@ void EditDataDialog::saveData() {
     file.close();
 
     QMessageBox::information(this, "Успешно", "Данные были успешно обновлены.");
+    emit dataSaved();
     accept(); // Закрываем окно
 }
 
