@@ -34,16 +34,20 @@ public:
     QWidget *scrollAreaWidgetContents;
     QWidget *widget;
     QGridLayout *gridLayout_2;
+    QPushButton *addGameButton;
+    QLabel *label_4;
+    QLabel *label_3;
+    QSpacerItem *horizontalSpacer;
+    QComboBox *platformBox;
+    QLabel *label_2;
+    QPushButton *pushButton;
+    QComboBox *genresBox;
     QComboBox *markBox;
     QLabel *label;
-    QSpacerItem *horizontalSpacer;
-    QComboBox *genresBox;
-    QLabel *label_3;
-    QLabel *label_2;
     QPushButton *resetButton;
-    QComboBox *platformBox;
     QComboBox *sortComboBox;
-    QLabel *label_4;
+    QSpacerItem *horizontalSpacer_2;
+    QPushButton *leaveButton;
     QMenuBar *menubar;
     QStatusBar *statusBar;
 
@@ -92,6 +96,75 @@ public:
         widget->setMinimumSize(QSize(200, 100));
         gridLayout_2 = new QGridLayout(widget);
         gridLayout_2->setObjectName("gridLayout_2");
+        addGameButton = new QPushButton(widget);
+        addGameButton->setObjectName("addGameButton");
+        addGameButton->setMinimumSize(QSize(0, 35));
+        addGameButton->setStyleSheet(QString::fromUtf8("background-color:#36394f;\n"
+"color: aqua;\n"
+"border-radius: 5px;"));
+
+        gridLayout_2->addWidget(addGameButton, 1, 8, 1, 1);
+
+        label_4 = new QLabel(widget);
+        label_4->setObjectName("label_4");
+        label_4->setStyleSheet(QString::fromUtf8("font: 800 15pt \"JetBrains Mono NL\";\n"
+"color: white\n"
+"\n"
+""));
+
+        gridLayout_2->addWidget(label_4, 0, 3, 1, 1);
+
+        label_3 = new QLabel(widget);
+        label_3->setObjectName("label_3");
+        label_3->setLayoutDirection(Qt::LayoutDirection::LeftToRight);
+        label_3->setStyleSheet(QString::fromUtf8("font: 800 15pt \"JetBrains Mono NL\";\n"
+"color: white;\n"
+"font-size: 20px;\n"
+""));
+
+        gridLayout_2->addWidget(label_3, 0, 2, 1, 1);
+
+        horizontalSpacer = new QSpacerItem(700, 20, QSizePolicy::Policy::Preferred, QSizePolicy::Policy::Minimum);
+
+        gridLayout_2->addItem(horizontalSpacer, 1, 7, 1, 1);
+
+        platformBox = new QComboBox(widget);
+        platformBox->setObjectName("platformBox");
+        platformBox->setMinimumSize(QSize(75, 35));
+        platformBox->setStyleSheet(QString::fromUtf8("background-color: #36394f;\n"
+"color:white\n"
+""));
+
+        gridLayout_2->addWidget(platformBox, 1, 0, 1, 1);
+
+        label_2 = new QLabel(widget);
+        label_2->setObjectName("label_2");
+        label_2->setLayoutDirection(Qt::LayoutDirection::LeftToRight);
+        label_2->setStyleSheet(QString::fromUtf8("font: 800 15pt \"JetBrains Mono NL\";\n"
+"color: white;\n"
+"font-size: 20px;\n"
+""));
+
+        gridLayout_2->addWidget(label_2, 0, 1, 1, 1);
+
+        pushButton = new QPushButton(widget);
+        pushButton->setObjectName("pushButton");
+        pushButton->setMinimumSize(QSize(0, 35));
+        pushButton->setStyleSheet(QString::fromUtf8("background-color:#36394f;\n"
+"color: red;\n"
+"border-radius: 5px;"));
+
+        gridLayout_2->addWidget(pushButton, 1, 10, 1, 1);
+
+        genresBox = new QComboBox(widget);
+        genresBox->setObjectName("genresBox");
+        genresBox->setMinimumSize(QSize(0, 35));
+        genresBox->setStyleSheet(QString::fromUtf8("background-color: #36394f;\n"
+"color: white\n"
+""));
+
+        gridLayout_2->addWidget(genresBox, 1, 1, 1, 1);
+
         markBox = new QComboBox(widget);
         markBox->setObjectName("markBox");
         markBox->setMinimumSize(QSize(0, 35));
@@ -111,39 +184,6 @@ public:
 
         gridLayout_2->addWidget(label, 0, 0, 1, 1);
 
-        horizontalSpacer = new QSpacerItem(700, 20, QSizePolicy::Policy::Preferred, QSizePolicy::Policy::Minimum);
-
-        gridLayout_2->addItem(horizontalSpacer, 1, 6, 1, 1);
-
-        genresBox = new QComboBox(widget);
-        genresBox->setObjectName("genresBox");
-        genresBox->setMinimumSize(QSize(0, 35));
-        genresBox->setStyleSheet(QString::fromUtf8("background-color: #36394f;\n"
-"color: white\n"
-""));
-
-        gridLayout_2->addWidget(genresBox, 1, 1, 1, 1);
-
-        label_3 = new QLabel(widget);
-        label_3->setObjectName("label_3");
-        label_3->setLayoutDirection(Qt::LayoutDirection::LeftToRight);
-        label_3->setStyleSheet(QString::fromUtf8("font: 800 15pt \"JetBrains Mono NL\";\n"
-"color: white;\n"
-"font-size: 20px;\n"
-""));
-
-        gridLayout_2->addWidget(label_3, 0, 2, 1, 1);
-
-        label_2 = new QLabel(widget);
-        label_2->setObjectName("label_2");
-        label_2->setLayoutDirection(Qt::LayoutDirection::LeftToRight);
-        label_2->setStyleSheet(QString::fromUtf8("font: 800 15pt \"JetBrains Mono NL\";\n"
-"color: white;\n"
-"font-size: 20px;\n"
-""));
-
-        gridLayout_2->addWidget(label_2, 0, 1, 1, 1);
-
         resetButton = new QPushButton(widget);
         resetButton->setObjectName("resetButton");
         resetButton->setMinimumSize(QSize(0, 35));
@@ -151,15 +191,6 @@ public:
 "color: red;"));
 
         gridLayout_2->addWidget(resetButton, 1, 5, 1, 1);
-
-        platformBox = new QComboBox(widget);
-        platformBox->setObjectName("platformBox");
-        platformBox->setMinimumSize(QSize(75, 35));
-        platformBox->setStyleSheet(QString::fromUtf8("background-color: #36394f;\n"
-"color:white\n"
-""));
-
-        gridLayout_2->addWidget(platformBox, 1, 0, 1, 1);
 
         sortComboBox = new QComboBox(widget);
         sortComboBox->addItem(QString());
@@ -173,14 +204,18 @@ public:
 
         gridLayout_2->addWidget(sortComboBox, 1, 3, 1, 1);
 
-        label_4 = new QLabel(widget);
-        label_4->setObjectName("label_4");
-        label_4->setStyleSheet(QString::fromUtf8("font: 800 15pt \"JetBrains Mono NL\";\n"
-"color: white\n"
-"\n"
-""));
+        horizontalSpacer_2 = new QSpacerItem(10, 20, QSizePolicy::Policy::Preferred, QSizePolicy::Policy::Minimum);
 
-        gridLayout_2->addWidget(label_4, 0, 3, 1, 1);
+        gridLayout_2->addItem(horizontalSpacer_2, 1, 9, 1, 1);
+
+        leaveButton = new QPushButton(widget);
+        leaveButton->setObjectName("leaveButton");
+        leaveButton->setMinimumSize(QSize(0, 35));
+        leaveButton->setStyleSheet(QString::fromUtf8("background-color:#36394f;\n"
+"color: #b069db;\n"
+"border-radius: 5px;"));
+
+        gridLayout_2->addWidget(leaveButton, 0, 8, 1, 3);
 
 
         gridLayout->addWidget(widget, 0, 0, 1, 1);
@@ -202,16 +237,19 @@ public:
     void retranslateUi(QMainWindow *MainWindow)
     {
         MainWindow->setWindowTitle(QCoreApplication::translate("MainWindow", "Gamer\342\200\231s Guide", nullptr));
-        label->setText(QCoreApplication::translate("MainWindow", "<html><head/><body><p align=\"center\">\320\237\320\273\320\260\321\202\321\204\320\276\321\200\320\274\320\260</p></body></html>", nullptr));
+        addGameButton->setText(QCoreApplication::translate("MainWindow", "\320\224\320\276\320\261\320\260\320\262\320\273\320\265\320\275\320\270\320\265 \320\270\320\263\321\200\321\213", nullptr));
+        label_4->setText(QCoreApplication::translate("MainWindow", "<html><head/><body><p align=\"center\"><span style=\" font-size:18pt;\">\320\241\320\276\321\200\321\202\320\270\321\200\320\276\320\262\320\272\320\260</span></p></body></html>", nullptr));
         label_3->setText(QCoreApplication::translate("MainWindow", "<html><head/><body><p align=\"center\"><span style=\" font-size:18pt;\">\320\236\321\206\320\265\320\275\320\272\320\260</span></p></body></html>", nullptr));
         label_2->setText(QCoreApplication::translate("MainWindow", "<html><head/><body><p align=\"center\">\320\226\320\260\320\275\321\200</p></body></html>", nullptr));
+        pushButton->setText(QCoreApplication::translate("MainWindow", "\320\243\320\264\320\260\320\273\320\265\320\275\320\270\320\265 \320\270\320\263\321\200\321\213", nullptr));
+        label->setText(QCoreApplication::translate("MainWindow", "<html><head/><body><p align=\"center\">\320\237\320\273\320\260\321\202\321\204\320\276\321\200\320\274\320\260</p></body></html>", nullptr));
         resetButton->setText(QCoreApplication::translate("MainWindow", "\320\236\321\207\320\270\321\201\321\202\320\270\321\202\321\214", nullptr));
         sortComboBox->setItemText(0, QCoreApplication::translate("MainWindow", "\320\235\320\265 \321\201\320\276\321\200\321\202\320\270\321\200\320\276\320\262\320\260\321\202\321\214", nullptr));
         sortComboBox->setItemText(1, QCoreApplication::translate("MainWindow", "\320\241\320\276\321\200\321\202\320\270\321\200\320\276\320\262\320\260\321\202\321\214 \320\277\320\276 \320\275\320\260\320\267\320\262\320\260\320\275\320\270\321\216", nullptr));
         sortComboBox->setItemText(2, QCoreApplication::translate("MainWindow", "\320\241\320\276\321\200\321\202\320\270\321\200\320\276\320\262\320\260\321\202\321\214 \320\277\320\276 \320\264\320\260\321\202\320\265 \320\262\321\213\321\205\320\276\320\264\320\260", nullptr));
         sortComboBox->setItemText(3, QCoreApplication::translate("MainWindow", "\320\241\320\276\321\200\321\202\320\270\321\200\320\276\320\262\320\260\321\202\321\214 \320\277\320\276 \321\200\320\265\320\271\321\202\320\270\320\275\320\263\321\203", nullptr));
 
-        label_4->setText(QCoreApplication::translate("MainWindow", "<html><head/><body><p align=\"center\"><span style=\" font-size:18pt;\">\320\241\320\276\321\200\321\202\320\270\321\200\320\276\320\262\320\272\320\260</span></p></body></html>", nullptr));
+        leaveButton->setText(QCoreApplication::translate("MainWindow", "\320\222\321\213\320\271\321\202\320\270", nullptr));
     } // retranslateUi
 
 };

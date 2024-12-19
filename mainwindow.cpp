@@ -1,4 +1,4 @@
-
+#include "addgamedialog.h"
 #include "mainwindow.h"
 #include "ui_mainwindow.h"
 #include <QMessageBox>
@@ -14,7 +14,7 @@ MainWindow::MainWindow(QWidget *parent)
 {
     ui->setupUi(this);
     setWindowIcon(QIcon("D:/cource_project/cource_project/images/game-console2.ico"));
-
+    //connect(ui->addGameButton, &QPushButton::clicked, this, &MainWindow::on_addGameButton_clicked);
 
     // Инициализация элементов интерфейса
     platformBox = findChild<QComboBox*>("platformBox");
@@ -58,6 +58,23 @@ MainWindow::MainWindow(QWidget *parent)
     updateGameButtons();
 }
 
+void MainWindow::saveGames(const QJsonArray &gamesArray) {
+    qDebug() << "Сохраняем игры в файл...";
+    QFile file("D:/cource_project/cource_project/games.json");
+    if (file.open(QIODevice::WriteOnly)) {
+        qDebug() << "Файл открыт успешно.";
+        QJsonDocument doc(gamesArray);
+        if (file.write(doc.toJson()) == -1) {
+            qWarning() << "Ошибка при записи в файл" << file.errorString();
+        }
+        file.close();
+        qDebug() << "Файл закрыт.";
+    } else {
+        qWarning() << "Не удалось открыть файл" << file.errorString();
+        QMessageBox::warning(this, "Ошибка", "Не удалось открыть файл для записи.");
+    }
+}
+
 MainWindow::~MainWindow()
 {
     delete ui;
@@ -92,9 +109,8 @@ void MainWindow::displayGames(const QVector<Game> &games) {
             delete item; // Удаляем элементы макета
         }
     }
-
-    // Добавление кнопок для игр
-    int row = 0, col = 0;
+        // Добавление кнопок для игр
+        int row = 0, col = 0;
     for (const Game &game : games) {
         QPushButton *button = new QPushButton(game.name, this);
         setButtonStyle(button, game); // Устанавливаем стиль кнопки
@@ -134,12 +150,11 @@ void MainWindow::displayGames(const QVector<Game> &games) {
 
 void MainWindow::onFormatButtonClicked() {
     // Чтение данных из JSON
-    QFile file("games.json");
+    QFile file("D:/cource_project/cource_project/games.json");
     if (!file.open(QIODevice::ReadOnly)) {
         qDebug() << "Не удалось открыть файл.";
         return;
     }
-
     QByteArray data = file.readAll();
     file.close();
 
@@ -160,21 +175,19 @@ void MainWindow::onFormatButtonClicked() {
 }
 
 void MainWindow::saveToJson(const QJsonObject &jsonData) {
-    QFile file("games.json");
+    QFile file("D:/cource_project/cource_project/games.json");
     if (!file.open(QIODevice::WriteOnly)) {
         qDebug() << "Не удалось открыть файл для записи.";
         return;
     }
-
-    QJsonDocument doc(jsonData);
+        QJsonDocument doc(jsonData);
     file.write(doc.toJson());
     file.close();
     qDebug() << "Данные успешно сохранены.";
 }
 
 void MainWindow::populateFilters() {
-
-    platformBox->clear();
+                platformBox->clear();
     genreBox->clear();
     ratingBox->clear();
 
@@ -214,8 +227,7 @@ void MainWindow::updateGameButtons() {
         delete item->widget();
         delete item;
     }
-
-    QString selectedPlatform = platformBox->currentText();
+                QString selectedPlatform = platformBox->currentText();
     QString selectedGenre = genreBox->currentText();
     QString selectedRating = ratingBox->currentText();
 
@@ -273,8 +285,7 @@ void MainWindow::updateGameButtons() {
 
 void MainWindow::sortGames() {
     int index = ui->sortComboBox->currentIndex();
-
-    if (index == 0) {
+        if (index == 0) {
         // Не сортировать, просто обновить кнопки
         updateGameButtons();
         return;
@@ -302,7 +313,7 @@ void MainWindow::sortGames() {
 }
 
 void MainWindow::on_sortComboBox_currentIndexChanged(int index) {
-    sortGames();  // Вызываем сортировку при изменении выбора
+    sortGames(); // Вызываем сортировку при изменении выбора
 }
 
 void MainWindow::filterGames() {
@@ -310,7 +321,7 @@ void MainWindow::filterGames() {
 }
 
 void MainWindow::on_sortButton_clicked() {
-    sortGames();  // Correctly call the sortGames function
+    sortGames(); // Correctly call the sortGames function
 }
 
 void MainWindow::on_sortComboBox_activated(int index)
@@ -324,7 +335,6 @@ void MainWindow::loadGames() {
         QMessageBox::warning(this, "Ошибка", "Не удалось открыть файл.");
         return;
     }
-
     QByteArray data = file.readAll();
     QJsonDocument doc = QJsonDocument::fromJson(data);
 
@@ -372,3 +382,90 @@ void MainWindow::loadGames() {
     displayGames(games);
     populateFilters(); // Не забудьте обновить фильтры после загрузки
 }
+
+QJsonArray MainWindow::loadExistingGames() {
+    QJsonArray gamesArray;
+                // Чтение из файла
+                QFile file("D:/cource_project/cource_project/games.json");
+    if (file.open(QIODevice::ReadOnly)) {
+        QByteArray data = file.readAll();
+        QJsonDocument doc(QJsonDocument::fromJson(data));
+
+        // Проверка на валидность JSON
+        if (doc.isNull() || !doc.isArray()) {
+            // Логируем ошибку или обрабатываем ситуацию
+            qWarning() << "Ошибка при чтении JSON из файла";
+            return gamesArray; // Возврат пустого массива
+        }
+
+        gamesArray = doc.array();
+        file.close();
+    } else {
+        // Логируем ошибку, если файл не открылся
+        qWarning() << "Не удалось открыть файл" << file.errorString();
+    }
+
+    return gamesArray;
+}
+QJsonObject MainWindow::gameToJson(const Game &game) {
+    QJsonObject json;
+    json["name"] = game.name;
+    json["description"] = game.description;
+    json["genre"] = game.genre;
+    json["platform"] = QJsonArray::fromStringList(game.platform);
+    json["rating"] = game.rating;
+    json["release_date"] = game.release_date;
+    json["developer"] = game.developer;
+    json["country"] = game.country;
+    json["minimum_requirements"] = game.minimum_requirements; // Предполагается, что minReq — это QJsonObject
+    json["recommended_requirements"] = game.recommended_requirements; // Предполагается, что recReq — это QJsonObject
+    json["videoId"] = game.videoId;
+    json["imagePath"] = game.imagePath;
+    return json;
+}
+
+void MainWindow::on_addGameButton_clicked() {
+    AddGameDialog *dialog = new AddGameDialog(this);
+    connect(dialog, &QDialog::finished, dialog, &QObject::deleteLater);
+
+    if (dialog->exec() == QDialog::Accepted) {
+        Game newGame;
+        newGame.name = dialog->getName();
+        newGame.description = dialog->getDescription();
+        newGame.genre = dialog->getGenre();
+        newGame.platform = dialog->getPlatforms();
+        newGame.rating = dialog->getRating();
+        newGame.release_date = dialog->getReleaseDate();
+        newGame.developer = dialog->getDeveloper();
+        newGame.country = dialog->getCountry();
+        newGame.minimum_requirements = dialog->getMinimumRequirements();
+        newGame.recommended_requirements = dialog->getRecommendedRequirements();
+        newGame.videoId = dialog->getVideoId();
+        newGame.imagePath = dialog->getImagePath();
+
+        // Debugging: Log the new game data
+        qDebug() << "New Game Data:" << newGame.name << newGame.description;
+
+        QJsonArray gamesArray = loadExistingGames(); // Load existing games
+        QJsonObject newGameJson = gameToJson(newGame); // Convert Game object to JSON
+        gamesArray.append(newGameJson); // Append new game
+
+        // Attempt to save the games array
+        saveGames(gamesArray); // Save updated JSON
+
+        // Refresh the interface
+        loadGames();
+    }
+}
+
+void MainWindow::on_leaveButton_clicked()
+{
+    qApp->quit();
+}
+
+
+void MainWindow::on_pushButton_clicked()
+{
+
+}
+

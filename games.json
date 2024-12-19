@@ -14,7 +14,7 @@
             "Processor": "N/A",
             "RAM": "4 GB"
         },
-        "name": "The Legend of Zelda: Breath of the Wild",
+        "name": "fsdfs",
         "path-image": "D:/cource_project/cource_project/images/covers/TheLegendOfZelda.jpg",
         "platform": [
             "Nintendo Switch",
@@ -49,7 +49,7 @@
             "Processor": "Intel Core i5-2500K",
             "RAM": "6 GB"
         },
-        "name": "qdwйв",
+        "name": "sdvsd",
         "path-image": "D:/cource_project/cource_project/images/covers/The_Witcher_3-_Wild_Hunt_Cover.jpg",
         "platform": [
             "PC",
@@ -1628,5 +1628,39 @@
         },
         "release_date": "8 февраля 2022",
         "video-id": "mjSksG8nY-I"
+    },
+    {
+        "country": "aaaaaaaaaaa",
+        "description": "aaaaaaaaaaaaaa",
+        "developer": "aaaaaaaaaaaaa",
+        "genre": "aaaaaaaa",
+        "imagePath": "C:/Users/minat/OneDrive/Изображения/Снимки экрана/Juice1.png",
+        "minimum_requirements": {
+            "Additional": "aaaaaaaaaaa",
+            "DirectX": "aaaaaaaaaaaa",
+            "Disk_Space": "aaaaaaaaaaa",
+            "Graphics": "aaaaaa",
+            "Network": "aaaaaaaaaaa",
+            "OS": "aaaaaaaaaaaaaaaaa",
+            "Processor": "aaaaaaaaa",
+            "RAM": "aaaaaaaaaaaaaa"
+        },
+        "name": "aabb",
+        "platform": [
+            "aaaaaaaaaaa"
+        ],
+        "rating": "aaaaaaaaaaa",
+        "recommended_requirements": {
+            "Additional": "aaaaaaa",
+            "DirectX": "aaaaaaaaaaaaaa",
+            "Disk_Space": "aaaaaaaaaaa",
+            "Graphics": "aaaaaaaaaaaaaaa",
+            "Network": "aaaaaaaaaa",
+            "OS": "aaaaaaaaaaaaaa",
+            "Processor": "aaaaaaaaa",
+            "RAM": "aaaaaaaaaaa"
+        },
+        "release_date": "aaaaaaaaaaa",
+        "videoId": "a"
     }
 ]

@@ -29,6 +29,10 @@ if(${QT_VERSION_MAJOR} GREATER_EQUAL 6)
         gameinfowindow.h
         EditDataDialog.h
         editdatadialog.h editdatadialog.cpp
+        addgamedialog.h addgamedialog.cpp
+        addgamedialog.ui
+
+
 
 
 

@@ -187,7 +187,10 @@ cource_project_autogen/timestamp: \
 	C:/msys64/mingw64/include/pthread_signal.h \
 	C:/msys64/mingw64/include/pthread_time.h \
 	C:/msys64/mingw64/include/pthread_unistd.h \
+	C:/msys64/mingw64/include/qt6/QtCore/QJsonDocument \
 	C:/msys64/mingw64/include/qt6/QtCore/QJsonObject \
+	C:/msys64/mingw64/include/qt6/QtCore/QString \
+	C:/msys64/mingw64/include/qt6/QtCore/QStringList \
 	C:/msys64/mingw64/include/qt6/QtCore/QVector \
 	C:/msys64/mingw64/include/qt6/QtCore/q20functional.h \
 	C:/msys64/mingw64/include/qt6/QtCore/q20iterator.h \
@@ -243,6 +246,7 @@ cource_project_autogen/timestamp: \
 	C:/msys64/mingw64/include/qt6/QtCore/qiodevicebase.h \
 	C:/msys64/mingw64/include/qt6/QtCore/qiterable.h \
 	C:/msys64/mingw64/include/qt6/QtCore/qiterator.h \
+	C:/msys64/mingw64/include/qt6/QtCore/qjsondocument.h \
 	C:/msys64/mingw64/include/qt6/QtCore/qjsonobject.h \
 	C:/msys64/mingw64/include/qt6/QtCore/qjsonvalue.h \
 	C:/msys64/mingw64/include/qt6/QtCore/qlatin1stringview.h \
@@ -589,6 +593,8 @@ cource_project_autogen/timestamp: \
 	C:/msys64/mingw64/share/cmake/Modules/Platform/Windows.cmake \
 	C:/msys64/mingw64/share/cmake/Modules/Platform/WindowsPaths.cmake \
 	D:/cource_project/cource_project/CMakeLists.txt \
+	D:/cource_project/cource_project/addgamedialog.cpp \
+	D:/cource_project/cource_project/addgamedialog.h \
 	D:/cource_project/cource_project/build/Desktop_Qt_shared_MinGW_w64_MINGW64_MSYS2-Debug/.qtc/package-manager/auto-setup.cmake \
 	D:/cource_project/cource_project/build/Desktop_Qt_shared_MinGW_w64_MINGW64_MSYS2-Debug/CMakeFiles/3.31.0/CMakeCXXCompiler.cmake \
 	D:/cource_project/cource_project/build/Desktop_Qt_shared_MinGW_w64_MINGW64_MSYS2-Debug/CMakeFiles/3.31.0/CMakeRCCompiler.cmake \
@@ -601,5 +607,6 @@ cource_project_autogen/timestamp: \
 	D:/cource_project/cource_project/main.cpp \
 	D:/cource_project/cource_project/mainwindow.cpp \
 	D:/cource_project/cource_project/mainwindow.h \
+	D:/cource_project/cource_project/addgamedialog.ui \
 	D:/cource_project/cource_project/mainwindow.ui \
 	C:/msys64/mingw64/bin/cmake.exe
