@@ -156,6 +156,13 @@ void GameInfoWindow::setGameInfo(const QString &name, const QString &description
     backButton->setFixedHeight(40);
     backButton->setFixedWidth(120);
 
+    QPushButton *deleteButton = new QPushButton("Удалить игру", this);
+    deleteButton->setStyleSheet("background-color: red; "
+                                "color: white; "
+                                "border: 2px solid black; "
+                                "border-radius: 10px;");
+    connect(deleteButton, &QPushButton::clicked, this, &GameInfoWindow::onDeleteButtonClicked);
+
     // Подключение сигнала кнопки "Вернуться"
     connect(backButton, &QPushButton::clicked, this, &QDialog::reject);
 
@@ -265,4 +272,20 @@ void GameInfoWindow::onFormatButtonClicked() {
                                 .arg(nameLabel->text())
                                 .arg(descriptionLabel->text());
     QMessageBox::information(this, "Отформатированная информация", formattedInfo);
+}
+
+
+void GameInfoWindow::onDeleteButtonClicked() {
+    QString fullText = nameLabel->text();
+    QString gameName = fullText.section(": ", 1); // Извлекаем часть после ": "
+
+    // Удаление игры из списка в MainWindow
+    if (mainWindow->removeGameByName(gameName)) {
+        QMessageBox::information(this, "Удаление игры", "Игра успешно удалена.");
+        mainWindow->updateGameButtons(); // Обновляем кнопки в MainWindow
+        this->accept(); // Закрываем окно после удаления
+
+    } else {
+        QMessageBox::warning(this, "Удаление игры", "Произошла ошибка при удалении игры.");
+    }
 }

@@ -179,24 +179,6 @@ font-size: 20px;
          </property>
         </widget>
        </item>
-       <item row="1" column="10">
-        <widget class="QPushButton" name="pushButton">
-         <property name="minimumSize">
-          <size>
-           <width>0</width>
-           <height>35</height>
-          </size>
-         </property>
-         <property name="styleSheet">
-          <string notr="true">background-color:#36394f;
-color: red;
-border-radius: 5px;</string>
-         </property>
-         <property name="text">
-          <string>Удаление игры</string>
-         </property>
-        </widget>
-       </item>
        <item row="1" column="1">
         <widget class="QComboBox" name="genresBox">
          <property name="minimumSize">

@@ -420,7 +420,7 @@ QJsonObject MainWindow::gameToJson(const Game &game) {
     json["minimum_requirements"] = game.minimum_requirements; // Предполагается, что minReq — это QJsonObject
     json["recommended_requirements"] = game.recommended_requirements; // Предполагается, что recReq — это QJsonObject
     json["videoId"] = game.videoId;
-    json["imagePath"] = game.imagePath;
+    json["path-image"] = game.imagePath;
     return json;
 }
 
@@ -463,9 +463,23 @@ void MainWindow::on_leaveButton_clicked()
     qApp->quit();
 }
 
+bool MainWindow::removeGameByName(const QString &name) {
+    auto it = std::remove_if(games.begin(), games.end(), [&name](const Game &game) {
+        return game.name == name;
+    });
 
-void MainWindow::on_pushButton_clicked()
-{
+    if (it != games.end()) {
+        games.erase(it, games.end());
 
+        // Сохраните изменения в файл, если требуется
+        QJsonArray gamesArray;
+        for (const Game &game : games) {
+            gamesArray.append(gameToJson(game)); // Предположим, что у вас есть функция для конвертации
+        }
+        saveGames(gamesArray); // Сохранение обновленного массива игр
+        return true; // Успешное удаление
+    }
+    return false; // Игра не найдена
 }
+
 

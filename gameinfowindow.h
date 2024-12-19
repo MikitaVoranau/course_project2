@@ -23,9 +23,15 @@ public:
                      const QJsonObject &minimumRequirements, const QJsonObject &recommendedRequirements,
                      const QString &imagePath, const QString &videoId);
 
+    bool removeGameByName(const QString &name); // Добавьте это объявление
+
 
 private slots:
     void onFormatButtonClicked(); // Слот для обработки нажатия кнопки форматирования
+
+    // gameinfowindow.h
+public slots:
+    void onDeleteButtonClicked(); // Добавьте это объявление
 
 private:
     QVBoxLayout *mainLayout;

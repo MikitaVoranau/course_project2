@@ -40,7 +40,6 @@ public:
     QSpacerItem *horizontalSpacer;
     QComboBox *platformBox;
     QLabel *label_2;
-    QPushButton *pushButton;
     QComboBox *genresBox;
     QComboBox *markBox;
     QLabel *label;
@@ -147,15 +146,6 @@ public:
 
         gridLayout_2->addWidget(label_2, 0, 1, 1, 1);
 
-        pushButton = new QPushButton(widget);
-        pushButton->setObjectName("pushButton");
-        pushButton->setMinimumSize(QSize(0, 35));
-        pushButton->setStyleSheet(QString::fromUtf8("background-color:#36394f;\n"
-"color: red;\n"
-"border-radius: 5px;"));
-
-        gridLayout_2->addWidget(pushButton, 1, 10, 1, 1);
-
         genresBox = new QComboBox(widget);
         genresBox->setObjectName("genresBox");
         genresBox->setMinimumSize(QSize(0, 35));
@@ -241,7 +231,6 @@ public:
         label_4->setText(QCoreApplication::translate("MainWindow", "<html><head/><body><p align=\"center\"><span style=\" font-size:18pt;\">\320\241\320\276\321\200\321\202\320\270\321\200\320\276\320\262\320\272\320\260</span></p></body></html>", nullptr));
         label_3->setText(QCoreApplication::translate("MainWindow", "<html><head/><body><p align=\"center\"><span style=\" font-size:18pt;\">\320\236\321\206\320\265\320\275\320\272\320\260</span></p></body></html>", nullptr));
         label_2->setText(QCoreApplication::translate("MainWindow", "<html><head/><body><p align=\"center\">\320\226\320\260\320\275\321\200</p></body></html>", nullptr));
-        pushButton->setText(QCoreApplication::translate("MainWindow", "\320\243\320\264\320\260\320\273\320\265\320\275\320\270\320\265 \320\270\320\263\321\200\321\213", nullptr));
         label->setText(QCoreApplication::translate("MainWindow", "<html><head/><body><p align=\"center\">\320\237\320\273\320\260\321\202\321\204\320\276\321\200\320\274\320\260</p></body></html>", nullptr));
         resetButton->setText(QCoreApplication::translate("MainWindow", "\320\236\321\207\320\270\321\201\321\202\320\270\321\202\321\214", nullptr));
         sortComboBox->setItemText(0, QCoreApplication::translate("MainWindow", "\320\235\320\265 \321\201\320\276\321\200\321\202\320\270\321\200\320\276\320\262\320\260\321\202\321\214", nullptr));

@@ -52,6 +52,8 @@ public:
     void saveGames(); // Объявление функции
     void addGame(const Game &game);  // Объявление метода
     void saveGames(const QJsonArray &gamesArray);
+    bool removeGameByName(const QString &name); // Добавьте эту строку
+    void updateGameButtons();
 public slots:
     void loadGames();
 
@@ -64,8 +66,6 @@ private slots:
     void on_sortComboBox_activated(int index);
 
     void on_leaveButton_clicked();
-
-    void on_pushButton_clicked();
 
 private:
     Ui::MainWindow *ui;
@@ -83,11 +83,9 @@ private:
 
     void saveToJson(const QJsonObject &jsonData);
     void populateFilters();
-    void updateGameButtons();
     void displayGames(const QVector<Game> &games); // Добавьте эту строку
     void filterGames();
     void setButtonStyle(QPushButton *button, const Game &game);
-    void updateGameListDisplay();
 };
 
 #endif // MAINWINDOW_H
